@@ -1,0 +1,160 @@
+{
+ "theasset_green_financing": {
+  "name": "theasset_green_financing",
+  "url": "https://www.ads.theasset.com/article-esg/56872/",
+  "attempted_at": "2026-10-30T18:29:56.516429+00:00",
+  "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.ads.theasset.com\\', port=443): Max retries exceeded with url: /ar"
+ },
+ "icdnova_green_financing": {
+  "name": "icdnova_green_financing",
+  "url": "https://www.idcnova.com/news/AirTrunk-Secures-US2.3-Billion-Green-Loan-for-Hyperscale-Data-Centre-in-Johor",
+  "attempted_at": "2026-10-30T18:29:57.858098+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 58694,
+  "saved_to": "data/raw/jhb1_icdnova_green_financing.html"
+ },
+ "airtrunk_jhb1_page": {
+  "name": "airtrunk_jhb1_page",
+  "url": "https://www.airtrunk.com/jhb1/",
+  "attempted_at": "2026-10-30T18:29:59.560829+00:00",
+  "status": 200,
+  "content_type": "image/jpeg",
+  "bytes": 885416,
+  "saved_to": "data/raw/jhb1_airtrunk_jhb1_page.html"
+ },
+ "blackstone_release": {
+  "name": "blackstone_release",
+  "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-the-largest-ever-data-center-deal-globally/",
+  "attempted_at": "2026-10-30T18:31:57.927798+00:00",
+  "status": 404,
+  "bytes": 295791,
+  "saved_to": "data/raw/jhb1_blackstone_release.html"
+ },
+ "sll_framework": {
+  "name": "sll_framework",
+  "url": "https://airtrunk.com/asean-australia-special-summit/",
+  "attempted_at": "2026-10-30T18:45:38.335402+00:00",
+  "status": 200,
+  "bytes": 95780,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_to": "data/raw/jhb1_sll_framework.html"
+ },
+ "jhb1_opening": {
+  "name": "jhb1_opening",
+  "url": "https://airtrunk.com/airtrunk-opens-ai-ready-data-centre-in-malaysia-accelerating-innovation-and-the-energy-transition/",
+  "attempted_at": "2026-10-30T18:45:41.145120+00:00",
+  "status": 200,
+  "bytes": 103895,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_to": "data/raw/jhb1_jhb1_opening.html"
+ },
+ "rooftop_solar": {
+  "name": "rooftop_solar",
+  "url": "https://airtrunk.com/airtrunk-and-pekat-solar-to-develop-rooftop-solar-at-airtrunks-johor-bahru-data-centre-jhb1/",
+  "attempted_at": "2026-10-30T18:45:43.475188+00:00",
+  "status": 200,
+  "bytes": 99747,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_to": "data/raw/jhb1_rooftop_solar.html"
+ },
+ "fy24_sustainability_pdf": {
+  "name": "fy24_sustainability_pdf",
+  "url": "https://airtrunk.com/wp-content/uploads/2024/10/FY24-Sustainability-Report-by-AirTrunk.pdf",
+  "attempted_at": "2026-10-30T18:45:45.742462+00:00",
+  "status": 200,
+  "bytes": 4309251,
+  "content_type": "application/pdf",
+  "saved_to": "data/raw/jhb1_fy24_sustainability_pdf.pdf"
+ },
+ "blackstone_agreement": {
+  "name": "blackstone_agreement",
+  "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-a-a24b-transaction/",
+  "attempted_at": "2026-10-30T18:45:48.016713+00:00",
+  "status": 200,
+  "bytes": 315456,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_to": "data/raw/jhb1_blackstone_agreement.html"
+ },
+ "ina_2025_ar_en": {
+  "name": "ina_2025_ar_en",
+  "url": "https://www.ina.go.id/sites/default/files/2026-05/Annual%20Report%20INA%202025%20-%20ENGLISH.pdf",
+  "attempted_at": "2026-10-31T12:08:29.046325+00:00",
+  "status": 200,
+  "bytes": 19794490,
+  "content_type": "application/pdf",
+  "saved_to": "data/raw/role_audit_ina_2025_ar_en.pdf"
+ },
+ "ina_2024_ar_ind": {
+  "name": "ina_2024_ar_ind",
+  "url": "https://www.ina.go.id/sites/default/files/2025-07/AR%20INA%202024-IND.pdf",
+  "attempted_at": "2026-10-31T12:08:31.963869+00:00",
+  "status": 200,
+  "bytes": 9135762,
+  "content_type": "application/pdf",
+  "saved_to": "data/raw/role_audit_ina_2024_ar_ind.pdf"
+ },
+ "ina_portfolio": {
+  "name": "ina_portfolio",
+  "url": "https://www.ina.go.id/portfolio/",
+  "attempted_at": "2026-10-31T12:08:33.839476+00:00",
+  "status": 200,
+  "bytes": 111816,
+  "content_type": "text/html",
+  "saved_to": "data/raw/role_audit_ina_portfolio.html"
+ },
+ "airtrunk_2023": {
+  "name": "airtrunk_2023",
+  "url": "https://airtrunk.com/airtrunk-enters-malaysia-with-new-150mw-hyperscale-data-centre-in-johor-bahru/",
+  "attempted_at": "2026-10-31T12:08:34.953082+00:00",
+  "status": 200,
+  "bytes": 98643,
+  "content_type": "text/html; charset=UTF-8",
+  "saved_to": "data/raw/role_audit_airtrunk_2023.html"
+ },
+ "ifc_esrs_52336": {
+  "name": "ifc_esrs_52336",
+  "url": "https://disclosures.ifc.org/project-detail/ESRS/52336/airtrunk-johor",
+  "attempted_at": "2026-10-31T12:27:47.983351+00:00",
+  "status": 200,
+  "bytes": 108107,
+  "content_type": "text/html;charset=utf-8",
+  "saved_to": "data/raw/audit_ifc_esrs_52336.html"
+ },
+ "dayone_f1_sec": {
+  "name": "dayone_f1_sec",
+  "url": "https://www.sec.gov/Archives/edgar/data/2118192/000119312526414188/d223752df1.htm",
+  "attempted_at": "2026-10-31T12:27:49.726667+00:00",
+  "status": 200,
+  "bytes": 3120415,
+  "content_type": "text/html",
+  "saved_to": "data/raw/audit_dayone_f1_sec.html"
+ },
+ "firmus_release": {
+  "name": "firmus_release",
+  "url": "https://firmus.co/newsroom/firmus-to-build-170-000-gpu-ai-factor-y-campus-with-nvidia-for-global-ai-natives",
+  "attempted_at": "2026-10-31T12:27:52.414945+00:00",
+  "status": 200,
+  "bytes": 158272,
+  "content_type": "text/html; charset=utf-8",
+  "saved_to": "data/raw/audit_firmus_release.html"
+ },
+ "dcd_firmus": {
+  "name": "dcd_firmus",
+  "url": "https://www.datacenterdynamics.com/en/news/firmus-to-deploy-170000-gpu-cluster-in-batam-indonesia/",
+  "attempted_at": "2026-10-31T12:27:54.160952+00:00",
+  "status": 200,
+  "bytes": 100809,
+  "content_type": "text/html; charset=utf-8",
+  "saved_to": "data/raw/audit_dcd_firmus.html"
+ },
+ "arusgrid_home": {
+  "name": "arusgrid_home",
+  "url": "https://arusgrid.com/",
+  "attempted_at": "2026-10-31T12:27:56.156108+00:00",
+  "status": 200,
+  "bytes": 3492,
+  "content_type": "text/html; charset=utf-8",
+  "saved_to": "data/raw/audit_arusgrid_home.html"
+ }
+}

@@ -1,0 +1,852 @@
+{
+ "generated_at": "2026-10-30T18:40:18.980940+00:00",
+ "question": "Is there a permitted, reproducible public-data path connecting AI/digital infrastructure with renewable energy in Indonesia or Southeast Asia?",
+ "answer": "Partially: the announcement/financing layer and the physical-generation context layer are each reproducibly accessible; the layers between them — operating facility registries for data centers, renewable-procurement claims, and certificate/REC registries — have no permitted, reproducible public path that we could verify this session. Gap register below.",
+ "aiddata_hits": [
+  {
+   "record_id": 108855,
+   "country": "Philippines",
+   "commitment_year": 2020,
+   "status": "Completion",
+   "sector": "ACTION RELATING TO DEBT",
+   "amount_nominal_usd": null,
+   "title": "Manila Branch of Bank of China provides four consecutive maturity extensions for dual tranche loan to DTC",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://ditocmeholdings.ph/files/sec-filings/sec-forms/sec-forms-17-Q/P2023.06%20Dito%20CME%2017Q%20-%20June%202023%2008142023.pdf",
+    "https://www.rappler.com/business/breaking-philippines-telecommunications-duopoly/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108853,
+   "country": "Philippines",
+   "commitment_year": 2021,
+   "status": "Completion",
+   "sector": "ACTION RELATING TO DEBT",
+   "amount_nominal_usd": null,
+   "title": "Singapore Branch of Bank of China provides four consecutive maturity extensions for $200 million term loan to DTC",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://ditocmeholdings.ph/files/sec-filings/sec-forms/sec-forms-17-Q/P2023.06%20Dito%20CME%2017Q%20-%20June%202023%2008142023.pdf",
+    "https://www.rappler.com/business/breaking-philippines-telecommunications-duopoly/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108852,
+   "country": "Philippines",
+   "commitment_year": 2021,
+   "status": "Completion",
+   "sector": "ACTION RELATING TO DEBT",
+   "amount_nominal_usd": null,
+   "title": "Hong Kong Branch of Bank of China provides four consecutive maturity extensions for $250 million term loan to DTC",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://ditocmeholdings.ph/files/sec-filings/sec-forms/sec-forms-17-Q/P2023.06%20Dito%20CME%2017Q%20-%20June%202023%2008142023.pdf",
+    "https://www.rappler.com/business/breaking-philippines-telecommunications-duopoly/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108851,
+   "country": "Philippines",
+   "commitment_year": 2022,
+   "status": "Completion",
+   "sector": "ACTION RELATING TO DEBT",
+   "amount_nominal_usd": null,
+   "title": "Hong Kong Branch of Bank of China provides three consecutive maturity extensions for $200 million term loan to DTC",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://ditocmeholdings.ph/files/sec-filings/sec-forms/sec-forms-17-Q/P2023.06%20Dito%20CME%2017Q%20-%20June%202023%2008142023.pdf",
+    "https://www.rappler.com/business/breaking-philippines-telecommunications-duopoly/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108846,
+   "country": "Philippines",
+   "commitment_year": 2020,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 20898550.7246376,
+   "title": "Bank of China (Manila Branch) provides RMB 144.2 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720",
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108845,
+   "country": "Philippines",
+   "commitment_year": 2020,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 30000000.0,
+   "title": "Bank of China (Manila Branch) provides $30 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720",
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108844,
+   "country": "Philippines",
+   "commitment_year": 2021,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 200000000.0,
+   "title": " Hong Kong Branch of Bank of China provides $200 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720",
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108533,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "Industrial Bank contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108530,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "Industrial Bank contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108453,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "China Merchants Bank contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108452,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "China Construction Bank contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108451,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "China CITIC Bank Corporation Limited contributes to RMB 6.382 billion syndicated loan tranche for Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108450,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "China Guangfa Bank contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108449,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "Postal Savings Bank of China contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108448,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "Shanghai Pudong Development Bank contributes to RMB 6.382 billion syndicated loan tranche for Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108447,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 90135590.3669318,
+   "title": "Bank of China contributes to RMB 6.382 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108446,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "China Merchants Bank contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108445,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "China Construction Bank contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108444,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "China CITIC Bank Corporation Limited contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108443,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "China Guangfa Bank contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108442,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "Postal Savings Bank of China contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108441,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "Shanghai Pudong Development Bank contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 108433,
+   "country": "Philippines",
+   "commitment_year": 2023,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 329700000.0,
+   "title": "Bank of China contributes to $3.297 billion syndicated loan tranche for Phases 2 and 3 of Dito Telecommunity’s 4GW and 5GW Telecommunications Network Construction Project (Linked to Record ID#96069, 96036, and 96036)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/0kfkpxrlqjxm6o09akdji/Dito-Telecommunity-Loan-2023.pdf?rlkey=yy8ujoajhodiex0ztrdo6bfoc&dl=0",
+    "https://www.ditocmeholdings.ph/files/sec-filings/sec-forms/DITO%20CME%20-%20Final%20Prospectus%20dated%2018%20Nov%202024_Redacted%20(1).pdf"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 107247,
+   "country": "Indonesia",
+   "commitment_year": 2022,
+   "status": "Completion",
+   "sector": "EDUCATION",
+   "amount_nominal_usd": null,
+   "title": "Cooperation of the National Development and Reform Commission provides industrial vocational training to 328 Indonesian trainees in 2023",
+   "matched_keyword": "ai",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Government of Indonesia"
+   ],
+   "source_urls": [
+    "https://www.facebook.com/share/p/1A8bX1MRGM/",
+    "https://bharataradio738.com/beritalengkap/JhUJrAU9pZ"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 106768,
+   "country": "Malaysia",
+   "commitment_year": 2023,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 68030000.0,
+   "title": "Bank of China (Malaysia) contributes to $272.12 million syndicated green loan for Phase 1 of GDS Nusajaya Tech Park Data Center Project",
+   "matched_keyword": "data center",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "GDS Holdings Limited"
+   ],
+   "source_urls": [
+    "https://www.dropbox.com/scl/fi/e7gq5tb3o9f1h47mbi6a8/GDS-Nusajaya-Tech-Park-Data-Centre-Phase-1-69.9MW-Green-Loan-2023.pdf?rlkey=73etjwsb1uitecy6fmqm50ii1&dl=0",
+    "https://www.prnewswire.com/apac/news-releases/gds-secures-myr1-27-billion-syndicated-green-financing-to-complete-the-next-phase-of-nusajaya-tech-park-data-center-campus-development-302009836.html "
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 102878,
+   "country": "Malaysia",
+   "commitment_year": 2018,
+   "status": "Completion",
+   "sector": "INDUSTRY, MINING, CONSTRUCTION",
+   "amount_nominal_usd": 272156037.53372,
+   "title": "China Merchants Bank provides RMB 1.8 billion loan to Tianshui Huatian Technology for its acquisition of Malaysian semiconductor company Unisem",
+   "matched_keyword": "semiconductor",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Tianshui Huatian Technology Co., Ltd."
+   ],
+   "source_urls": [
+    "https://www.asiamoney.com/article/27i6gralrq1bhg3whzzls/awards/china-corporate-and-investment-banking-awards/best-for-leveraged-finance-2019",
+    "https://flipchip.com/7news.html"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 100676,
+   "country": "Indonesia",
+   "commitment_year": 2020,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 144927536.231884,
+   "title": "ICBC contributes to RMB 2 billion syndicated buyer’s credit for 4G Network Expansion and 5G Network Trials Project (Linked to Record ID#95638)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "PT Smartfren Telecom Tbk"
+   ],
+   "source_urls": [
+    "https://www.sinosure.com.cn/images/xwzx/ndbd/2021/09/02/1EAA54B9F985825001DE75042C75F6E6.pd",
+    "https://www.dropbox.com/s/7l44lnl2plmb08w/%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%8F%A3%E4%BF%A1%E7%94%A8%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B82020%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93%E5%88%86%E7%B1%BB%E5%90%88%E5%B9%B6%E6%8A%AB%E9%9C%B2%E5%85%AC%E5%91%8A.pdf?dl=0"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 100460,
+   "country": "Myanmar",
+   "commitment_year": 2019,
+   "status": "Completion",
+   "sector": "AGRICULTURE, FORESTRY, FISHING",
+   "amount_nominal_usd": null,
+   "title": "Lancing-Mekong Cooperation Special Fund provides fund for the opening of the Myanmar Agricultural and Rural Statistics Project Data Center (Linked to Record ID#63882)",
+   "matched_keyword": "data center",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Lancang-Mekong Cooperation (LMC) Special Fund"
+   ],
+   "source_urls": [
+    "http://mm.china-embassy.gov.cn/chn/sgxw/202208/t20220831_10758352.htm",
+    "https://www.myanmarinternationaltv.com/news/regional-cooperation-mekong-lancang-project-data-center-launched"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 96069,
+   "country": "Philippines",
+   "commitment_year": 2020,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 250000000.0,
+   "title": "Hong Kong Branch of Bank of China provides $250 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720",
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 96037,
+   "country": "Philippines",
+   "commitment_year": 2019,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 200000000.0,
+   "title": "Singapore Branch of Bank of China provides $200 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project ",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720",
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 96036,
+   "country": "Philippines",
+   "commitment_year": 2021,
+   "status": "Completion",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 100000000.0,
+   "title": "Singapore Branch of Bank of China provides $100 million term loan to DTC for Phase 1 of 4G/5G Telecommunications Network Project",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "Dito Telecommunity Corporation"
+   ],
+   "source_urls": [
+    "https://businessmirror.com.ph/2020/02/21/dito-telecommunity-draws-initial-500-million-from-bank-of-china-for-phase-1-of-network-development/",
+    "https://www.manilatimes.net/2021/01/03/latest-stories/breakingnews/poe-deplores-ditos-lack-of-fund-foresight/821720"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 95638,
+   "country": "Indonesia",
+   "commitment_year": 2020,
+   "status": "Pipeline: Commitment",
+   "sector": "COMMUNICATIONS",
+   "amount_nominal_usd": 144927536.231884,
+   "title": "CDB contributes to RMB 2 billion syndicated buyer’s credit for 4G Network Expansion and 5G Network Trials Project (Linked to Record ID#100676)",
+   "matched_keyword": "5g",
+   "matched_in": "title",
+   "direct_receiving_agencies": [
+    "PT Smartfren Telecom Tbk"
+   ],
+   "source_urls": [
+    "https://www.sinosure.com.cn/images/xwzx/ndbd/2021/09/02/1EAA54B9F985825001DE75042C75F6E6.pd",
+    "https://www.dropbox.com/s/7l44lnl2plmb08w/%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%8F%A3%E4%BF%A1%E7%94%A8%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B82020%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93%E5%88%86%E7%B1%BB%E5%90%88%E5%B9%B6%E6%8A%AB%E9%9C%B2%E5%85%AC%E5%91%8A.pdf?dl=0"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 92699,
+   "country": "Indonesia",
+   "commitment_year": 2020,
+   "status": "Implementation",
+   "sector": "HEALTH",
+   "amount_nominal_usd": 1500000.0,
+   "title": "Ping An Insurance Company of China announces donation of medical equipment to Indonesia in March 2020",
+   "matched_keyword": "ai",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Government of Indonesia"
+   ],
+   "source_urls": [
+    "https://global.factiva.com/redir/default.aspx?P=sa&an=XNEWS00020200327eg3r00pjh&cat=a&ep=ASE",
+    "https://en.prnasia.com/releases/apac/ping-an-donates-us-1-5-million-of-covid-19-medical-supplies-to-indonesia-276159.shtml"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 88699,
+   "country": "Myanmar",
+   "commitment_year": 2019,
+   "status": "Completion",
+   "sector": "GOVERNMENT AND CIVIL SOCIETY",
+   "amount_nominal_usd": null,
+   "title": "Chinese Embassy hosts new media training course for Myanmar officials in Beijing",
+   "matched_keyword": "data center",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Myanmar Ministry of Information"
+   ],
+   "source_urls": [
+    "http://mm.china-embassy.org/chn/sgxw/201911/t20191125_1385993.htm",
+    "http://www.asean-china-center.org/2019-11/18/c_1210359305.htm"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 64413,
+   "country": "Thailand",
+   "commitment_year": 2018,
+   "status": "Completion",
+   "sector": "ENERGY",
+   "amount_nominal_usd": 97593628.0,
+   "title": "ICBC (Thai) provides $97.5 million loan for 2,500MW Gulf Sriracha Power Plant Project",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "Gulf SRC Co., Ltd."
+   ],
+   "source_urls": [
+    "https://ppi.worldbank.org/en/snapshots/project/chonburi-natural-gas-power-plant-9797",
+    "https://www.adb.org/projects/51051-001/main#project-pds-collapse"
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  {
+   "record_id": 32080,
+   "country": "Cambodia",
+   "commitment_year": 2000,
+   "status": "Completion",
+   "sector": "ENERGY",
+   "amount_nominal_usd": 15500000.0,
+   "title": "China Eximbank provides $15.5 million export seller's credit for 12MW Kirirom I Hydropower Plant Rehabilitation Project (Linked to Record ID#32202)",
+   "matched_keyword": "5g",
+   "matched_in": "narrative",
+   "direct_receiving_agencies": [
+    "China Electric Power Technology Import and Export Corporation (CETIC)"
+   ],
+   "source_urls": [
+    "https://global.factiva.com/aa/?ref=PWRA000020130328e93e00004&pp=1&fcpil=zhcn&napc=S&sa_from=",
+    "https://global.factiva.com/aa/?ref=chndly0020010805dwcb0036y&pp=1&fcpil=en&napc=S&sa_from="
+   ],
+   "layer": "financing event (announcement layer when status is pledge/pipeline)",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  }
+ ],
+ "gem_supply_context": {
+  "what_this_is": "A subtotal of GEM-API-LISTED operating generation units (unit-level MW sums) in Peninsular Malaysia after state-name normalization. It is INCOMPLETE: the API asset list has no solar/wind/hydro class, units below GEM thresholds are unlisted, and units with no API state are shown separately as unassigned.",
+  "what_this_is_not": [
+   "NOT a generation mix (the API omits solar/wind/hydro entirely).",
+   "NOT a grid-emissions factor.",
+   "NOT evidence of electricity supplied to any specific data centre (no supply linkage exists in any dataset inspected).",
+   "NOT a complete inventory of Malaysian generating capacity."
+  ],
+  "gem_api_types": [
+   "Bioenergy Plant",
+   "Cement or Concrete Plant",
+   "Coal Mine",
+   "Coal Plant",
+   "Iron & Steel Plant",
+   "Iron Ore Mine",
+   "Natural Gas Transmission Pipeline",
+   "Oil & Gas Plant",
+   "Oil or NGL Pipeline"
+  ],
+  "re_types_in_api": [
+   "Bioenergy Plant"
+  ],
+  "coverage_gap": "The GEM Ownership API asset list contains no solar, wind or hydro assets at all; bioenergy is the only renewable class present. This is an API coverage gap, NOT evidence that Southeast Asia lacks renewables.",
+  "geography_notes": "State spellings normalized (Melaka/Malacca, three Negeri Sembilan variants, Penang/Pulau Pinang). Labuan is East Malaysia and excluded. Units whose API state is missing are reported in unassigned_mw, not silently dropped.",
+  "peninsular_malaysia_gem_listed_operating_mw_subtotal": {
+   "Oil & Gas Plant": 15034.2,
+   "Bioenergy Plant": 105.2,
+   "Coal Plant": 12200.0
+  },
+  "peninsular_malaysia_gem_listed_operating_units": {
+   "Oil & Gas Plant": 34,
+   "Bioenergy Plant": 8,
+   "Coal Plant": 17
+  },
+  "unassigned_state_gem_listed_operating_mw": {
+   "Bioenergy Plant": 77.8
+  },
+  "observation_date": "2026-10-29 (GEM API build)",
+  "license": "CC BY 4.0 (globalenergymonitor.org/creative-commons-license/, verified 2026-10-30)"
+ },
+ "gap_register": [
+  {
+   "path": "AidData CLG-LMIC v1.0 keyword scan",
+   "status": "INGESTED",
+   "access": "direct zip, verified 2026-10-30",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)",
+   "contribution": "identifies Chinese-financed digital/AI/telecom infrastructure events (announcement/financing layer)",
+   "limitation": "no energy-procurement fields; sector codes are coarse (COMMUNICATIONS); no operating-facility status"
+  },
+  {
+   "path": "GEM Ownership Tracing API",
+   "status": "INGESTED",
+   "access": "documented unauthenticated API, verified 2026-10-29/30",
+   "license": "CC BY 4.0 (globalenergymonitor.org/creative-commons-license/, verified 2026-10-30)",
+   "contribution": "operating generation assets with owners (physical-supply context)",
+   "limitation": "API asset list contains NO solar/wind/hydro; no electricity-procurement or customer data"
+  },
+  {
+   "path": "GEM Global Solar/Wind Power Tracker xlsx",
+   "status": "ASSESSED, NOT ACCESSED",
+   "access": "downloads gated behind a JS form (auxunjnrktkmeqyoyngm.supabase.co presign); no static file link found",
+   "license": "CC BY 4.0 stated by GEM for tracker data; form submission not automated to avoid circumventing the access path",
+   "contribution": "would add solar/wind operating capacity (physical-supply side)",
+   "limitation": "manual form download required for reproducibility; next step: one manual download with checksum, then re-run"
+  },
+  {
+   "path": "PLN tradable renewable energy certificates (REC)",
+   "status": "ASSESSED VIA NEWS",
+   "access": "news-verified since ~2020 (Jakarta Post 2020-01-28; Indonesia Business Post 2024-10; SolarQuarter 2025-09)",
+   "license": "no public license found for PLN publications; web.pln.co.id unreachable during this session",
+   "contribution": "the mechanism by which Indonesian corporates (incl. data centers) claim renewable consumption",
+   "limitation": "no public per-customer REC registry or volumes surfaced in our limited (news + one unreachable site) search; this does NOT establish that no registry or disclosure path exists — a targeted check of PLN/ESDM regulations and filings is a next step"
+  },
+  {
+   "path": "Vendor/government announcements (Microsoft $1.7B Indonesia 2024, NVIDIA-Indosat Solo AI region, Oracle, AWS $5B)",
+   "status": "ASSESSED, NOT INGESTED",
+   "access": "newsroom pages; standard site terms; no structured license-clean dataset",
+   "license": "newsroom text is copyrighted; quotation for research with attribution only",
+   "contribution": "announcement layer only",
+   "limitation": "announcements are not operating facilities, procurement or physical supply; no reproducible machine-readable coverage"
+  },
+  {
+   "path": "I-REC / international certificate registries for SEA",
+   "status": "ASSESSED, NOT ACCESSED",
+   "access": "registry data behind account/fees; no public bulk license identified this session",
+   "license": "registry terms; not reproduced here",
+   "contribution": "would evidence procurement claims (certificate layer)",
+   "limitation": "no public bulk path identified in our limited search; registry access may exist via accounts/fees or jurisdictional disclosures — absence not established"
+  }
+ ],
+ "exploratory_example": {
+  "name": "GDS Nusajaya Tech Park Data Center Project, Phase 1 (Johor, Malaysia)",
+  "layer_1_financing": {
+   "record_id": 106768,
+   "title": "Bank of China (Malaysia) contributes to $272.12 million syndicated green loan for Phase 1 of GDS Nusajaya Tech Park Data Center Project",
+   "status": "Completion",
+   "amount_usd": 68030000.0,
+   "green_label_note": "AidData narrative quotes the facility agreement as a 'syndicated green term loan' (Dec 2023). This is GREEN-LABELLED FINANCING — a loan-market label quoted from the record. It is NOT evidence of renewable procurement, RECs, or the facility's energy mix; no procurement data was found in any inspected source.",
+   "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)"
+  },
+  "layer_2_grid_context": {
+   "peninsular_malaysia_gem_listed_operating_mw_subtotal": {
+    "Oil & Gas Plant": 15034.2,
+    "Bioenergy Plant": 105.2,
+    "Coal Plant": 12200.0
+   },
+   "unassigned_state_gem_listed_operating_mw": {
+    "Bioenergy Plant": 77.8
+   },
+   "what_this_is_not": [
+    "NOT a generation mix (the API omits solar/wind/hydro entirely).",
+    "NOT a grid-emissions factor.",
+    "NOT evidence of electricity supplied to any specific data centre (no supply linkage exists in any dataset inspected).",
+    "NOT a complete inventory of Malaysian generating capacity."
+   ],
+   "note": "Context only, NOT a supply link and NOT a generation mix: this is a subtotal of GEM-API-listed operating units (incomplete by construction); no dataset inspected connects this facility to any specific generator."
+  },
+  "non_claims": [
+   "No claim that GDS Nusajaya procures renewable energy (no procurement data found).",
+   "No claim that the facility is physically supplied by any specific plant.",
+   "The 'green loan' label is quoted as a financing attribute, not as an energy attribute.",
+   "The absence of solar/wind in the GEM API is a coverage gap, not evidence about Malaysian renewables."
+  ],
+  "claim_status": "two documented context layers (financing record + grid asset snapshot) with NO causal or contractual connection asserted"
+ }
+}

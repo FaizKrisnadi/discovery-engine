@@ -1,0 +1,20 @@
+{
+ "status": "RETROSPECTIVE SAMPLE - EXPOSED DURING DEVELOPMENT. NOT a clean held-out set.",
+ "original_file_created_at_filesystem": "2026-10-30T06:09:08+0700",
+ "selection_rule": "deterministic: every 7th sorted AidData record id starting at index 3, first 12 (yielded 10)",
+ "exposure_disclosure": "The full per-record candidate table (all 72 records) had already been printed and inspected during matcher development before this sample was drawn; individual records in this list (e.g., 49810, 70718, 96237) had also been inspected directly. Labels for these records were therefore written with knowledge of matcher output.",
+ "valid_use": "May be used for transparency and error analysis. CANNOT support claims of independent or unbiased evaluation, and any human adjudication of it cannot be reported as independent validation.",
+ "clean_protocol_for_next_stage": "A fresh sample must be drawn by a different process/agent from records whose matcher output has not been inspected, before any result is produced.",
+ "record_ids": [
+  34992,
+  38610,
+  49810,
+  61474,
+  62065,
+  67236,
+  70718,
+  96237,
+  102646,
+  108277
+ ]
+}

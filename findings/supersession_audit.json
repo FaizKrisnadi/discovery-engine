@@ -1,0 +1,352 @@
+{
+ "audited_at": "2026-10-31T12:20:35.241738+00:00",
+ "policy": {
+  "conclusion_correction": "valid supersession (kept)",
+  "event_evolution": "withdrawn (distinct dated events coexist)",
+  "refinement": "valid supersession; conclusion unchanged (kept)"
+ },
+ "actions": [
+  {
+   "supersession_pk": "edf71fbe40ea62cf",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "3bbb497b0a9666bc",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "b8103806cda151da",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "16b3ad0a70ff9975",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "55105b478c3f968a",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "d4a07b401aafc930",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "a7b95281c10e7319",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "e91ca61e355b4263",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "891b5d17f561b82f",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "5d3856e5eaa83142",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "be96cc95daa262d6",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "c6042e0cb912ce9a",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "10391bf17fbe7ffc",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "6f24f1a97abb0366",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "1b26469df7a77409",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "3475be1c717e6018",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "9deda535ddff637c",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "16aaa02aae4912d8",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "b8628d6b81907ed5",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "e727dc92d80b7a66",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "523cdb39f9f07742",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "c13177e71e0c6d37",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "b58170025dfc39d6",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "2973f648ded6cb1d",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "7054030ba5fd9e1b",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "4200ebb0128d2f09",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "6a35a7113e6ae3bf",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "2888065015a23f43",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "27b16e8af5dda933",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "76b314e444594426",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "3841bb37c50e9701",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "1abbcefd87b737ae",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "0b6ca7a006ea5178",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "65e7633ec91245dc",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "b55f31948e3e6168",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "9025d792794a5d79",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "b3b787b666e2b211",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "25b69d456febb5d9",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "08e36d6367943a83",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "45f845e4ccb5978c",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "e0361eb17d739b15",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "1a1dbe2970acb038",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "0765ff1bf784b6e8",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "4f053e7d547eb366",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "929290963b58a78c",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "d142d77cb330c467",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "0da9922c07e570c3",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "1855d47a8b73a6d2",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "cdb43532d267e9c6",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "302817bbcd5e0014",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "d3d92f006e5dcf27",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "976b427dff3ca76e",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "37ee5391c9477a13",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  },
+  {
+   "supersession_pk": "8fe6c9b67c195b8b",
+   "predicate": "HAS_FINANCING",
+   "action": "kept",
+   "category": "conclusion_correction"
+  },
+  {
+   "supersession_pk": "7ffb30094e1011bb",
+   "predicate": "IS_PHYSICAL_SUPPLY_OF",
+   "action": "kept",
+   "category": "refinement"
+  }
+ ],
+ "already_withdrawn": 35,
+ "kept": {
+  "HAS_FINANCING": 35,
+  "IS_PHYSICAL_SUPPLY_OF": 20
+ },
+ "post_state": {
+  "active_by_predicate": {
+   "HAS_FINANCING": 35,
+   "IS_PHYSICAL_SUPPLY_OF": 20
+  },
+  "withdrawn_total": 35
+ }
+}

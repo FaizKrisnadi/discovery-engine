@@ -1,0 +1,3148 @@
+[
+ {
+  "record_id": 61152,
+  "title": "China Eximbank provides $237.8 million preferential buyer’s credit for Jenelata Dam Construction Project",
+  "commitment_year": 2023,
+  "status": "Implementation",
+  "amount_nominal_usd": 237862000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 61098,
+  "title": "China Eximbank leads $1.251 billion syndicated loan for 510MW Batang Toru Hydropower Plant Construction Project ",
+  "commitment_year": 2023,
+  "status": "Implementation",
+  "amount_nominal_usd": 178714286.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT North Sumatra Hydro Energy (PT NSHE)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405287",
+    "gem_plant_name": "Perak power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4317,
+    "name_score": 0.2026,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 500.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "East Java"
+   },
+   {
+    "gem_location_id": "L100000102727",
+    "gem_plant_name": "PLN Paiton Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3834,
+    "name_score": 0.2052,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1320.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000104618",
+    "gem_plant_name": "Bantaeng BSE power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3812,
+    "name_score": 0.2019,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 111094,
+  "title": "Bank of China and other Chinese state-owned commercial banks contribute to $1.251 billion syndicated loan for 510MW Batang Toru Hydropower Plant Construction Project",
+  "commitment_year": 2023,
+  "status": "Implementation",
+  "amount_nominal_usd": 1072285714.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)",
+   "Unspecified Chinese State-owned Bank"
+  ],
+  "direct_receiving_agencies": [
+   "PT North Sumatra Hydro Energy (PT NSHE)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405287",
+    "gem_plant_name": "Perak power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4317,
+    "name_score": 0.2026,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 500.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "East Java"
+   },
+   {
+    "gem_location_id": "L100000102727",
+    "gem_plant_name": "PLN Paiton Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3834,
+    "name_score": 0.2052,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1320.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000104618",
+    "gem_plant_name": "Bantaeng BSE power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3812,
+    "name_score": 0.2019,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 510.0,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 108276,
+  "title": "Bank of China contributes to $150 million syndicated loan for Advanced Smart Metering Infrastructure PPP Project",
+  "commitment_year": 2023,
+  "status": "Completion",
+  "amount_nominal_usd": 50000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "State Grid Corporation of China (SGCC)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.3126,
+    "name_score": 0.2116,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 108277,
+  "title": "China Eximbank contributes to $150 million syndicated loan for Advanced Smart Metering Infrastructure PPP Project",
+  "commitment_year": 2023,
+  "status": "Completion",
+  "amount_nominal_usd": 50000000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "State Grid Corporation of China (SGCC)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.3126,
+    "name_score": 0.2116,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 102646,
+  "title": "China Construction Bank contributes to $750 million syndicated loan to finance solar, wind, and other renewable energy projects (Linked to Record ID#102653)",
+  "commitment_year": 2022,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 23437500.0,
+  "funding_agencies_parent": [
+   "China Construction Bank Corporation (CCB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.3115,
+    "name_score": 0.21,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000104580",
+    "gem_plant_name": "Bintan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3067,
+    "name_score": 0.2026,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 102653,
+  "title": "Bank of China contributes to $750 million syndicated loan to finance solar, wind, and other renewable energy projects (Linked to Record ID#102646)",
+  "commitment_year": 2022,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 23437500.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.3115,
+    "name_score": 0.21,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 95717,
+  "title": "CDB contributes to a $75 million syndicated loan for 250MW Morowali Coal-Fired Power Plant Construction Project (Linked to Record ID#98823)",
+  "commitment_year": 2020,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 37500000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "Tsingshan Holding Group"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405264",
+    "gem_plant_name": "Bekasi power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 260.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "West Java"
+   },
+   {
+    "gem_location_id": "L100000405948",
+    "gem_plant_name": "Riau 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "Riau"
+   },
+   {
+    "gem_location_id": "L100001056332",
+    "gem_plant_name": "Bali rental power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3956,
+    "name_score": 0.224,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 280.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "Bali"
+   }
+  ]
+ },
+ {
+  "record_id": 98823,
+  "title": "ICBC contributes to a $75 million syndicated loan for 250MW Morowali Coal-Fired Power Plant Construction Project (Linked to Record ID#95717)",
+  "commitment_year": 2020,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 37500000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "Tsingshan Holding Group"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405264",
+    "gem_plant_name": "Bekasi power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 260.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "West Java"
+   },
+   {
+    "gem_location_id": "L100000405948",
+    "gem_plant_name": "Riau 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "Riau"
+   },
+   {
+    "gem_location_id": "L100001056332",
+    "gem_plant_name": "Bali rental power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3956,
+    "name_score": 0.224,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 280.0,
+    "capacity_mw_aiddata": 250.0,
+    "state_province": "Bali"
+   }
+  ]
+ },
+ {
+  "record_id": 92603,
+  "title": "Bank of China participates in $2.6 billion syndicated loan for 2GW Java 9 and Java 10 Coal-Fired Power Plant Complex Construction Project",
+  "commitment_year": 2020,
+  "status": "Implementation",
+  "amount_nominal_usd": 162500000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Indo Raya Tenaga"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": 2000.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405272",
+    "gem_plant_name": "Gresik power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2178.0,
+    "capacity_mw_aiddata": 2000.0,
+    "state_province": "East Java"
+   },
+   {
+    "gem_location_id": "L100000102805",
+    "gem_plant_name": "Sumsel-10 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3917,
+    "name_score": 0.3333,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 2000.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 61154,
+  "title": "Chinese Government pledged to provide a 300 million USD loan on Pelosika Dam Project in Indonesia",
+  "commitment_year": 2019,
+  "status": "Pipeline: Pledge",
+  "amount_nominal_usd": 300000000.0,
+  "funding_agencies_parent": [
+   "Unspecified PRC Public Sector Institution"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 61153,
+  "title": "Chinese Government pledges preferential buyer’s credit for Riam Kiwa Dam Project in Indonesia.",
+  "commitment_year": 2018,
+  "status": "Pipeline: Pledge",
+  "amount_nominal_usd": null,
+  "funding_agencies_parent": [
+   "Unspecified PRC Public Sector Institution"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100001056032",
+    "gem_plant_name": "MPP Indonesia 1",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.35,
+    "name_score": 0.2692,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100001056033",
+    "gem_plant_name": "MPP Indonesia 2",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.35,
+    "name_score": 0.2692,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100001056035",
+    "gem_plant_name": "MPP Indonesia 3",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.35,
+    "name_score": 0.2692,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 67699,
+  "title": "China Construction Bank provides $400 million loan for 200MW (2x100MW) Kalbar-1 Coal-Fired Power Plant Construction Project ",
+  "commitment_year": 2018,
+  "status": "Completion",
+  "amount_nominal_usd": 400000000.0,
+  "funding_agencies_parent": [
+   "China Construction Bank Corporation (CCB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT GCL Indo Tenaga"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102823",
+    "gem_plant_name": "Kalbar-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.7333,
+    "name_score": 0.6667,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100001056393",
+    "gem_plant_name": "Kalbar-1 gas power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.6833,
+    "name_score": 0.6667,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "West Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000102715",
+    "gem_plant_name": "Kalselteng-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4625,
+    "name_score": 0.25,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Kalimantan"
+   }
+  ]
+ },
+ {
+  "record_id": 85608,
+  "title": "China Eximbank provides $1.26 billion loan for 1240MW Bangko Tengah (SS-8) Mine Mouth Power Plant Construction Project (Linked to Record ID#69235)",
+  "commitment_year": 2018,
+  "status": "Implementation",
+  "amount_nominal_usd": 1260000000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Huadian Bukit Asam Power (HBAP)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102794",
+    "gem_plant_name": "Bangko Tengah power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2640.0,
+    "capacity_mw_aiddata": 1240.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000405270",
+    "gem_plant_name": "Grati power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4437,
+    "name_score": 0.2211,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1356.0,
+    "capacity_mw_aiddata": 1240.0,
+    "state_province": "East Java"
+   },
+   {
+    "gem_location_id": "L100000102697",
+    "gem_plant_name": "Banten Lontar power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1260.0,
+    "capacity_mw_aiddata": 1240.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 88860,
+  "title": "ICBC Turkey participates in $250 million syndicated loan to Karadeniz Energy Group for Onur Sultan Powership",
+  "commitment_year": 2018,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 55000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "Karadeniz Energy Group"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000407148",
+    "gem_plant_name": "Karpowership (Indonesia) Onur Sultan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.435,
+    "name_score": 0.4,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 470.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000407149",
+    "gem_plant_name": "Karpowership (Indonesia) Zeynep Sultan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3375,
+    "name_score": 0.25,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 125.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "North Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102809",
+    "gem_plant_name": "Timah South Sumatra power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3267,
+    "name_score": 0.2333,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 300.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 61050,
+  "title": "Bank of China (Hong Kong) contributes $150 million to $1.62 billion syndicated loan to PLN for 35,000MW electricity program (Linked to Records ID#92462 and 108809)",
+  "commitment_year": 2018,
+  "status": "Implementation",
+  "amount_nominal_usd": 150000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 92462,
+  "title": "ICBC Indonesia contributes to $1.62 billion syndicated loan to PLN for 35,000MW electricity program (Linked to Records ID#61050 and #108809)",
+  "commitment_year": 2018,
+  "status": "Implementation",
+  "amount_nominal_usd": 75000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 108809,
+  "title": "ICBC (Asia) contributes to $1.62 billion syndicated loan to PLN for 35,000MW electricity program (Linked to Records ID#61050 and 92462)",
+  "commitment_year": 2018,
+  "status": "Implementation",
+  "amount_nominal_usd": 75000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 62262,
+  "title": "ICBC (Asia) contributes $70 million to $660 million syndicated loan to Star Energy Geothermal Ltd. to facilitate acquisition of geothermal assets",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 70000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "Star Energy Geothermal (Wayang Windu) Ltd."
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 109838,
+  "title": "ICBC contributes $50 million to $660 million syndicated loan to Star Energy Geothermal Ltd. to facilitate acquisition of geothermal assets",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 50000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "Star Energy Geothermal (Wayang Windu) Ltd."
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 62064,
+  "title": "ICBC Indonesia contributes $52 million to $520 million syndicated loan for 700MW Sumsel-1 Power Plant Construction Project",
+  "commitment_year": 2017,
+  "status": "Implementation",
+  "amount_nominal_usd": 52000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Shenhua Guohua Lion Power Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102804",
+    "gem_plant_name": "Sumsel-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102744",
+    "gem_plant_name": "Jambi-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102775",
+    "gem_plant_name": "Riau-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 69418,
+  "title": "China Construction Bank contributes $364 million to $520 million syndicated loan for 700MW Sumsel-1 Power Plant Construction Project",
+  "commitment_year": 2017,
+  "status": "Implementation",
+  "amount_nominal_usd": 364000000.0,
+  "funding_agencies_parent": [
+   "China Construction Bank Corporation (CCB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Shenhua Guohua Lion Power Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102804",
+    "gem_plant_name": "Sumsel-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102744",
+    "gem_plant_name": "Jambi-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102775",
+    "gem_plant_name": "Riau-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 69419,
+  "title": "Bank of China contributes $104 million to $520 million syndicated loan for 700MW Sumsel-1 Power Plant Construction Project",
+  "commitment_year": 2017,
+  "status": "Implementation",
+  "amount_nominal_usd": 104000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Shenhua Guohua Lion Power Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102804",
+    "gem_plant_name": "Sumsel-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102744",
+    "gem_plant_name": "Jambi-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102775",
+    "gem_plant_name": "Riau-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 62261,
+  "title": "China Eximbank contributes $122.4 million to overseas investment loan for Phase 1 of 244MW Sorik Marapi Geothermal Power Plant Construction Project (Linked to Record ID#69599)",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 122400000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sorik Marapi Geothermal Power"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405948",
+    "gem_plant_name": "Riau 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "Riau"
+   },
+   {
+    "gem_location_id": "L100000102758",
+    "gem_plant_name": "Tarakan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "North Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4394,
+    "name_score": 0.2145,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "East Kalimantan"
+   }
+  ]
+ },
+ {
+  "record_id": 69599,
+  "title": "Bank of China contributes $122.4 million to overseas investment loan for Phase 1 of 244MW Sorik Marapi Geothermal Power Plant Construction Project (Linked to Record ID#62261)",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 122400000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sorik Marapi Geothermal Power"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405948",
+    "gem_plant_name": "Riau 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "Riau"
+   },
+   {
+    "gem_location_id": "L100000102758",
+    "gem_plant_name": "Tarakan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 250.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "North Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4394,
+    "name_score": 0.2145,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 244.0,
+    "state_province": "East Kalimantan"
+   }
+  ]
+ },
+ {
+  "record_id": 73327,
+  "title": "Bank of China contributes $156.3 million to $1.25 billion syndicated loan to Star Energy Geothermal Ltd. to facilitate acquisition of geothermal assets",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 156300000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "Star Energy Geothermal (Wayang Windu) Ltd."
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 96237,
+  "title": "ICBC participates in $300 million syndicated loan to acquire equity stakes in 347MW Wayang Windu Power Plant, 377MW Salak Power Plant, and 271MW Darajat Power Plant",
+  "commitment_year": 2017,
+  "status": "Completion",
+  "amount_nominal_usd": 100000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "BCPG Public Company Limited (BCPG)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102724",
+    "gem_plant_name": "Madura PTBA power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4437,
+    "name_score": 0.2211,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 815.0,
+    "capacity_mw_aiddata": 347.0,
+    "state_province": "East Java"
+   },
+   {
+    "gem_location_id": "L100000104395",
+    "gem_plant_name": "Bali Power Station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4422,
+    "name_score": 0.2188,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 335.0,
+    "capacity_mw_aiddata": 347.0,
+    "state_province": "Bali"
+   },
+   {
+    "gem_location_id": "L100000102767",
+    "gem_plant_name": "Labuhan Angin power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 345.0,
+    "capacity_mw_aiddata": 347.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 109257,
+  "title": "[Cancelled] Bank of China (Hong Kong) Jakarta Branch contributes to $360 million syndicated senior secured long-term facility for PT Medco E&P Malaka ",
+  "commitment_year": 2017,
+  "status": "Cancelled",
+  "amount_nominal_usd": 40000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Medco E&P Malaka"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 61465,
+  "title": "CDB contributes $98 million to $1.389 billion syndicated buyer’s credit loan for 1000MW Cilacap Power Plant Phase 3 Expansion Project (Linked to Record ID#34801, #34748, #69234)",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 98000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sumber Segara Primadaya (S2P)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.44,
+    "name_score": 0.2154,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4332,
+    "name_score": 0.2049,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102730",
+    "gem_plant_name": "Paiton-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4125,
+    "name_score": 0.25,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 815.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 69234,
+  "title": "Bank of China contributes $1 billion to $1.389 billion syndicated buyer’s credit loan for 1000MW Cilacap Power Plant Phase 3 Expansion Project (Linked to Record ID#34801, #34748, #61465)",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 1000000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sumber Segara Primadaya (S2P)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.44,
+    "name_score": 0.2154,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4332,
+    "name_score": 0.2049,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102730",
+    "gem_plant_name": "Paiton-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4125,
+    "name_score": 0.25,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 815.0,
+    "capacity_mw_aiddata": 1000.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 61474,
+  "title": "China Eximbank contributes $90 million to $270.46 million syndicated loan for 200MW Bengkulu Coal-Fired Power Plant Construction Project (Linked to Record ID#69306, #69307)",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 90000000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Tenaga Listrik Bengkulu"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102707",
+    "gem_plant_name": "Bengkulu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102787",
+    "gem_plant_name": "Barru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4437,
+    "name_score": 0.2211,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102741",
+    "gem_plant_name": "Timor-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "East Nusa Tenggara"
+   }
+  ]
+ },
+ {
+  "record_id": 69306,
+  "title": "ICBC contributes $180 million to $270.46 million syndicated loan for 200MW Bengkulu Coal-Fired Power Plant Construction Project (Linked to Record ID#61474, #69307)",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 180000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Tenaga Listrik Bengkulu"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102707",
+    "gem_plant_name": "Bengkulu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102787",
+    "gem_plant_name": "Barru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4437,
+    "name_score": 0.2211,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102741",
+    "gem_plant_name": "Timor-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "East Nusa Tenggara"
+   }
+  ]
+ },
+ {
+  "record_id": 62065,
+  "title": "CDB provides $150 million loan for 100MW Kendari-3 Power Plant Construction Project",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 150000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT DSSP Power Kendari"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102810",
+    "gem_plant_name": "Kendari-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 100.0,
+    "capacity_mw_aiddata": 100.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102761",
+    "gem_plant_name": "Sulbagut-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 100.0,
+    "capacity_mw_aiddata": 100.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102763",
+    "gem_plant_name": "Sulut-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 100.0,
+    "capacity_mw_aiddata": 100.0,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 62069,
+  "title": "CDB provides $1.319 billion loan for 2100MW Java-7 Coal-Fired Power Plant Construction Project (Linked to Record ID#49153)",
+  "commitment_year": 2016,
+  "status": "Completion",
+  "amount_nominal_usd": 1319000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "Shenhua Guohua Power Jawa Bali"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102703",
+    "gem_plant_name": "Jawa-7 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1982.0,
+    "capacity_mw_aiddata": 2100.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102709",
+    "gem_plant_name": "Central Java Power Project",
+    "asset_type": "Coal Plant",
+    "score": 0.4667,
+    "name_score": 0.3333,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1900.0,
+    "capacity_mw_aiddata": 2100.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405272",
+    "gem_plant_name": "Gresik power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2178.0,
+    "capacity_mw_aiddata": 2100.0,
+    "state_province": "East Java"
+   }
+  ]
+ },
+ {
+  "record_id": 67053,
+  "title": "China Eximbank pledges preferential buyer’s credit for 9.9MW Bonehulu Dam Construction Project",
+  "commitment_year": 2016,
+  "status": "Pipeline: Pledge",
+  "amount_nominal_usd": null,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 67055,
+  "title": "China Eximbank pledges preferential buyer’s credit for 74.40MW Lompatan Harimau Dam Construction Project",
+  "commitment_year": 2016,
+  "status": "Pipeline: Pledge",
+  "amount_nominal_usd": null,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 70718,
+  "title": "CDB contributes to loan to Sinar Mas Group for the construction of a 2x150 MW mine-mouth power plant in Musi Banyuasin Regency",
+  "commitment_year": 2015,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 255000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sinar Mas Group"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102757",
+    "gem_plant_name": "Ambon-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Maluku"
+   },
+   {
+    "gem_location_id": "L100001056427",
+    "gem_plant_name": "Minahasa power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4344,
+    "name_score": 0.2068,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "North Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102768",
+    "gem_plant_name": "Lamhotma power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3948,
+    "name_score": 0.2227,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 105328,
+  "title": "ICBC Financial Leasing contributes to loan to Sinar Mas Group for the construction of a 2x150 MW mine-mouth power plant in Musi Banyuasin Regency",
+  "commitment_year": 2015,
+  "status": "Pipeline: Commitment",
+  "amount_nominal_usd": 255000000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sinar Mas Group"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102757",
+    "gem_plant_name": "Ambon-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Maluku"
+   },
+   {
+    "gem_location_id": "L100001056427",
+    "gem_plant_name": "Minahasa power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4344,
+    "name_score": 0.2068,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "North Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102768",
+    "gem_plant_name": "Lamhotma power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3948,
+    "name_score": 0.2227,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 39372,
+  "title": "China Eximbank provides $373 million preferential buyer's credit for 440MW Pangkalan Susu Steam Coal Power Plant Construction Project",
+  "commitment_year": 2014,
+  "status": "Completion",
+  "amount_nominal_usd": 373009532.12,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102769",
+    "gem_plant_name": "Pangkalan Susu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.6083,
+    "name_score": 0.6667,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 840.0,
+    "capacity_mw_aiddata": 440.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102743",
+    "gem_plant_name": "Jambi Tebo power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4422,
+    "name_score": 0.2188,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": 440.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000104763",
+    "gem_plant_name": "KIPI power station",
+    "asset_type": "Coal Plant",
+    "score": 0.439,
+    "name_score": 0.2139,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": 440.0,
+    "state_province": "Kalimantan"
+   }
+  ]
+ },
+ {
+  "record_id": 39373,
+  "title": "China Eximbank provides $240.9 million preferential buyer's credit for 200MW Takalar Steam Coal Power Plant Construction Project",
+  "commitment_year": 2014,
+  "status": "Completion",
+  "amount_nominal_usd": 240983647.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102792",
+    "gem_plant_name": "Takalar power station",
+    "asset_type": "Coal Plant",
+    "score": 0.625,
+    "name_score": 0.5,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000104395",
+    "gem_plant_name": "Bali Power Station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4643,
+    "name_score": 0.2528,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 335.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Bali"
+   },
+   {
+    "gem_location_id": "L100000104833",
+    "gem_plant_name": "Haltim power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Maluku"
+   }
+  ]
+ },
+ {
+  "record_id": 61533,
+  "title": "ICBC Indonesia provides $51.3 million loan for 50MW East Lombok Independent Power Plant Project",
+  "commitment_year": 2014,
+  "status": "Completion",
+  "amount_nominal_usd": 51399150.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Lombok Energy Dynamics (LED)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000408070",
+    "gem_plant_name": "Vpower Palembang power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3893,
+    "name_score": 0.2143,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 56.4,
+    "capacity_mw_aiddata": 50.0,
+    "state_province": "South Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102829",
+    "gem_plant_name": "Lombok 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3375,
+    "name_score": 0.25,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 50.0,
+    "state_province": "West Nusa Tenggara"
+   },
+   {
+    "gem_location_id": "L100000102830",
+    "gem_plant_name": "Lombok 3 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3375,
+    "name_score": 0.25,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 50.0,
+    "state_province": "West Nusa Tenggara"
+   }
+  ]
+ },
+ {
+  "record_id": 34748,
+  "title": "China Development Bank provides $700 million buyer’s credit loan for 660MW Cilacap Power Plant Phase 2 Expansion Project (Linked to Record ID#34801, #61465, #69234)",
+  "commitment_year": 2013,
+  "status": "Completion",
+  "amount_nominal_usd": 700000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sumber Segara Primadaya (S2P)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000104577",
+    "gem_plant_name": "Sulbagsel-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4625,
+    "name_score": 0.25,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "South Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000104843",
+    "gem_plant_name": "Jambi-2 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4625,
+    "name_score": 0.25,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102708",
+    "gem_plant_name": "Adipala power station",
+    "asset_type": "Coal Plant",
+    "score": 0.44,
+    "name_score": 0.2154,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 660.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 39375,
+  "title": "China Eximbank provides $117 million preferential buyer’s credit for 110MW Jatigede Hydropower Plant Construction Project (Linked to Record ID#38861)",
+  "commitment_year": 2013,
+  "status": "Implementation",
+  "amount_nominal_usd": 117000000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000408073",
+    "gem_plant_name": "Duri power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 112.0,
+    "capacity_mw_aiddata": 110.0,
+    "state_province": "Riau"
+   },
+   {
+    "gem_location_id": "L100000102704",
+    "gem_plant_name": "Merak power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4317,
+    "name_score": 0.2026,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 120.0,
+    "capacity_mw_aiddata": 110.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405287",
+    "gem_plant_name": "Perak power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4317,
+    "name_score": 0.2026,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 500.0,
+    "capacity_mw_aiddata": 110.0,
+    "state_province": "East Java"
+   }
+  ]
+ },
+ {
+  "record_id": 49810,
+  "title": "CDB provides $473 million loan for 426MW Celukan Bawang Coal-Fired Power Plant Construction Project",
+  "commitment_year": 2013,
+  "status": "Completion",
+  "amount_nominal_usd": 473000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT General Energy Bali"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102691",
+    "gem_plant_name": "Celukan Bawang power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1086.0,
+    "capacity_mw_aiddata": 426.0,
+    "state_province": "Nusa Tenggara"
+   },
+   {
+    "gem_location_id": "L100000104763",
+    "gem_plant_name": "KIPI power station",
+    "asset_type": "Coal Plant",
+    "score": 0.439,
+    "name_score": 0.2139,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 400.0,
+    "capacity_mw_aiddata": 426.0,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000405951",
+    "gem_plant_name": "Sulsel power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 450.0,
+    "capacity_mw_aiddata": 426.0,
+    "state_province": "South Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 34992,
+  "title": "China Eximbank provides $132.1 million preferential buyer's credit to Indonesia for Parit Baru Power Plant Project (Linked to Record ID#72360)",
+  "commitment_year": 2012,
+  "status": "Completion",
+  "amount_nominal_usd": 132189694.53,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102827",
+    "gem_plant_name": "Parit Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.825,
+    "name_score": 1.0,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000102693",
+    "gem_plant_name": "Bangka Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3917,
+    "name_score": 0.3333,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 60.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102727",
+    "gem_plant_name": "PLN Paiton Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3388,
+    "name_score": 0.252,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1320.0,
+    "capacity_mw_aiddata": null,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 39185,
+  "title": "China Development Bank provides $318 million loan for 300MW Sumsel-5 Power Plant (SS-5) Construction Project",
+  "commitment_year": 2012,
+  "status": "Completion",
+  "amount_nominal_usd": 318000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT DSSP Power Sumsel"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102806",
+    "gem_plant_name": "Sumsel-5 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.7333,
+    "name_score": 0.6667,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 650.0,
+    "capacity_mw_aiddata": 300.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100001056193",
+    "gem_plant_name": "Jawa-Bali 5 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.43,
+    "name_score": 0.2,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 300.0,
+    "capacity_mw_aiddata": 300.0,
+    "state_province": "Bali"
+   },
+   {
+    "gem_location_id": "L100000405951",
+    "gem_plant_name": "Sulsel power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.3383,
+    "name_score": 0.2513,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 450.0,
+    "capacity_mw_aiddata": 300.0,
+    "state_province": "South Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 38546,
+  "title": "Bank of China (Jakarta Branch) contributes $191 million to $454.9 million syndicated loan for 945MW Banten Lontar Power Plant Construction Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 191000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102697",
+    "gem_plant_name": "Banten Lontar power station",
+    "asset_type": "Coal Plant",
+    "score": 0.9,
+    "name_score": 1.0,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1260.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102817",
+    "gem_plant_name": "Jawa-5 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 3000.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "West Java"
+   },
+   {
+    "gem_location_id": "L100000102818",
+    "gem_plant_name": "Jawa-6 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 3000.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "West Java"
+   }
+  ]
+ },
+ {
+  "record_id": 110270,
+  "title": "Bank of China (Sichuan Branch) contributes $191 million to $454.9 million syndicated loan for 945MW Banten Lontar Power Plant Construction Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 191000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102697",
+    "gem_plant_name": "Banten Lontar power station",
+    "asset_type": "Coal Plant",
+    "score": 0.9,
+    "name_score": 1.0,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1260.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102817",
+    "gem_plant_name": "Jawa-5 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 3000.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "West Java"
+   },
+   {
+    "gem_location_id": "L100000102818",
+    "gem_plant_name": "Jawa-6 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 3000.0,
+    "capacity_mw_aiddata": 945.0,
+    "state_province": "West Java"
+   }
+  ]
+ },
+ {
+  "record_id": 62054,
+  "title": "CDB contributes to $138.3 million loan for 224MW Sumbar Teluk Sirih Power Plant Construction Project (Linked to Record ID#105325)",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 69168422.5,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102835",
+    "gem_plant_name": "Teluk Sirih power station",
+    "asset_type": "Coal Plant",
+    "score": 0.7333,
+    "name_score": 0.6667,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4417,
+    "name_score": 0.218,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "East Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000408061",
+    "gem_plant_name": "Arun II power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 240.5,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "Aceh"
+   }
+  ]
+ },
+ {
+  "record_id": 105325,
+  "title": "ICBC contributes to $138.3 million loan for 224MW Sumbar Teluk Sirih Power Plant Construction Project (Linked to Record ID#62054)",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 69168422.5,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102835",
+    "gem_plant_name": "Teluk Sirih power station",
+    "asset_type": "Coal Plant",
+    "score": 0.7333,
+    "name_score": 0.6667,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4417,
+    "name_score": 0.218,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "East Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000408061",
+    "gem_plant_name": "Arun II power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 240.5,
+    "capacity_mw_aiddata": 224.0,
+    "state_province": "Aceh"
+   }
+  ]
+ },
+ {
+  "record_id": 67236,
+  "title": "CDB contributes to $625.2 million loan for 660MW Adipala Power Plant Construction Project (Linked to Record ID#105327)",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 312628402.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102708",
+    "gem_plant_name": "Adipala power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 660.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102726",
+    "gem_plant_name": "Pacitan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100001082962",
+    "gem_plant_name": "Palu SEZ power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4448,
+    "name_score": 0.2227,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 105327,
+  "title": "ICBC contributes to $625.2 million loan for 660MW Adipala Power Plant Construction Project (Linked to Record ID#67236)",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 312628402.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102708",
+    "gem_plant_name": "Adipala power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 660.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102726",
+    "gem_plant_name": "Pacitan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100001082962",
+    "gem_plant_name": "Palu SEZ power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4448,
+    "name_score": 0.2227,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Sulawesi"
+   }
+  ]
+ },
+ {
+  "record_id": 38600,
+  "title": "China Eximbank provides $481 million buyer’s credit loan for 3x350MW Pelabuhan Ratu Power Station Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 481937182.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102819",
+    "gem_plant_name": "Pelabuhan Ratu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.825,
+    "name_score": 1.0,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1050.0,
+    "capacity_mw_aiddata": 350.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102767",
+    "gem_plant_name": "Labuhan Angin power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4938,
+    "name_score": 0.2981,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 345.0,
+    "capacity_mw_aiddata": 350.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000104395",
+    "gem_plant_name": "Bali Power Station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4896,
+    "name_score": 0.2917,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 335.0,
+    "capacity_mw_aiddata": 350.0,
+    "state_province": "Bali"
+   }
+  ]
+ },
+ {
+  "record_id": 38601,
+  "title": "China Eximbank provides $124 million buyer's credit loan for 220MW Meulaboh Power Plant Construction Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 124339936.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102768",
+    "gem_plant_name": "Lamhotma power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4448,
+    "name_score": 0.2227,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 220.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102785",
+    "gem_plant_name": "Tabalong power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4448,
+    "name_score": 0.2227,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 220.0,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000102829",
+    "gem_plant_name": "Lombok 2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4448,
+    "name_score": 0.2227,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 220.0,
+    "state_province": "West Nusa Tenggara"
+   }
+  ]
+ },
+ {
+  "record_id": 38610,
+  "title": "China Eximbank provides $293.2 million loan for 630MW Pacitan Power Plant Construction Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 293226064.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102726",
+    "gem_plant_name": "Pacitan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102775",
+    "gem_plant_name": "Riau-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102708",
+    "gem_plant_name": "Adipala power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 660.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 38611,
+  "title": "Bank of China provides $371.5 million buyer’s credit loan for 700MW Tanjung Awar-Awar Power Plant Construction Project",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 371509145.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102732",
+    "gem_plant_name": "Tanjung Awar-Awar power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 700.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102690",
+    "gem_plant_name": "Nagan Raya power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4422,
+    "name_score": 0.2188,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 670.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102708",
+    "gem_plant_name": "Adipala power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 660.0,
+    "capacity_mw_aiddata": 700.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 61681,
+  "title": "China Eximbank provides additional $31.7 million for 230MW Labuan Angin Power Plant Construction Project (Linked to Record ID#34922)",
+  "commitment_year": 2009,
+  "status": "Completion",
+  "amount_nominal_usd": 31783000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102767",
+    "gem_plant_name": "Labuhan Angin power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 345.0,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4572,
+    "name_score": 0.2418,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "East Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000408061",
+    "gem_plant_name": "Arun II power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 240.5,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "Aceh"
+   }
+  ]
+ },
+ {
+  "record_id": 38606,
+  "title": "Bank of China contributes $84.6 million to syndicated buyer’s credit loan for 990MW Jabar Indramayu Power Plant Construction Project (Linked to Record ID#100701, #100703, #100704, #100705)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 84600000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.625,
+    "name_score": 0.5,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102817",
+    "gem_plant_name": "Jawa-5 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4365,
+    "name_score": 0.21,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 3000.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "West Java"
+   }
+  ]
+ },
+ {
+  "record_id": 100701,
+  "title": "ICBC contributes $84.6 million to syndicated buyer’s credit loan for 990MW Jabar Indramayu Power Plant Construction Project (linked to Record ID#38606, #100703, #100704, #100705)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 84600000.0,
+  "funding_agencies_parent": [
+   "Industrial and Commercial Bank of China (ICBC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.478,
+    "name_score": 0.2739,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102819",
+    "gem_plant_name": "Pelabuhan Ratu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1050.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 100703,
+  "title": "China Development Bank contributes $84.6 million to syndicated buyer’s credit loan for 990MW Jabar Indramayu Power Plant Construction Project (linked to Record ID#38606, #100701, #100704, #100705)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 84600000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.478,
+    "name_score": 0.2739,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102819",
+    "gem_plant_name": "Pelabuhan Ratu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1050.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 100704,
+  "title": "China Construction Bank contributes $84.6 million to syndicated buyer’s credit loan for 990MW Jabar Indramayu Power Plant Construction Project (linked to Record ID#38606, #100701, #100703, #100705)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 84600000.0,
+  "funding_agencies_parent": [
+   "China Construction Bank Corporation (CCB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.478,
+    "name_score": 0.2739,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102819",
+    "gem_plant_name": "Pelabuhan Ratu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1050.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 100705,
+  "title": "China CITIC Bank contributes $84.6 million to syndicated buyer’s credit loan for 990MW Jabar Indramayu Power Plant Construction Project (linked to Record ID#38606, #100701, #100703, #100704)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 84600000.0,
+  "funding_agencies_parent": [
+   "CITIC Group Corporation Ltd."
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102815",
+    "gem_plant_name": "Indramayu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.478,
+    "name_score": 0.2739,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 2990.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000405265",
+    "gem_plant_name": "Belawan power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1507.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "North Sumatra"
+   },
+   {
+    "gem_location_id": "L100000102819",
+    "gem_plant_name": "Pelabuhan Ratu power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4348,
+    "name_score": 0.2074,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1050.0,
+    "capacity_mw_aiddata": 990.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 37864,
+  "title": "China Eximbank provides $284.2 million buyer's credit for 625MW Banten Suralaya Power Plant Construction Project (Linked to Record ID#38604)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 284288744.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102699",
+    "gem_plant_name": "Banten Suralaya power station",
+    "asset_type": "Coal Plant",
+    "score": 0.825,
+    "name_score": 1.0,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 6025.0,
+    "capacity_mw_aiddata": 625.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102696",
+    "gem_plant_name": "Banten Labuan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 625.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102698",
+    "gem_plant_name": "Banten Serang power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1320.0,
+    "capacity_mw_aiddata": 625.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 38604,
+  "title": "China Eximbank provides $330.8 million buyer's credit for 660MW Jatim Paiton Power Plant Expansion Project (Linked to Record ID#37864)",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 330825515.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102726",
+    "gem_plant_name": "Pacitan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102727",
+    "gem_plant_name": "PLN Paiton Baru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4491,
+    "name_score": 0.2293,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 1320.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102730",
+    "gem_plant_name": "Paiton-3 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4125,
+    "name_score": 0.25,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 815.0,
+    "capacity_mw_aiddata": 660.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 62053,
+  "title": "CDB contributes $131 million to $261.8 million syndicated loan for 630MW Rembang Power Plant Construction Project",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 131000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Perusahaan Listrik Negara (Persero) (PLN)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102713",
+    "gem_plant_name": "Rembang power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102726",
+    "gem_plant_name": "Pacitan power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 630.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Jawa"
+   },
+   {
+    "gem_location_id": "L100000102744",
+    "gem_plant_name": "Jambi-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 630.0,
+    "state_province": "Sumatera"
+   }
+  ]
+ },
+ {
+  "record_id": 62206,
+  "title": "China Eximbank provides seller's credit to fund China Huadian Engineering Co. Ltd's $150 million supplier credit for 130MW Tanjung Kasam Power Plant Construction Project",
+  "commitment_year": 2008,
+  "status": "Completion",
+  "amount_nominal_usd": 150000000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Tanjung Kasam Power"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102782",
+    "gem_plant_name": "Tanjung Kasam power station",
+    "asset_type": "Coal Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 130.0,
+    "capacity_mw_aiddata": 130.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000407611",
+    "gem_plant_name": "Tanjunguncang power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 120.0,
+    "capacity_mw_aiddata": 130.0,
+    "state_province": "Riau Islands"
+   },
+   {
+    "gem_location_id": "L100000405264",
+    "gem_plant_name": "Bekasi power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4479,
+    "name_score": 0.2275,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 260.0,
+    "capacity_mw_aiddata": 130.0,
+    "state_province": "West Java"
+   }
+  ]
+ },
+ {
+  "record_id": 38861,
+  "title": "China Eximbank provides $215.6 million preferential buyer's credit loan for Jatigede Dam Project (Linked to Record ID#39375, ID#72360)",
+  "commitment_year": 2007,
+  "status": "Completion",
+  "amount_nominal_usd": 215615732.4,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": []
+ },
+ {
+  "record_id": 61675,
+  "title": "China Development Bank supports China Chengda Engineering Co. Ltd.'s issuing of $140 million supplier credit for 200MW Jeneponto Coal-Fired Power Plant Construction Project",
+  "commitment_year": 2007,
+  "status": "Completion",
+  "amount_nominal_usd": 140000000.0,
+  "funding_agencies_parent": [
+   "China Development Bank (CDB)"
+  ],
+  "direct_receiving_agencies": [
+   "China Chengda Engineering Co. Ltd",
+   "PT Bosowa Energi (Bosowa Corporation)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102787",
+    "gem_plant_name": "Barru power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4437,
+    "name_score": 0.2211,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Sulawesi"
+   },
+   {
+    "gem_location_id": "L100000102741",
+    "gem_plant_name": "Timor-2 power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4408,
+    "name_score": 0.2167,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "East Nusa Tenggara"
+   },
+   {
+    "gem_location_id": "L100000104395",
+    "gem_plant_name": "Bali Power Station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.439,
+    "name_score": 0.2139,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 335.0,
+    "capacity_mw_aiddata": 200.0,
+    "state_province": "Bali"
+   }
+  ]
+ },
+ {
+  "record_id": 105193,
+  "title": "China Eximbank provides overseas investment loan for 180MW Asahan-1 Hydroelectric Power Plant Construction Project",
+  "commitment_year": 2006,
+  "status": "Completion",
+  "amount_nominal_usd": 248560000.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "China Huadian Hongkong Company Ltd."
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102715",
+    "gem_plant_name": "Kalselteng-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4625,
+    "name_score": 0.25,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 180.0,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000102823",
+    "gem_plant_name": "Kalbar-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.4625,
+    "name_score": 0.25,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 200.0,
+    "capacity_mw_aiddata": 180.0,
+    "state_province": "Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000104395",
+    "gem_plant_name": "Bali Power Station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 335.0,
+    "capacity_mw_aiddata": 180.0,
+    "state_province": "Bali"
+   }
+  ]
+ },
+ {
+  "record_id": 34801,
+  "title": "Bank of China provides $408 million loan for 600MW Cilacap Power Plant Phase 1 Construction Project (Linked to Record ID#34748, #61465, #69234)",
+  "commitment_year": 2003,
+  "status": "Completion",
+  "amount_nominal_usd": 408000000.0,
+  "funding_agencies_parent": [
+   "Bank of China (BOC)"
+  ],
+  "direct_receiving_agencies": [
+   "PT Sumber Segara Primadaya (S2P)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102744",
+    "gem_plant_name": "Jambi-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 600.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102775",
+    "gem_plant_name": "Riau-1 power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 600.0,
+    "capacity_mw_aiddata": 600.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000102710",
+    "gem_plant_name": "Cilacap power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5,
+    "name_score": 0.5,
+    "capacity_score": 0.5,
+    "province_score": 0.5,
+    "capacity_mw_gem": 5000.0,
+    "capacity_mw_aiddata": 600.0,
+    "state_province": "Jawa"
+   }
+  ]
+ },
+ {
+  "record_id": 34922,
+  "title": "China Eximbank provides $154.8 million preferential buyer’s credit for 230MW Labuan Angin Power Plant Construction Project (Linked to Record ID#67275, #61681)",
+  "commitment_year": 2003,
+  "status": "Completion",
+  "amount_nominal_usd": 154872884.0,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "Government of Indonesia"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000102767",
+    "gem_plant_name": "Labuhan Angin power station",
+    "asset_type": "Coal Plant",
+    "score": 0.5167,
+    "name_score": 0.3333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 345.0,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "Sumatera"
+   },
+   {
+    "gem_location_id": "L100000407608",
+    "gem_plant_name": "Balikpapan Refinery power plant",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4572,
+    "name_score": 0.2418,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 224.0,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "East Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000408061",
+    "gem_plant_name": "Arun II power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4517,
+    "name_score": 0.2333,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 240.5,
+    "capacity_mw_aiddata": 230.0,
+    "state_province": "Aceh"
+   }
+  ]
+ },
+ {
+  "record_id": 98549,
+  "title": "China Eximbank provides RMB 710 million overseas investment loan for Palembang Timur 150MW Gas-fired Power Plant Construction Project",
+  "commitment_year": 2003,
+  "status": "Completion",
+  "amount_nominal_usd": 85778852.0188543,
+  "funding_agencies_parent": [
+   "Export-Import Bank of China (China Eximbank)"
+  ],
+  "direct_receiving_agencies": [
+   "China National Chemical Engineering Corporation (CNCEC)"
+  ],
+  "candidates": [
+   {
+    "gem_location_id": "L100000405286",
+    "gem_plant_name": "Palembang Timur power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.95,
+    "name_score": 1.0,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "South Sumatra"
+   },
+   {
+    "gem_location_id": "L100001056426",
+    "gem_plant_name": "Kalselteng power station",
+    "asset_type": "Oil & Gas Plant",
+    "score": 0.4327,
+    "name_score": 0.2042,
+    "capacity_score": 1.0,
+    "province_score": 0.5,
+    "capacity_mw_gem": 150.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Central Kalimantan"
+   },
+   {
+    "gem_location_id": "L100000102704",
+    "gem_plant_name": "Merak power station",
+    "asset_type": "Coal Plant",
+    "score": 0.3937,
+    "name_score": 0.2211,
+    "capacity_score": 0.8,
+    "province_score": 0.5,
+    "capacity_mw_gem": 120.0,
+    "capacity_mw_aiddata": 150.0,
+    "state_province": "Jawa"
+   }
+  ]
+ }
+]

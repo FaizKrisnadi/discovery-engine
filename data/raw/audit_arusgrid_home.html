@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArusGrid · The data center buildout, tracked</title>
+<meta name="description" content="ArusGrid tracks the data center buildout project by project. Interactive map of capacity, stage, funders, operators, clients and power cost. Covering Southeast Asia, the Gulf and India.">
+<!-- Canonical points at /map because this page immediately redirects there. A redirecting page that
+     names itself canonical sends search engines two contradictory signals. og:url stays "/" for unfurls. -->
+<link rel="canonical" href="https://arusgrid.com/map">
+<!-- Open Graph. This page is a redirect stub, but arusgrid.com is the URL people actually paste
+     into chat, and crawlers and link unfurlers read the head before following the redirect.
+     Every visit to this site arrives with no referrer, i.e. shared by hand, so these tags are
+     what turn a bare URL into something legible.
+
+     A real landing page was built here on 2026-08-28 and reverted the same day. map.html's
+     sidebar already carries the brand, tagline, coverage, hero stats and latest activity, so a
+     separate root page was a worse copy of it behind an extra click, and the two drifted within
+     the hour (260 projects here against 265 on the map, because they counted cancelled projects
+     differently). directory.html is what actually makes the dataset crawlable. Do not rebuild
+     a landing page here without a reason that survives those two objections. -->
+<meta property="og:site_name" content="ArusGrid">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arusgrid.com/">
+<meta property="og:title" content="ArusGrid · The data center buildout, tracked">
+<meta property="og:description" content="An independent, project-by-project tracker of data center construction across Southeast Asia, the Gulf and India. Capacity, stage, funders, operators, tenants and power cost, with every figure sourced.">
+<meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://arusgrid.com/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="ArusGrid. The data center buildout, tracked. Every project graded by its public paper trail."><meta name="twitter:image" content="https://arusgrid.com/og.png">
+<meta name="twitter:title" content="ArusGrid · The data center buildout, tracked">
+<meta name="twitter:description" content="An independent, project-by-project tracker of data center construction across Southeast Asia, the Gulf and India. Capacity, stage, funders, operators, tenants and power cost, with every figure sourced.">
+<script>
+  // Entry point for the hosted site. The host serves index.html at the root URL;
+  // map.html is the real app. Hash and query are preserved so #f=<id> deep links
+  // sent as bare-domain links still land on the right facility.
+  // Genesis cards: a QR carrying utm_source=genesis lands on the registration page instead.
+  if (/[?&]utm_source=genesis(&|$)/.test(location.search)) { location.replace("genesis" + location.search); }
+  else { location.replace("map" + location.search + location.hash); }
+</script>
+<meta http-equiv="refresh" content="0; url=map">
+</head>
+<body style="background:#f8f4ea;color:#181818;font-family:system-ui,sans-serif;padding:40px">
+  <p>Redirecting to <a href="map" style="color:#8ab4f8">the map</a>…</p>
+</body>
+</html>

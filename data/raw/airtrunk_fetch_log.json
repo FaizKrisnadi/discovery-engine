@@ -1,0 +1,20 @@
+{
+ "ibvogt_release": {
+  "name": "ibvogt_release",
+  "url": "https://www.ibvogt.com/airtrunk-and-ib-vogt-sign-malaysias-first-renewable-virtual-ppa-for-a-data-center",
+  "attempted_at": "2026-10-30T15:47:41.383230+00:00",
+  "status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 153396,
+  "saved_to": "data/raw/airtrunk_ibvogt_release.html"
+ },
+ "airtrunk_news": {
+  "name": "airtrunk_news",
+  "url": "https://www.airtrunk.com/news/airtrunk-signs-malaysias-first-data-centre-renewable-vppa/",
+  "attempted_at": "2026-10-30T15:47:47.153496+00:00",
+  "status": 404,
+  "content_type": "text/html; charset=UTF-8",
+  "bytes": 85332,
+  "saved_to": "data/raw/airtrunk_airtrunk_news.html"
+ }
+}

@@ -1,0 +1,119 @@
+{
+ "dayone-ndp-batam": {
+  "Developer": {
+   "status": "documented",
+   "claims": [
+    "0ae2f4539c90a139d446bafd30e2f7156280b0fa52ba8af90ba6c0f673cf4ff4",
+    "42ca157a7056f11f4fe8502d60735717a5ae4e631be5f6ce33e83081645eeab8"
+   ]
+  },
+  "Operator": {
+   "status": "documented",
+   "claims": [
+    "425e108d819ad82244f1181a2da4cf9eff5bf7ef69e01c559dd9e96ad0cbd56d"
+   ]
+  },
+  "Asset owner / investor": {
+   "status": "documented",
+   "claims": [
+    "466fe25756a1a30c499cc320110f7a682d5c446db10d7b2c137d6c116997594f"
+   ]
+  },
+  "Lender": {
+   "status": "documented",
+   "claims": [
+    "2d594518227ece62587f98ea80293e9021fd24a9287a91de3fc388c3746b05c2",
+    "ec2190fe5045c63542b76eba6f9a80acd0f677b56ee64888def4743d81cc84db"
+   ]
+  },
+  "Electricity supplier / PPA counterparty": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Tenant / customer": {
+   "status": "candidate",
+   "claims": [
+    "24cccdcaa2263c7f775e191a23d7f2662ce7bea6aabebdd1886f04b3505c3d71"
+   ]
+  },
+  "Intermediary / context": {
+   "status": "unknown",
+   "claims": []
+  }
+ },
+ "dayone-kabil-batam": {
+  "Developer": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Operator": {
+   "status": "documented",
+   "claims": [
+    "40a855252353a0f284df7f557e0e5f7a945bd783b10a5d11196294322207ba5d"
+   ]
+  },
+  "Asset owner / investor": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Lender": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Electricity supplier / PPA counterparty": {
+   "status": "documented",
+   "claims": [
+    "2b90fbc3ab8877584f71eba3b46f991934cb38628b37e02930cd053ddc3b1647"
+   ]
+  },
+  "Tenant / customer": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Intermediary / context": {
+   "status": "documented",
+   "claims": [
+    "58e1c3ea83b4e47191a6c13e0298fafdec6d09abd3efcc5a0bac6d4bd817c54e"
+   ]
+  }
+ },
+ "airtrunk-jhb1": {
+  "Developer": {
+   "status": "documented",
+   "claims": [
+    "266681d5ed6e43c57a0ad2b7481c0563088f798a35da0c0b2f0d38c99631fdd5",
+    "ba444abc7ceaa3453593fb638fc7bb9fca2056e1a69a5d6c9129d80d462b669c"
+   ]
+  },
+  "Operator": {
+   "status": "documented",
+   "claims": [
+    "88b4ec0b9d18bdbb8ac030553d449d0c6dea09c25e78fcc17f36ddac9992c024"
+   ]
+  },
+  "Asset owner / investor": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Lender": {
+   "status": "unknown",
+   "claims": []
+  },
+  "Electricity supplier / PPA counterparty": {
+   "status": "documented",
+   "claims": [
+    "b431f7b9071072084d57519657e93995b2d2d978b54732a6148589d0f66e8ad7"
+   ]
+  },
+  "Tenant / customer": {
+   "status": "candidate",
+   "claims": [
+    "8a78d8b3291575ea125892bf193f5f7e9ffa00bebe3b220279b987eb1e2be284"
+   ]
+  },
+  "Intermediary / context": {
+   "status": "unknown",
+   "claims": []
+  }
+ }
+}

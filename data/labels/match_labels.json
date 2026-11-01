@@ -1,0 +1,638 @@
+{
+ "audited_at": "2026-10-31T12:19:41.059056+00:00",
+ "auditor": "AI-generated provisional labels (lead agent, model-run). NOT human-verified, NOT independent ground truth; require human audit before any downstream use.",
+ "label_status": "provisional",
+ "leakage_note": "Development-set leakage: matcher normalization was tuned while inspecting these same records; these labels are development labels, not a held-out evaluation set. The 10-record sample in data/labels/heldout_sample.json is RETROSPECTIVE (drawn after the full candidate table was inspected) and provides no independent validation; a fresh unexposed sample is required for that.",
+ "labels": [
+  {
+   "record_id": 34748,
+   "label": "MATCH",
+   "gem_location_id": "L100000102711",
+   "machine_top_location_id": "L100000104577",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: Cilacap Phase 2 (S2P), same site; machine top Sulbagsel-2 was a unit-number false match."
+  },
+  {
+   "record_id": 34801,
+   "label": "MATCH",
+   "gem_location_id": "L100000102711",
+   "machine_top_location_id": "L100000102744",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: Cilacap Phase 1 — receiver 'PT Sumber Segara Primadaya (S2P)' and GEM plant name 'Cilacap Sumber'; announced 600MW phase vs 2260MW site total; capacity not asserted."
+  },
+  {
+   "record_id": 34922,
+   "label": "MATCH",
+   "gem_location_id": "L100000102767",
+   "machine_top_location_id": "L100000102767",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Labuan/Labuhan Angin spelling variant; original 2003 tranche."
+  },
+  {
+   "record_id": 34992,
+   "label": "AMBIGUOUS",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102827",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Parit Baru: name exact but ordinary-search baseline (2026-10-30) found NO public Eximbank buyer's credit for the GEM plant (gem.wiki/Parit_Baru_power_station: 2x50MW, revived ~2017, original units operational ~2020, expansion stalled; planned 100MW unit in GEM). AidData record (commit 2012, $132.1M, 'Completion') may refer to a different project/phase with the same name. Identity unresolved: no merge; both claims preserved."
+  },
+  {
+   "record_id": 37864,
+   "label": "MATCH",
+   "gem_location_id": "L100000102699",
+   "machine_top_location_id": "L100000102699",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "HUMAN-ADDED: 625MW Banten Suralaya project corresponds to GEM Unit 08 (625MW, operating) inside the 6025MW multi-decade site; plant-level sum must not be compared (machine top candidate compared totals)."
+  },
+  {
+   "record_id": 38546,
+   "label": "MATCH",
+   "gem_location_id": "L100000102697",
+   "machine_top_location_id": "L100000102697",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Banten Lontar: announced 945MW (2005) vs GEM operating 1260MW (3x420); name exact; capacity revision documented, not asserted as built-from-title."
+  },
+  {
+   "record_id": 38600,
+   "label": "MATCH",
+   "gem_location_id": "L100000102819",
+   "machine_top_location_id": "L100000102819",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Pelabuhan Ratu 3x350MW = GEM operating 1050MW."
+  },
+  {
+   "record_id": 38601,
+   "label": "AMBIGUOUS",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102768",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Meulaboh PP (220MW): GEM 'Nagan Raya power station' (670MW) is the same locality but capacity and naming do not align; not merged."
+  },
+  {
+   "record_id": 38604,
+   "label": "MATCH",
+   "gem_location_id": "L100000102730",
+   "machine_top_location_id": "L100000102726",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: 'Jatim Paiton Expansion' is the Paiton-3 project (announced 660MW; GEM operating 815MW = 2x407.5MW net); machine top candidate Pacitan was a false partial-token match."
+  },
+  {
+   "record_id": 38606,
+   "label": "MATCH",
+   "gem_location_id": "L100000102815",
+   "machine_top_location_id": "L100000102815",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Jabar Indramayu phase 1: announced 990MW = GEM operating 990MW; 2000MW cancelled units at same site excluded."
+  },
+  {
+   "record_id": 38610,
+   "label": "MATCH",
+   "gem_location_id": "L100000102726",
+   "machine_top_location_id": "L100000102726",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Pacitan: 630MW = GEM operating 630MW."
+  },
+  {
+   "record_id": 38611,
+   "label": "MATCH",
+   "gem_location_id": "L100000102732",
+   "machine_top_location_id": "L100000102732",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Tanjung Awar-Awar: 700MW = GEM operating 700MW."
+  },
+  {
+   "record_id": 38861,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Jatigede dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 39185,
+   "label": "MATCH",
+   "gem_location_id": "L100000102806",
+   "machine_top_location_id": "L100000102806",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Sumsel-5: announced 300MW vs GEM operating 300MW within a 650MW site (cancelled units 350MW); receiver PT DSSP Power Sumsel consistent."
+  },
+  {
+   "record_id": 39372,
+   "label": "MATCH",
+   "gem_location_id": "L100000102769",
+   "machine_top_location_id": "L100000102769",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Pangkalan Susu phase 1: announced 440MW; GEM site operating 840MW includes later non-Chinese expansion — phase-level caveat."
+  },
+  {
+   "record_id": 39373,
+   "label": "MATCH",
+   "gem_location_id": "L100000102792",
+   "machine_top_location_id": "L100000102792",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Takalar: 200MW = GEM operating 200MW."
+  },
+  {
+   "record_id": 39375,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000408073",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Jatigede hydropower — outside GEM API plant types."
+  },
+  {
+   "record_id": 49810,
+   "label": "MATCH",
+   "gem_location_id": "L100000102691",
+   "machine_top_location_id": "L100000102691",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Celukan Bawang: announced 426MW = GEM operating bucket 426MW; GEM also lists 660MW cancelled units excluded from the match."
+  },
+  {
+   "record_id": 61050,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "PLN 35,000MW programme facility line — not a single asset."
+  },
+  {
+   "record_id": 61098,
+   "label": "NOT_MATCH",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405287",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Batang Toru hydropower is outside GEM API plant types; machine top 'Perak power station' is a false capacity-driven match."
+  },
+  {
+   "record_id": 61152,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Jenelata dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 61153,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100001056032",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Riam Kiwa dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 61154,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Pelosika dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 61465,
+   "label": "MATCH",
+   "gem_location_id": "L100000102711",
+   "machine_top_location_id": "L100000405265",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: Cilacap Phase 3 (S2P); machine top Belawan was false."
+  },
+  {
+   "record_id": 61474,
+   "label": "MATCH",
+   "gem_location_id": "L100000102707",
+   "machine_top_location_id": "L100000102707",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Bengkulu: 200MW = GEM operating 200MW."
+  },
+  {
+   "record_id": 61533,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000408070",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "East Lombok IPP 50MW: below GEM unit-threshold coverage; not present."
+  },
+  {
+   "record_id": 61675,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102787",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Jeneponto 200MW (Bosowa): no corresponding GEM plant under this name."
+  },
+  {
+   "record_id": 61681,
+   "label": "MATCH",
+   "gem_location_id": "L100000102767",
+   "machine_top_location_id": "L100000102767",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Labuan/Labuhan Angin spelling variant; announced 230MW = GEM operating 230MW (115MW cancelled unit excluded)."
+  },
+  {
+   "record_id": 62053,
+   "label": "MATCH",
+   "gem_location_id": "L100000102713",
+   "machine_top_location_id": "L100000102713",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Rembang: 630MW = GEM operating 630MW."
+  },
+  {
+   "record_id": 62054,
+   "label": "MATCH",
+   "gem_location_id": "L100000102835",
+   "machine_top_location_id": "L100000102835",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Teluk Sirih: 224MW = GEM operating 224MW."
+  },
+  {
+   "record_id": 62064,
+   "label": "MATCH",
+   "gem_location_id": "L100000102804",
+   "machine_top_location_id": "L100000102804",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Sumsel-1: 700MW announced = GEM operating 700MW."
+  },
+  {
+   "record_id": 62065,
+   "label": "MATCH",
+   "gem_location_id": "L100000102810",
+   "machine_top_location_id": "L100000102810",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Kendari-3: 100MW = GEM operating 100MW."
+  },
+  {
+   "record_id": 62069,
+   "label": "MATCH",
+   "gem_location_id": "L100000102703",
+   "machine_top_location_id": "L100000102703",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Java-7: announced 2100MW vs GEM operating 1982MW (2x991); name exact."
+  },
+  {
+   "record_id": 62206,
+   "label": "MATCH",
+   "gem_location_id": "L100000102782",
+   "machine_top_location_id": "L100000102782",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Tanjung Kasam: 130MW = GEM operating 130MW."
+  },
+  {
+   "record_id": 62261,
+   "label": "NOT_MATCH",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405948",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Sorik Marapi geothermal outside GEM API plant types; 'Riau 2' candidate false."
+  },
+  {
+   "record_id": 62262,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Star Energy Geothermal acquisition facility — not a GEM-API asset."
+  },
+  {
+   "record_id": 67053,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Bonehulu dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 67055,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Lompatan Harimau dam — outside GEM API plant types."
+  },
+  {
+   "record_id": 67236,
+   "label": "MATCH",
+   "gem_location_id": "L100000102708",
+   "machine_top_location_id": "L100000102708",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Adipala: 660MW = GEM operating 660MW."
+  },
+  {
+   "record_id": 67699,
+   "label": "MATCH",
+   "gem_location_id": "L100000102823",
+   "machine_top_location_id": "L100000102823",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Kalbar-1 (coal): 200MW = GEM operating 200MW; gas namesake rejected."
+  },
+  {
+   "record_id": 69234,
+   "label": "MATCH",
+   "gem_location_id": "L100000102711",
+   "machine_top_location_id": "L100000405265",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: Cilacap Phase 3 syndicate member (BOC)."
+  },
+  {
+   "record_id": 69306,
+   "label": "MATCH",
+   "gem_location_id": "L100000102707",
+   "machine_top_location_id": "L100000102707",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Bengkulu syndicate member."
+  },
+  {
+   "record_id": 69418,
+   "label": "MATCH",
+   "gem_location_id": "L100000102804",
+   "machine_top_location_id": "L100000102804",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Sumsel-1 syndicate member (same project as 62064)."
+  },
+  {
+   "record_id": 69419,
+   "label": "MATCH",
+   "gem_location_id": "L100000102804",
+   "machine_top_location_id": "L100000102804",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Sumsel-1 syndicate member (same project as 62064)."
+  },
+  {
+   "record_id": 69599,
+   "label": "NOT_MATCH",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405948",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Sorik Marapi geothermal; see 62261."
+  },
+  {
+   "record_id": 70718,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102757",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Sinar Mas 2x150MW Musi Banyuasin mine-mouth plant: no corresponding GEM plant found."
+  },
+  {
+   "record_id": 73327,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Star Energy Geothermal acquisition facility."
+  },
+  {
+   "record_id": 88860,
+   "label": "MATCH",
+   "gem_location_id": "L100000407148",
+   "machine_top_location_id": "L100000407148",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Onur Sultan powership: name exact (Karadeniz); announced 250MW vs GEM 470MW fleet — flagged powership relocation/capacity ambiguity, kept at plant grain."
+  },
+  {
+   "record_id": 92462,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "PLN 35,000MW programme facility line."
+  },
+  {
+   "record_id": 92603,
+   "label": "MATCH",
+   "gem_location_id": "L100000102699",
+   "machine_top_location_id": "L100000102709",
+   "human_added": true,
+   "machine_top_wrong": true,
+   "note": "HUMAN-ADDED: 'Java 9 and Java 10' = GEM Banten Suralaya Units 09-10 (2x1000MW operating), announced 2GW; verified at unit grain from GEM unit list."
+  },
+  {
+   "record_id": 95717,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405264",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "250MW Morowali captive plant has no same-name GEM plant; 'Bekasi'/'Riau 2' candidates false (IMIP captive possibly under different GEM naming — unverified)."
+  },
+  {
+   "record_id": 96237,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102724",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Wayang Windu/Salak/Darajat geothermal equity acquisition — not GEM-API asset types."
+  },
+  {
+   "record_id": 98549,
+   "label": "MATCH",
+   "gem_location_id": "L100000405286",
+   "machine_top_location_id": "L100000405286",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Palembang Timur: 150MW = GEM operating 150MW."
+  },
+  {
+   "record_id": 98823,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405264",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Morowali syndicate member; see 95717."
+  },
+  {
+   "record_id": 100701,
+   "label": "MATCH",
+   "gem_location_id": "L100000102815",
+   "machine_top_location_id": "L100000102815",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Indramayu syndicate member."
+  },
+  {
+   "record_id": 100703,
+   "label": "MATCH",
+   "gem_location_id": "L100000102815",
+   "machine_top_location_id": "L100000102815",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Indramayu syndicate member."
+  },
+  {
+   "record_id": 100704,
+   "label": "MATCH",
+   "gem_location_id": "L100000102815",
+   "machine_top_location_id": "L100000102815",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Indramayu syndicate member."
+  },
+  {
+   "record_id": 100705,
+   "label": "MATCH",
+   "gem_location_id": "L100000102815",
+   "machine_top_location_id": "L100000102815",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Indramayu syndicate member."
+  },
+  {
+   "record_id": 102646,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102709",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "PLN $750M renewable-energy facility line — not a single asset."
+  },
+  {
+   "record_id": 102653,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102709",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "PLN $750M renewable-energy facility line."
+  },
+  {
+   "record_id": 105193,
+   "label": "NOT_IN_GEM",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102715",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Asahan-1 hydro — outside GEM API plant types."
+  },
+  {
+   "record_id": 105325,
+   "label": "MATCH",
+   "gem_location_id": "L100000102835",
+   "machine_top_location_id": "L100000102835",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Teluk Sirih syndicate member."
+  },
+  {
+   "record_id": 105327,
+   "label": "MATCH",
+   "gem_location_id": "L100000102708",
+   "machine_top_location_id": "L100000102708",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Adipala syndicate member."
+  },
+  {
+   "record_id": 105328,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102757",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "See 70718."
+  },
+  {
+   "record_id": 108276,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102709",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Advanced Smart Metering PPP — not a power plant."
+  },
+  {
+   "record_id": 108277,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000102709",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Advanced Smart Metering PPP — not a power plant."
+  },
+  {
+   "record_id": 108809,
+   "label": "NOT_APPLICABLE",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "PLN 35,000MW programme facility line."
+  },
+  {
+   "record_id": 109257,
+   "label": "NOT_FOUND",
+   "gem_location_id": null,
+   "machine_top_location_id": null,
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "PT Medco E&P Malaka reserve-based lending; no corresponding GEM asset; also cancelled."
+  },
+  {
+   "record_id": 110270,
+   "label": "MATCH",
+   "gem_location_id": "L100000102697",
+   "machine_top_location_id": "L100000102697",
+   "human_added": false,
+   "machine_top_wrong": false,
+   "note": "Banten Lontar syndicate member (Sichuan branch)."
+  },
+  {
+   "record_id": 111094,
+   "label": "NOT_MATCH",
+   "gem_location_id": null,
+   "machine_top_location_id": "L100000405287",
+   "human_added": false,
+   "machine_top_wrong": true,
+   "note": "Batang Toru syndicate member; see 61098."
+  }
+ ]
+}

@@ -1,0 +1,705 @@
+<!doctype html> <!--[if lte IE 8 ]><html dir="ltr" lang="en-US" class="no-js old-ie ie8"> <![endif]--> <!--[if IE 9 ]><html dir="ltr" lang="en-US" class="no-js old-ie ie9"> <![endif]--> <!--[if gt IE 9 ]><!--><html dir="ltr" lang="en-US" class="no-js"><!--<![endif]--><head> <script>
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+</script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="content-type" content="text/html; charset=utf-8"><link rel="apple-touch-icon" sizes="180x180" href="https://airtrunk.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://airtrunk.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://airtrunk.com/favicon-16x16.png"><link rel="manifest" href="https://airtrunk.com/site.webmanifest" crossorigin="use-credentials"><link rel="mask-icon" href="https://airtrunk.com/safari-pinned-tab.svg" color="#5bbad5"><meta name="msapplication-TileColor" content="#ffffff"><meta name="theme-color" content="#ffffff"><link rel="profile" href="https://gmpg.org/xfn/11"><link rel="preload" href="https://airtrunk.com/wp-content/themes/airtrunk-au/dist/fonts/themify-icon/themify.woff2" as="font" type="font/woff2" crossorigin> <script src="https://use.typekit.net/tdc6hix.js"></script> <script>try{Typekit.load({ async: true });}catch(e){}</script> <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-KGVW3BGX');</script> <title>Data centre news from Asia Pacific | AirTrunk</title><meta name="description" content="Keep up with AirTrunk’s data centre news, initiatives and appointments. Connect with AirTrunk." /><link rel="canonical" href="https://airtrunk.com/news/" /><link rel="next" href="https://airtrunk.com/news/page/2/" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:title" content="Data centre news from Asia Pacific | AirTrunk" /><meta property="og:description" content="Keep up with AirTrunk’s data centre news, initiatives and appointments. Connect with AirTrunk." /><meta property="og:url" content="https://airtrunk.com/news/" /><meta property="og:site_name" content="AirTrunk" /><meta property="og:image" content="https://airtrunk.com/wp-content/uploads/2023/04/airtrunk-og.jpg" /><meta property="og:image:width" content="1000" /><meta property="og:image:height" content="1000" /><meta property="og:image:type" content="image/jpeg" /><meta name="twitter:card" content="summary_large_image" /> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":["WebPage","CollectionPage"],"@id":"https:\/\/airtrunk.com\/news\/","url":"https:\/\/airtrunk.com\/news\/","name":"Data centre news from Asia Pacific | AirTrunk","isPartOf":{"@id":"https:\/\/airtrunk.com\/#website"},"datePublished":"2017-06-18T05:50:06+00:00","dateModified":"2023-02-08T06:27:42+00:00","description":"Keep up with AirTrunk’s data centre news, initiatives and appointments. Connect with AirTrunk.","breadcrumb":{"@id":"https:\/\/airtrunk.com\/news\/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https:\/\/airtrunk.com\/news\/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/airtrunk.com\/"},{"@type":"ListItem","position":2,"name":"AirTrunk News"}]},{"@type":"WebSite","@id":"https:\/\/airtrunk.com\/#website","url":"https:\/\/airtrunk.com\/","name":"AirTrunk","description":"Asia Pacific and Japan hyperscale data centre provider","publisher":{"@id":"https:\/\/airtrunk.com\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/airtrunk.com\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https:\/\/airtrunk.com\/#organization","name":"AirTrunk Operating Pty Ltd","url":"https:\/\/airtrunk.com\/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https:\/\/airtrunk.com\/#\/schema\/logo\/image\/","url":"https:\/\/airtrunk.com\/wp-content\/uploads\/2017\/07\/airtrunk-logo-horizontal-black.png","contentUrl":"https:\/\/airtrunk.com\/wp-content\/uploads\/2017\/07\/airtrunk-logo-horizontal-black.png","width":600,"height":77,"caption":"AirTrunk Operating Pty Ltd"},"image":{"@id":"https:\/\/airtrunk.com\/#\/schema\/logo\/image\/"}}]}</script> <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' /><link rel='dns-prefetch' href='//fonts.googleapis.com' /><link rel="alternate" type="application/rss+xml" title="AirTrunk &raquo; Feed" href="https://airtrunk.com/feed/" /><link rel="alternate" type="application/rss+xml" title="AirTrunk &raquo; Comments Feed" href="https://airtrunk.com/comments/feed/" /><style id="wp-img-auto-sizes-contain-inline-css">img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */</style><style id="wp-emoji-styles-inline-css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */</style><style id="wp-block-library-inline-css">:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-break:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style^=border-color],[style*=";border-color"],[style*="; border-color"]){border-style:solid}html :where([style^=border-top-color],[style*=";border-top-color"],[style*="; border-top-color"]){border-top-style:solid}html :where([style^=border-right-color],[style*=";border-right-color"],[style*="; border-right-color"]){border-right-style:solid}html :where([style^=border-bottom-color],[style*=";border-bottom-color"],[style*="; border-bottom-color"]){border-bottom-style:solid}html :where([style^=border-left-color],[style*=";border-left-color"],[style*="; border-left-color"]){border-left-style:solid}html :where([style^=border-width],[style*=";border-width"],[style*="; border-width"]){border-style:solid}html :where([style^=border-top-width],[style*=";border-top-width"],[style*="; border-top-width"]){border-top-style:solid}html :where([style^=border-right-width],[style*=";border-right-width"],[style*="; border-right-width"]){border-right-style:solid}html :where([style^=border-bottom-width],[style*=";border-bottom-width"],[style*="; border-bottom-width"]){border-bottom-style:solid}html :where([style^=border-left-width],[style*=";border-left-width"],[style*="; border-left-width"]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */</style><style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */</style><style id="global-styles-inline-css">:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */</style><link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css' href='https://airtrunk.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=520000' media='all' /><style id="wpml-legacy-horizontal-list-0-inline-css">.wpml-ls-statics-footer a, .wpml-ls-statics-footer .wpml-ls-sub-menu a, .wpml-ls-statics-footer .wpml-ls-sub-menu a:link, .wpml-ls-statics-footer li:not(.wpml-ls-current-language) .wpml-ls-link, .wpml-ls-statics-footer li:not(.wpml-ls-current-language) .wpml-ls-link:link {color:#444444;background-color:#ffffff;}.wpml-ls-statics-footer .wpml-ls-sub-menu a:hover,.wpml-ls-statics-footer .wpml-ls-sub-menu a:focus, .wpml-ls-statics-footer .wpml-ls-sub-menu a:link:hover, .wpml-ls-statics-footer .wpml-ls-sub-menu a:link:focus {color:#000000;background-color:#eeeeee;}.wpml-ls-statics-footer .wpml-ls-current-language > a {color:#444444;background-color:#ffffff;}.wpml-ls-statics-footer .wpml-ls-current-language:hover>a, .wpml-ls-statics-footer .wpml-ls-current-language>a:focus {color:#000000;background-color:#eeeeee;}
+/*# sourceURL=wpml-legacy-horizontal-list-0-inline-css */</style><link rel='stylesheet' id='wpml-menu-item-0-css' href='https://airtrunk.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=520000' media='all' /><link rel='stylesheet' id='airtrunk-google-fonts-css' href='https://fonts.googleapis.com/css?family=Fira+Sans:300,400,800&#038;ver=1' media='all' /><link rel='stylesheet' id='airtrunk-style-css' href='https://airtrunk.com/wp-content/cache/autoptimize/css/autoptimize_single_287b4461f0d47bbb13fc686303a9e881.css?ver=1792454295' media='all' /><link rel='stylesheet' id='airtrunk-print-style-css' href='https://airtrunk.com/wp-content/cache/autoptimize/css/autoptimize_single_0d61f33ebc31871103c10f160ce33f36.css?ver=1765950751' media='print' /><link rel='stylesheet' id='gform_basic-css' href='https://airtrunk.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=3.2.0' media='all' /><link rel='stylesheet' id='gform_theme_components-css' href='https://airtrunk.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=3.2.0' media='all' /><link rel='stylesheet' id='gform_theme-css' href='https://airtrunk.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=3.2.0' media='all' /> <script id="jquery-core-js" src="https://airtrunk.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script> <script id="jquery-migrate-js" src="https://airtrunk.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script> <script id="gform_json-js" defer='defer' src="https://airtrunk.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=3.2.0"></script> <script id="gform_gravityforms-js-extra">var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https://airtrunk.com/wp-content/plugins/gravityforms","number_formats":[],"version_hash":"d9ad3e6fbc1a0635402fd81b6d54ef21","countries":{"AF":"Afghanistan","AX":"\u00c5land Islands","AL":"Albania","DZ":"Algeria","AS":"American Samoa","AD":"Andorra","AO":"Angola","AI":"Anguilla","AQ":"Antarctica","AG":"Antigua and Barbuda","AR":"Argentina","AM":"Armenia","AW":"Aruba","AU":"Australia","AT":"Austria","AZ":"Azerbaijan","BS":"Bahamas","BH":"Bahrain","BD":"Bangladesh","BB":"Barbados","BY":"Belarus","BE":"Belgium","BZ":"Belize","BJ":"Benin","BM":"Bermuda","BT":"Bhutan","BO":"Bolivia","BQ":"Bonaire, Sint Eustatius and Saba","BA":"Bosnia and Herzegovina","BW":"Botswana","BV":"Bouvet Island","BR":"Brazil","IO":"British Indian Ocean Territory","BN":"Brunei Darussalam","BG":"Bulgaria","BF":"Burkina Faso","BI":"Burundi","CV":"Cabo Verde","KH":"Cambodia","CM":"Cameroon","CA":"Canada","KY":"Cayman Islands","CF":"Central African Republic","TD":"Chad","CL":"Chile","CN":"China","CX":"Christmas Island","CC":"Cocos Islands","CO":"Colombia","KM":"Comoros","CD":"Congo, Democratic Republic of the","CG":"Congo","CK":"Cook Islands","CR":"Costa Rica","CI":"C\u00f4te d'Ivoire","HR":"Croatia","CU":"Cuba","CW":"Cura\u00e7ao","CY":"Cyprus","CZ":"Czechia","DK":"Denmark","DJ":"Djibouti","DM":"Dominica","DO":"Dominican Republic","EC":"Ecuador","EG":"Egypt","SV":"El Salvador","GQ":"Equatorial Guinea","ER":"Eritrea","EE":"Estonia","SZ":"Eswatini","ET":"Ethiopia","FK":"Falkland Islands","FO":"Faroe Islands","FJ":"Fiji","FI":"Finland","FR":"France","GF":"French Guiana","PF":"French Polynesia","TF":"French Southern Territories","GA":"Gabon","GM":"Gambia","GE":"Georgia","DE":"Germany","GH":"Ghana","GI":"Gibraltar","GR":"Greece","GL":"Greenland","GD":"Grenada","GP":"Guadeloupe","GU":"Guam","GT":"Guatemala","GG":"Guernsey","GN":"Guinea","GW":"Guinea-Bissau","GY":"Guyana","HT":"Haiti","HM":"Heard Island and McDonald Islands","VA":"Holy See","HN":"Honduras","HK":"Hong Kong","HU":"Hungary","IS":"Iceland","IN":"India","ID":"Indonesia","IR":"Iran","IQ":"Iraq","IE":"Ireland","IM":"Isle of Man","IL":"Israel","IT":"Italy","JM":"Jamaica","JP":"Japan","JE":"Jersey","JO":"Jordan","KZ":"Kazakhstan","KE":"Kenya","KI":"Kiribati","KP":"Korea, Democratic People's Republic of","KR":"Korea, Republic of","KW":"Kuwait","KG":"Kyrgyzstan","LA":"Lao People's Democratic Republic","LV":"Latvia","LB":"Lebanon","LS":"Lesotho","LR":"Liberia","LY":"Libya","LI":"Liechtenstein","LT":"Lithuania","LU":"Luxembourg","MO":"Macao","MG":"Madagascar","MW":"Malawi","MY":"Malaysia","MV":"Maldives","ML":"Mali","MT":"Malta","MH":"Marshall Islands","MQ":"Martinique","MR":"Mauritania","MU":"Mauritius","YT":"Mayotte","MX":"Mexico","FM":"Micronesia","MD":"Moldova","MC":"Monaco","MN":"Mongolia","ME":"Montenegro","MS":"Montserrat","MA":"Morocco","MZ":"Mozambique","MM":"Myanmar","NA":"Namibia","NR":"Nauru","NP":"Nepal","NL":"Netherlands","NC":"New Caledonia","NZ":"New Zealand","NI":"Nicaragua","NE":"Niger","NG":"Nigeria","NU":"Niue","NF":"Norfolk Island","MK":"North Macedonia","MP":"Northern Mariana Islands","NO":"Norway","OM":"Oman","PK":"Pakistan","PW":"Palau","PS":"Palestine, State of","PA":"Panama","PG":"Papua New Guinea","PY":"Paraguay","PE":"Peru","PH":"Philippines","PN":"Pitcairn","PL":"Poland","PT":"Portugal","PR":"Puerto Rico","QA":"Qatar","RE":"R\u00e9union","RO":"Romania","RU":"Russian Federation","RW":"Rwanda","BL":"Saint Barth\u00e9lemy","SH":"Saint Helena, Ascension and Tristan da Cunha","KN":"Saint Kitts and Nevis","LC":"Saint Lucia","MF":"Saint Martin","PM":"Saint Pierre and Miquelon","VC":"Saint Vincent and the Grenadines","WS":"Samoa","SM":"San Marino","ST":"Sao Tome and Principe","SA":"Saudi Arabia","SN":"Senegal","RS":"Serbia","SC":"Seychelles","SL":"Sierra Leone","SG":"Singapore","SX":"Sint Maarten","SK":"Slovakia","SI":"Slovenia","SB":"Solomon Islands","SO":"Somalia","ZA":"South Africa","GS":"South Georgia and the South Sandwich Islands","SS":"South Sudan","ES":"Spain","LK":"Sri Lanka","SD":"Sudan","SR":"Suriname","SJ":"Svalbard and Jan Mayen","SE":"Sweden","CH":"Switzerland","SY":"Syria Arab Republic","TW":"Taiwan","TJ":"Tajikistan","TZ":"Tanzania, the United Republic of","TH":"Thailand","TL":"Timor-Leste","TG":"Togo","TK":"Tokelau","TO":"Tonga","TT":"Trinidad and Tobago","TN":"Tunisia","TR":"T\u00fcrkiye","TM":"Turkmenistan","TC":"Turks and Caicos Islands","TV":"Tuvalu","UG":"Uganda","UA":"Ukraine","AE":"United Arab Emirates","GB":"United Kingdom","US":"United States","UY":"Uruguay","UM":"US Minor Outlying Islands","UZ":"Uzbekistan","VU":"Vanuatu","VE":"Venezuela","VN":"Viet Nam","VG":"Virgin Islands, British","VI":"Virgin Islands, U.S.","WF":"Wallis and Futuna","EH":"Western Sahara","YE":"Yemen","ZM":"Zambia","ZW":"Zimbabwe"},"strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"wdOffset":1,"helpTextShort":"Press F1 for help","helpText":"Press the arrow keys to navigate by day, PageUp and PageDown to navigate by month, Alt+PageUp and Alt+PageDown to navigate by year, or Escape to cancel.","openOnFocusHelpText":"Press Down arrow to browse the calendar, or Escape to close.","tooltipTxt":"Press Escape to cancel","disabledTxt":"Disabled","markedTxt":"Selected","prevTxt":"Previous","nextTxt":"Next","monthTxt":"Month","yearTxt":"Year","months":["January","February","March","April","May","June","July","August","September","October","November","December"],"days":[{"s":"S","l":"Sunday"},{"s":"M","l":"Monday"},{"s":"T","l":"Tuesday"},{"s":"W","l":"Wednesday"},{"s":"T","l":"Thursday"},{"s":"F","l":"Friday"},{"s":"S","l":"Saturday"}]}};
+var gf_legacy_multi = {"1":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","file_uploaded":"File uploaded","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled","error":"Error","message":"Message"},"vars":{"images_url":"https://airtrunk.com/wp-content/plugins/gravityforms/images"}};
+//# sourceURL=gform_gravityforms-js-extra</script> <script id="gform_gravityforms-js-before">
+//# sourceURL=gform_gravityforms-js-before</script> <script id="gform_gravityforms-js" defer='defer' src="https://airtrunk.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=3.2.0"></script> <script id="gform_gravityforms_utils-js" defer='defer' src="https://airtrunk.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=d7e103405223e60d2719f4c330fd11cf"></script> <link rel="https://api.w.org/" href="https://airtrunk.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://airtrunk.com/xmlrpc.php?rsd" /><meta name="generator" content="WPML ver:5.2.0 stt:59,1,28;" /><style id="wp-custom-css">.c-locations {
+	justify-content: normal;
+}
+
+@media screen and (min-width: 55em) {
+	.c-locations {
+    justify-content: space-evenly;
+	}
+}
+
+.page-template-services-landing .four-columns__column {
+	aspect-ratio: auto;
+}
+
+.mfp-iframe-scaler .mfp-title {
+	display: none;
+}
+
+.mfp-wrap {
+	position: fixed !important;
+	top: 0 !important;
+}
+
+.wp-block-spacer.wp-spacer-no-margin-top {
+	margin-top: 0 !important;
+}
+
+.block.block--email-collection {
+	background-color: #fff !important;
+}
+
+ol.legal {
+   counter-reset: item;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+ol.legal li {
+  display: block;
+  position: relative;
+  padding-left: 3.5em;
+}
+
+ol.legal li::before {
+  counter-increment: item;
+  position: absolute;
+  left: 0;
+}
+
+ol.legal.legal--1 li::before {
+  content: "1." counters(item, ".") ". ";
+}
+
+ol.legal.legal--2 li::before {
+  content: "2." counters(item, ".") ". ";
+}
+
+ol.legal.legal--3 li::before {
+  content: "3." counters(item, ".") ". ";
+}
+
+ol.legal.legal--4 li::before {
+  content: "4." counters(item, ".") ". ";
+}
+
+ol.legal.legal--5 li::before {
+  content: "5." counters(item, ".") ". ";
+}
+
+ol.legal.legal--6 li::before {
+  content: "6." counters(item, ".") ". ";
+}
+
+ol.legal.legal--7 li::before {
+  content: "7." counters(item, ".") ". ";
+}
+
+ol.legal.legal--8 li::before {
+  content: "8." counters(item, ".") ". ";
+}
+
+ol.legal.legal--9 li::before {
+  content: "9." counters(item, ".") ". ";
+}
+
+ol.legal.legal--10 li::before {
+  content: "10." counters(item, ".") ". ";
+}
+
+ol.legal.legal--11 li::before {
+  content: "11." counters(item, ".") ". ";
+}
+
+ol.legal.legal--12 li::before {
+  content: "12." counters(item, ".") ". ";
+}
+
+ol.legal.legal--13 li::before {
+  content: "13." counters(item, ".") ". ";
+}
+
+ol.legal.legal--14 li::before {
+  content: "14." counters(item, ".") ". ";
+}
+
+ol.legal.legal--15 li::before {
+  content: "15." counters(item, ".") ". ";
+}
+
+ol.legal.legal--16 li::before {
+  content: "16." counters(item, ".") ". ";
+}
+
+ol.legal.legal--17 li::before {
+  content: "17." counters(item, ".") ". ";
+}
+
+ol.legal.legal--18 li::before {
+  content: "18." counters(item, ".") ". ";
+}
+
+ol.legal li ol,
+ol.legal.legal--1 li ol,
+ol.legal.legal--2 li ol,
+ol.legal.legal--3 li ol,
+ol.legal.legal--4 li ol,
+ol.legal.legal--5 li ol,
+ol.legal.legal--6 li ol,
+ol.legal.legal--7 li ol,
+ol.legal.legal--8 li ol,
+ol.legal.legal--9 li ol,
+ol.legal.legal--10 li ol,
+ol.legal.legal--11 li ol,
+ol.legal.legal--12 li ol,
+ol.legal.legal--13 li ol,
+ol.legal.legal--14 li ol,
+ol.legal.legal--15 li ol,
+ol.legal.legal--16 li ol,
+ol.legal.legal--17 li ol,
+ol.legal.legal--18 li ol {
+   counter-reset: subitem;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+ol.legal ol li::before,
+ol.legal.legal--1 ol li::before,
+ol.legal.legal--2 ol li::before,
+ol.legal.legal--3 ol li::before,
+ol.legal.legal--4 ol li::before,
+ol.legal.legal--5 ol li::before,
+ol.legal.legal--6 ol li::before,
+ol.legal.legal--7 ol li::before,
+ol.legal.legal--8 ol li::before,
+ol.legal.legal--9 ol li::before,
+ol.legal.legal--10 ol li::before,
+ol.legal.legal--11 ol li::before,
+ol.legal.legal--12 ol li::before,
+ol.legal.legal--13 ol li::before,
+ol.legal.legal--14 ol li::before,
+ol.legal.legal--15 ol li::before,
+ol.legal.legal--16 ol li::before,
+ol.legal.legal--17 ol li::before,
+ol.legal.legal--18 ol li::before{
+  counter-increment: subitem;
+  content: "(" counter(subitem) ") ";
+  position: absolute;
+  left: 0;
+}
+
+ol.legal li ul,
+ol.legal.legal--1 li ul,
+ol.legal.legal--2 li ul,
+ol.legal.legal--3 li ul,
+ol.legal.legal--4 li ul,
+ol.legal.legal--5 li ul,
+ol.legal.legal--6 li ul,
+ol.legal.legal--7 li ul,
+ol.legal.legal--8 li ul,
+ol.legal.legal--9 li ul,
+ol.legal.legal--10 li ul,
+ol.legal.legal--11 li ul,
+ol.legal.legal--12 li ul,
+ol.legal.legal--13 li ul,
+ol.legal.legal--14 li ul,
+ol.legal.legal--15 li ul,
+ol.legal.legal--16 li ul,
+ol.legal.legal--17 li ul,
+ol.legal.legal--18 li ul {
+   counter-reset: subBulletitem;
+   padding-left: 0;
+   margin-left: 0;
+}
+
+ol.legal ul li::before,
+ol.legal.legal--1 ul li::before,
+ol.legal.legal--2 ul li::before,
+ol.legal.legal--3 ul li::before,
+ol.legal.legal--4 ul li::before,
+ol.legal.legal--5 ul li::before,
+ol.legal.legal--6 ul li::before,
+ol.legal.legal--7 ul li::before,
+ol.legal.legal--8 ul li::before,
+ol.legal.legal--9 ul li::before,
+ol.legal.legal--10 ul li::before,
+ol.legal.legal--11 ul li::before,
+ol.legal.legal--12 ul li::before,
+ol.legal.legal--13 ul li::before,
+ol.legal.legal--14 ul li::before,
+ol.legal.legal--15 ul li::before,
+ol.legal.legal--16 ul li::before,
+ol.legal.legal--17 ul li::before,
+ol.legal.legal--18 ul li::before{
+  counter-increment: subBulletitem;
+  content: "\2022";
+  position: absolute;
+  left: 0.5rem;
+}
+
+ol.legal ol ol li::before,
+ol.legal.legal--1 ol ol li::before,
+ol.legal.legal--2 ol ol li::before,
+ol.legal.legal--3 ol ol li::before,
+ol.legal.legal--4 ol ol li::before,
+ol.legal.legal--5 ol ol li::before,
+ol.legal.legal--6 ol ol li::before,
+ol.legal.legal--7 ol ol li::before,
+ol.legal.legal--8 ol ol li::before,
+ol.legal.legal--9 ol ol li::before,
+ol.legal.legal--10 ol ol li::before,
+ol.legal.legal--11 ol ol li::before,
+ol.legal.legal--12 ol ol li::before,
+ol.legal.legal--13 ol ol li::before,
+ol.legal.legal--14 ol ol li::before,
+ol.legal.legal--15 ol ol li::before,
+ol.legal.legal--16 ol ol li::before,
+ol.legal.legal--17 ol ol li::before,
+ol.legal.legal--18 ol ol li::before{
+  counter-increment: subitem;
+  content: "(" counter(subitem, lower-alpha) ") ";
+  position: absolute;
+  left: 0;
+}
+
+.two-column-intro .block__intro {
+	max-width: 100%;
+	column-count: 2;
+	column-gap: 50px;
+	column-width: 16rem;
+}
+
+
+.a-great-place-to-work .block__text::before {
+	content: '';
+	
+	display: block;
+	background-image: url('https://airtrunk.com/wp-content/uploads/2025/11/AirTrunk_AU_English_2025_Certification_Badge-scaled.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 5rem;
+	height: 5rem;
+	margin-bottom: 1rem;
+}
+
+.a-great-place-to-work.a-great-place-to-work--singapore .block__text::before {
+	background-image: url('https://airtrunk.com/wp-content/uploads/2025/11/AirTrunk_SG_English_2025_Certification_Badge-scaled.png');
+}
+
+.a-great-place-to-work.a-great-place-to-work--japan .block__text::before {
+	background-image: url('https://airtrunk.com/wp-content/uploads/2025/11/AirTrunk_JP_English_2025_Certification_Badge-scaled.png');
+}
+
+
+.a-great-place-to-work.a-great-place-to-work--malaysia .block__text::before {
+	background-image: url('https://airtrunk.com/wp-content/uploads/2025/11/AirTrunk_MY_English_2025_Certification_Badge-scaled.png');
+}
+
+.a-great-place-to-work.a-great-place-to-work--hong-kong .block__text::before {
+	background-image: url('https://airtrunk.com/wp-content/uploads/2025/11/AirTrunk_HK_English_2025_Certification_Badge-scaled.png');
+}
+
+@media screen and (min-width: 38rem) {
+	.a-great-place-to-work .block__text::before {
+		width: 7rem;
+		height: 7rem;
+	}
+}
+
+
+@media screen and (min-width: 56.5rem) {
+	.a-great-place-to-work .block__text::before {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+	}
+}
+
+@media screen and (min-width: 83rem) {
+	.a-great-place-to-work .block__text::before {
+		top: 2rem;
+		right: 2rem;
+	}
+}
+
+.wp-block-separator {
+	border-top: 0;
+}
+
+.single-post .entry-content {
+	width: 100%;
+}
+
+@media screen and (max-width: 1146px) {
+.insight-archive-container--related .insight-summary-grid {
+	flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 70em) {
+    .block--grid-block.has-five-columns .grid-block-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+ol.legal.legal--counter-1 {
+	counter-reset: item 0;
+}
+ol.legal.legal--counter-2 {
+	counter-reset: item 1;
+}
+ol.legal.legal--counter-3 {
+	counter-reset: item 2;
+}
+ol.legal.legal--counter-4 {
+	counter-reset: item 3;
+}
+ol.legal.legal--counter-5 {
+	counter-reset: item 4;
+}
+ol.legal.legal--counter-6 {
+	counter-reset: item 5;
+}
+ol.legal.legal--counter-7 {
+	counter-reset: item 6;
+}
+ol.legal.legal--counter-8 {
+	counter-reset: item 7;
+}
+ol.legal.legal--counter-9 {
+	counter-reset: item 8;
+}
+ol.legal.legal--counter-10 {
+	counter-reset: item 9;
+}
+
+ol.legal li.hide-counter::before {
+	content: none;
+}
+
+.at-values .grid-block-grid {
+	text-align: center;
+}
+
+.at-values .grid-block-grid__image-container {
+	aspect-ratio: 8 / 5;
+}
+
+.at-values .grid-block-grid__image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+
+@media screen and (min-width: 70em) {
+    .at-values .grid-block-grid {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+}
+
+
+
+@media screen and (min-width: 47em) {
+	.block--features.has-two-cols .features-grid {
+		 grid-template-columns: repeat(2, minmax(0, 1fr));	
+	}
+}
+
+@media screen and (min-width: 75em) {
+    .block--layout-numbers.block--features-count-5.force-five-columns .features-grid,
+	.block--layout-icons.block--features-count-5.force-five-columns .features-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-flow: column;
+    }
+	
+	  .block--layout-numbers.block--features-count-5.force-five-columns .feature {
+        padding-left: 0;
+			padding-top: 4.2rem;
+    }
+}
+
+.c-locations__item:nth-child(6) {
+	pointer-events: none;
+}
+
+.single-post.postid-16567 .page-header.has-thumb {
+	background-position: center 25%;
+}
+
+.single-post.postid-17360 .page-header.has-thumb {
+	background-image: none !important;
+}
+
+.block.block--commitment .block__title {
+	width: 100%;
+	max-width: 25em;
+	hyphens: none;
+}
+
+.taller-icons .features-grid .feature__icon {
+	height: calc(4rem + 1vw);
+	margin-bottom: 1.25rem;
+}
+
+.at-project-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	width: 100%;
+}
+
+.at-project-links__link {
+	width: calc(50% - 0.5rem);
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.at-project-links__link::before {
+	content: '\e628';
+    font-family: 'themify';
+	color: #000;
+    speak: none;
+    font-size: 80%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.block--image-text.block--border-black-top-bottom {
+	  border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.site-header.is-active .site-header__cover {
+	z-index: -1;
+}
+
+
+.block--page-header.page-header-with-label-first .block__text {
+	display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.block--page-header.page-header-with-label-first .block__text .block__title {
+	 width: auto;
+   align-self: start;
+}
+
+.block--page-header.page-header-with-label-first .block__text .block__label {
+    margin-top: 0;
+}
+
+.kurri-kurri-video-block .wysiwyg {
+        width: 100%;
+    }
+
+.kurri-kurri-video-block .wysiwyg-video {
+        border: 1px solid rgba(0,0,0,0.4);
+        margin-top: 0;
+    }
+
+.kurri-kurri-video-block .fluid-width-video-wrapper {
+	padding-top: 56.25% !important;
+}</style></head><body class="blog wp-theme-airtrunk-au group-blog hfeed"> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGVW3BGX"
+ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="cookies-banner" class="c-banner c-banner--visible c-banner--cookies-message"><p class="c-banner__message">This website uses cookies and anonymously tracks usage with Google Analytics. You can read more in our <a href="https://airtrunk.com/policies-reports/privacy-policy/">Privacy Policy</a></p><div class="c-banner__hide"> <a href="#" id="cookies-banner-hide" class="button-medium"><span class="ti-close"></span>&nbsp;&nbsp;Close</a></div></div><div id="page" class="site"> <a class="skip-link screen-reader-text" href="#content">Skip to content</a><header id="masthead" class="site-header" role="banner"><div id="cross-site-message" class="site-important-message"><div class="site-important-message-container"> <a id="cross-site-message-link" href="https://airtrunk.com/airtrunk-doubles-down-in-malaysia-with-two-new-hyperscale-campuses-in-johor-bahru/" class="site-important-message-link"><p>AIRTRUNK EXPANDS MALAYSIA PLATFORM TO 700MW+</p></a></div> <button id="hide-cross-site-message" class="site-important-message-close-button unstyled-button"> <span class="ti-close"></span><span class="screen-reader-text">Hide message</span> </button></div><div class="site-header-container"><div class="site-branding"><p class="site-title screen-reader-text"><a href="https://airtrunk.com/" rel="home">AirTrunk</a></p> <a href="https://airtrunk.com/" rel="home"><img width="320" height="41" src="https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-320x41.png" class="site-logo" alt="" decoding="async" srcset="https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-320x41.png 320w, https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-300x39.png 300w, https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2.png 600w" sizes="(max-width: 320px) 100vw, 320px" /></a></div><nav id="site-navigation" class="main-navigation" role="navigation"> <button id="mobile-menu-toggle" class="menu-toggle unstyled-button" aria-controls="primary-menu" aria-expanded="false">Menu</button><div class="main-navigation__holder"><ul id="primary-top-menu" class="main-navigation__menu" role="menubar"><li id="menu-item-17087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17087"><span class="menu-item__wrapper"><a href="https://airtrunk.com/contact/">Contact</a></span></li><li id="menu-item-wpml-ls-73-en" class="menu-item wpml-ls-slot-73 wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-73-en" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/news/" role="button" aria-expanded="false" aria-controls="wpml-ls-submenu-wpml-ls-73-en" aria-current="page"><span class="wpml-ls-native" lang="en">English</span></a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-wpml-ls-73-zh-hans" class="menu-item wpml-ls-slot-73 wpml-ls-item wpml-ls-item-zh-hans wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-73-zh-hans"><span class="menu-item__wrapper"><a title="Switch to 简体中文" href="https://airtrunk.com/zh-hans/airtrunk%e6%96%b0%e9%97%bb/" aria-label="Switch to 简体中文"><span class="wpml-ls-native" lang="zh-hans">简体中文</span></a></span></li><li id="menu-item-wpml-ls-73-ja" class="menu-item wpml-ls-slot-73 wpml-ls-item wpml-ls-item-ja wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-73-ja"><span class="menu-item__wrapper"><a title="Switch to 日本語" href="https://airtrunk.com/ja/airtrunk%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/" aria-label="Switch to 日本語"><span class="wpml-ls-native" lang="ja">日本語</span></a></span></li></ul></li></ul><ul id="primary-menu" class="main-navigation__menu" role="menubar"><li><button id="show-site-search" class="site-header-search site-header-search--desktop unstyled-button"><span class="ti-search"></span><span class="screen-reader-text">Search AirTrunk<span></button></li><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/about-airtrunk/">About</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-3562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3562"><span class="menu-item__wrapper"><a href="https://airtrunk.com/about-airtrunk/">About AirTrunk</a></span></li><li id="menu-item-6889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6889"><span class="menu-item__wrapper"><a href="https://airtrunk.com/about-airtrunk/our-story/">Our Story</a></span></li><li id="menu-item-144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><span class="menu-item__wrapper"><a href="https://airtrunk.com/about-airtrunk/our-leaders/">Our Leaders</a></span></li><li id="menu-item-7052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7052"><span class="menu-item__wrapper"><a href="https://airtrunk.com/about-airtrunk/our-investors/">Our Investors</a></span></li><li id="menu-item-7734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7734"><span class="menu-item__wrapper"><a href="https://airtrunk.com/solutions/">Why AirTrunk?</a></span></li><li id="menu-item-7083" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7083"><span class="menu-item__wrapper"><a href="https://airtrunk.com/solutions/certifications/">Certifications &#038; Memberships</a></span></li></ul></li><li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-141" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/locations/">Locations</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-3563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3563"><span class="menu-item__wrapper"><a href="https://airtrunk.com/locations/">AirTrunk Locations</a></span></li><li id="menu-item-7113" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-7113" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/australia/">Australia</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-204"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/syd1-sydney-west/">SYD1 &#8211; Sydney West</a></span></li><li id="menu-item-2995" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-2995"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/syd2-sydney-north/">SYD2 &#8211; Sydney North</a></span></li><li id="menu-item-5745" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-5745"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/syd3-sydney-west/">SYD3 &#8211; Sydney West</a></span></li><li id="menu-item-203" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-203"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/mel1-melbourne/">MEL1 &#8211; Melbourne</a></span></li><li id="menu-item-16518" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16518"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/mel2-melbourne/">MEL2 &#8211; Melbourne</a></span></li></ul></li><li id="menu-item-7115" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-7115" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/hong-kong/">Hong Kong</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-2807" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-2807"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/hkg1-hong-kong/">HKG1 &#8211; Hong Kong</a></span></li><li id="menu-item-11814" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-11814"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/hkg2-hong-kong/">HKG2 &#8211; Hong Kong</a></span></li></ul></li><li id="menu-item-16765" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-16765" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/india/">India</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-16764" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16764"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/bom1-mumbai/">BOM1 &#8211; Mumbai</a></span></li><li id="menu-item-16763" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16763"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/bom2-mumbai/">BOM2 &#8211; Mumbai</a></span></li><li id="menu-item-16762" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16762"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/bom3-mumbai/">BOM3 &#8211; Mumbai</a></span></li><li id="menu-item-16761" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16761"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/maa1-chennai/">MAA1 &#8211; Chennai</a></span></li><li id="menu-item-16760" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16760"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/hyd1-hyderabad/">HYD1 &#8211; Hyderabad</a></span></li></ul></li><li id="menu-item-7116" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-7116" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/japan/">Japan</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-6409" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-6409"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/tok1-east-tokyo/">TOK1 &#8211; Tokyo East</a></span></li><li id="menu-item-6451" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-6451"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/tok2-west-tokyo/">TOK2 &#8211; Tokyo West</a></span></li><li id="menu-item-12482" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-12482"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/osk1-osaka-west/">OSK1 &#8211; Osaka West</a></span></li><li id="menu-item-16635" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16635"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/osk2-osaka-downtown-east/">OSK2 &#8211; Osaka Downtown East</a></span></li></ul></li><li id="menu-item-13201" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-13201" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/malaysia/">Malaysia</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-8551" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-8551"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/jhb1-johor/">JHB1 &#8211; Johor Bahru</a></span></li><li id="menu-item-15064" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-15064"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/jhb2-johor/">JHB2 &#8211; Johor Bahru</a></span></li><li id="menu-item-16867" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16867"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/jhb3-johor-bahru/">JHB3 &#8211; Johor Bahru</a></span></li><li id="menu-item-16866" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16866"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/jhb4-johor-bahru/">JHB4 &#8211; Johor Bahru</a></span></li></ul></li><li id="menu-item-16257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16257"><span class="menu-item__wrapper"><a href="#">Saudi Arabia</a></span></li><li id="menu-item-7114" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-has-children menu-item-7114" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/singapore/">Singapore</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-1688"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/sgp1-singapore/">SGP1 &#8211; Singapore</a></span></li><li id="menu-item-16679" class="menu-item menu-item-type-post_type menu-item-object-location menu-item-16679"><span class="menu-item__wrapper"><a href="https://airtrunk.com/location/sgp2-singapore/">SGP2 &#8211; Singapore</a></span></li></ul></li></ul></li><li id="menu-item-4795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4795" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/sustainability/">Sustainability</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-7735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7735"><span class="menu-item__wrapper"><a href="https://airtrunk.com/sustainability/">Sustainability Commitment</a></span></li><li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><span class="menu-item__wrapper"><a href="https://airtrunk.com/sustainability/sustainable-finance/">Sustainable Finance</a></span></li><li id="menu-item-14035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14035" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="#">Renewables</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-12259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12259"><span class="menu-item__wrapper"><a href="https://airtrunk.com/sustainability/net-zero-commitment/">Net Zero Commitment</a></span></li><li id="menu-item-13281" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13281"><span class="menu-item__wrapper"><a href="https://airtrunk.com/sustainability/clean-energy/">Clean Energy</a></span></li></ul></li></ul></li><li id="menu-item-16889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-16889" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/our-commitment-to-communities/">Community</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-16890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16890"><span class="menu-item__wrapper"><a href="https://airtrunk.com/our-commitment-to-communities/">Our Commitment to Communities</a></span></li><li id="menu-item-15274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15274"><span class="menu-item__wrapper"><a href="https://airtrunk.com/socialimpact/">Social Impact</a></span></li><li id="menu-item-17173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17173"><span class="menu-item__wrapper"><a href="https://airtrunk.com/understanding-data-centres/">Understanding Data Centres</a></span></li><li id="menu-item-17441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17441" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/kurri-kurri/">Community Information</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-17442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17442"><span class="menu-item__wrapper"><a href="https://airtrunk.com/kurri-kurri/">Kurri Kurri</a></span></li></ul></li></ul></li><li id="menu-item-3635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3635" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/careers/">Careers</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-9182" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9182"><span class="menu-item__wrapper"><a href="https://airtrunk.com/careers/">Working at AirTrunk</a></span></li><li id="menu-item-8030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8030"><span class="menu-item__wrapper"><a href="https://airtrunk.com/careers/current-opportunities/">Current opportunities</a></span></li></ul></li><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item current_page_parent current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-27" aria-haspopup="true" aria-expanded="false" tabindex="0"><span class="menu-item__wrapper"><a href="https://airtrunk.com/news/">News &#038; Insights</a><span class="menu-item__expander"></span></span><ul class="sub-menu"><li id="menu-item-7108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7108"><span class="menu-item__wrapper"><a href="https://airtrunk.com/news/airtrunk-media-centre/">Media Centre</a></span></li><li id="menu-item-7736" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item current_page_parent menu-item-7736"><span class="menu-item__wrapper"><a href="https://airtrunk.com/news/">Latest News</a></span></li><li id="menu-item-13895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13895"><span class="menu-item__wrapper"><a href="https://airtrunk.com/insights/">Insights &amp; Reports</a></span></li></ul></li></ul> <button id="close-site-navigation" class="unstyled-button main-navigation__close" aria-hidden="true"><span class="ti-close"></span><span class="screen-reader-text">Close navigation</span></button></div></nav> <button id="show-site-search-mobile" class="site-header-search site-header-search--mobile unstyled-button"> <span class="ti-search"></span> <span class="screen-reader-text">Search AirTrunk<span> </button><div class="site-search"><form role="search" method="get" class="search-form" action="https://airtrunk.com/"> <label> <span class="screen-reader-text">Search for:</span> <input type="search" class="search-field"
+ placeholder="Search AirTrunk&hellip;"
+ value="" name="s"
+ title="Search for:" /> </label> <button type="submit" class="search-submit" value="Search"><span class="ti-search"></span><span class="screen-reader-text">Search</span></button></form> <button id="close-header-search" class="unstyled-button search-close"><span class="ti-close"></span><span class="screen-reader-text">Close search</span></button></div><div class="site-header__cover" aria-hidden="true"></div></div></header><div id="content" class="site-content"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"><article id="post-17520" class="post-17520 post type-post status-publish format-standard hentry category-australia category-media-releases"><header id="block_62e7660efcba5" class="block block--page-header block--aligndefault block--full-width block--background-black block--content-colour-white"><div class="block__inner"><div class="block__image block__image--position-right" style="background-image: url('https://airtrunk.com/wp-content/themes/airtrunk-au/img/swirl-2.jpg')"> <img src="https://airtrunk.com/wp-content/themes/airtrunk-au/img/swirl-2.jpg" style="display: none;"></div><div class="block__text"><p class="block__label">AirTrunk News</p><h1 class="block__title entry-title branded-title heading-huge-uppercase"> <span class="line line-black"><span class="line-word">WHAT'S</span> <span class="line-word">NEW/S</span></span> <span class="line line-white"><span class="line-word">AT</span> <span class="line-word">AIRTRUNK?</span></span></h1><div class="block__intro wysiwyg wysiwyg--white"><p>Keep up with AirTrunk’s latest news, initiatives and appointments. Check out our media releases in the <a href="https://airtrunk.com/news/airtrunk-media-centre/" style="display: inline-block;">media centre</a>.</p></div></div></div></header><div class="entry-content-holder"><div class="entry-content"><ul class="news-list news-list--minimal unstyled-list  news-list--large-first"><li class="news-list-item news-list-item--1  third-and-one"> <a href="https://airtrunk.com/airtrunk-secures-a4-25b-green-loan-for-syd3-western-sydney-expansion-supporting-australias-digital-economy/" class="block-link news-list-item-link"> <time datetime="2026-10-27" class="news-list-item-date"> 27 October, 2026 </time><h2 class="news-list-item-title heading-medium-large">AirTrunk Secures A$4.25B Green Loan For SYD3 Western Sydney Expansion: Supporting Australia’s Digital Economy</h2><div class="news-list-item-excerpt"> Asia Pacific and Middle East (APME) hyperscale data centre specialist, AirTrunk, has secured a A$4.25 billion green loan to fund the continued development of its SYD3 campus in Western Sydney. The project will add secure, resilient infrastructure for cloud, artificial intelligence (AI) and other digital services used by Australian businesses, governments and communities. The project [&hellip;]</div><div class="news-list-item-excerpt-mobile" aria-hidden="true"> Asia Pacific and Middle East (APME) hyperscale data centre specialist, AirTrunk, has secured a A$4.25 billion green loan to fund the continued development of its SYD3 campus in Western Sydney.&hellip;</div> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--2  second"> <a href="https://airtrunk.com/airtrunk-recognised-as-a-gresb-sector-leader/" class="block-link news-list-item-link"> <time datetime="2026-10-19" class="news-list-item-date"> 19 October, 2026 </time><h2 class="news-list-item-title heading-smallish">AirTrunk recognised as a GRESB Sector Leader</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--3  third"> <a href="https://airtrunk.com/airtrunk-emergence-quantum-partner-to-advance-next-gen-cryogenic-data-centre/" class="block-link news-list-item-link"> <time datetime="2026-09-15" class="news-list-item-date"> 15 September, 2026 </time><h2 class="news-list-item-title heading-smallish">AirTrunk, Emergence Quantum partner to advance next-gen cryogenic data centre</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--4  second third-and-one"> <a href="https://airtrunk.com/airtrunk-secures-us2-325b-green-financing-to-support-sustainable-digital-infrastructure-growth-in-malaysia/" class="block-link news-list-item-link"> <time datetime="2026-07-29" class="news-list-item-date"> 29 July, 2026 </time><h2 class="news-list-item-title heading-smallish">AirTrunk secures US$2.325b green financing to support sustainable digital infrastructure growth in Malaysia</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--5 "> <a href="https://airtrunk.com/ib-vogt-airtrunk-deliver-malaysias-first-renewable-vppa-for-a-data-centre/" class="block-link news-list-item-link"> <time datetime="2026-07-01" class="news-list-item-date"> 1 July, 2026 </time><h2 class="news-list-item-title heading-smallish">ib vogt and AirTrunk Deliver Malaysia’s First Renewable VPPA for a Data Centre</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--6  second third"> <a href="https://airtrunk.com/blackstone-backed-airtrunk-invest-us30bn-5gw-india/" class="block-link news-list-item-link"> <time datetime="2026-06-05" class="news-list-item-date"> 5 June, 2026 </time><h2 class="news-list-item-title heading-smallish">Blackstone-backed AirTrunk plans to invest US$30bn and +5GW in India</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--7  third-and-one"> <a href="https://airtrunk.com/google-airtrunk-european-energy-australia-set-to-launch-mulwala-solar-farm/" class="block-link news-list-item-link"> <time datetime="2026-06-01" class="news-list-item-date"> 1 June, 2026 </time><h2 class="news-list-item-title heading-smallish">Google, AirTrunk, and European Energy Australia set to launch Mulwala Solar Farm, powering Australia’s digital future</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--8  second"> <a href="https://airtrunk.com/community-commitments-data-centres/" class="block-link news-list-item-link"> <time datetime="2026-05-25" class="news-list-item-date"> 25 May, 2026 </time><h2 class="news-list-item-title heading-smallish">Our commitment to communities in a rapidly changing digital world</h2> <span class="button-medium">More</span> </a></li><li class="news-list-item news-list-item--9  third"> <a href="https://airtrunk.com/backing-the-west-giants-and-airtrunk-deepen-support-in-western-sydney-communities/" class="block-link news-list-item-link"> <time datetime="2026-05-19" class="news-list-item-date"> 19 May, 2026 </time><h2 class="news-list-item-title heading-smallish">Backing the West: GIANTS and AirTrunk Deepen Support in Western Sydney Communities</h2> <span class="button-medium">More</span> </a></li></ul><div class="search-pagination news-pagination"><nav class="search__page-links"><ul class="pagination"><li class="pagination__item active"><a href="https://airtrunk.com/news/" class="button">1</a></li><li class="pagination__item"><a href="https://airtrunk.com/news/page/2/" class="button">2</a></li><li class="pagination__item"><a href="https://airtrunk.com/news/page/3/" class="button">3</a></li><li class="pagination__item"><span class="hellip">…</span></li><li class="pagination__item"><a href="https://airtrunk.com/news/page/21/" class="button">21</a></li><li class="pagination__item"><a href="https://airtrunk.com/news/page/2/" class="button">Next</a></li></ul></nav></div></div></div></article></main></div></div><div class="site-footer-contact-promo"> <a href="https://airtrunk.com/contact/" class="site-footer-contact-promo-container"><div id="footer-contact-slogan" class="site-footer-contact-promo-slogan"> <span class="slogan-line slogan-line-one" data-aos="fade-up">Connect<br /></span> <span class="slogan-line slogan-line-two" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="#footer-contact-slogan">with<br /></span> <span class="slogan-line slogan-line-three" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="#footer-contact-slogan">AirTrunk</span></div><div class="site-footer-contact-promo-text" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="#footer-contact-slogan"><h2 class="site-footer-contact-promo-title heading-medium-thin">YOU TRANSFORM TOMORROW, <br>WE’LL BUILD IT TODAY</h2><div class="site-footer-contact-promo-description"><p>Talk to the Asia-Pacific & Middle East hyperscale data centre specialists</p></div><div class="site-footer-contact-promo-cta"> <span class="button-medium">Contact us</span></div></div> </a></div><footer id="colophon" class="site-footer" role="contentinfo" style="position: relative;"><div class="site-footer-container"><div class="site-info"> <a href="https://airtrunk.com/" rel="home"><img width="320" height="41" src="https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-320x41.png" class="footer-logo" alt="" decoding="async" loading="lazy" srcset="https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-320x41.png 320w, https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2-300x39.png 300w, https://airtrunk.com/wp-content/uploads/2017/07/airtrunk-logo-horizontal-white-2.png 600w" sizes="auto, (max-width: 320px) 100vw, 320px" /> </a></div><div class="footer-primary-menu"><div class="menu-primary-navigation-container"><ul id="footer-primary-menu" class="unstyled-list footer-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://airtrunk.com/about-airtrunk/">About</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-141"><a href="https://airtrunk.com/locations/">Locations</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4795"><a href="https://airtrunk.com/sustainability/">Sustainability</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16889"><a href="https://airtrunk.com/our-commitment-to-communities/">Community</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3635"><a href="https://airtrunk.com/careers/">Careers</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-15 current_page_item current_page_parent current-menu-ancestor current-menu-parent current_page_ancestor menu-item-27"><a href="https://airtrunk.com/news/" aria-current="page">News &#038; Insights</a></li></ul></div></div><div class="footer-secondary-menu"><div class="menu-secondary-navigation-container"><ul id="footer-secondary-menu" class="unstyled-list footer-nav-menu"><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-31"><a rel="privacy-policy" href="https://airtrunk.com/policies-reports/privacy-policy/">Privacy Policy</a></li><li id="menu-item-712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-712"><a href="https://airtrunk.com/policies-reports/privacy-collection-statement/">Privacy Collection Statement</a></li><li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32"><a href="https://airtrunk.com/policies-reports/terms-conditions/">Terms &#038; Conditions</a></li><li id="menu-item-11643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11643"><a href="https://airtrunk.com/policies-reports/whistleblowing-policy/">Whistleblowing Policy</a></li><li id="menu-item-4681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4681"><a href="https://airtrunk.com/policies-reports/">Policies &#038; Reports</a></li></ul></div></div><div class="footer-back-to-top"> <a href="#page" class="back-to-top-link" aria-label="Back to top"> <span class="ti-arrow-up"></span><span class="screen-reader-text">Back to top</span> </a></div><ul class="footer-social-media-icons unstyled-list"><li class="footer-social-media-icons__item"> <a href="https://www.facebook.com/AirTrunkOfficial/" target="blank"> <span class="screen-reader-text">Facebook</span> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg> </a></li><li class="footer-social-media-icons__item"> <a href="https://www.instagram.com/airtrunk.official/" target="blank"> <span class="screen-reader-text">Instagram</span> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg> </a></li><li class="footer-social-media-icons__item"> <a href="https://tiktok.com/@airtrunk.official" target="blank"> <span class="screen-reader-text">TikTok</span> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg> </a></li><li class="footer-social-media-icons__item"> <a href="https://www.linkedin.com/company/airtrunk/" target="blank"> <span class="screen-reader-text">LinkedIn</span> <svg role="img" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"><path d="M64 0H8C3.6 0 0 3.6 0 8v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V8c0-4.4-3.6-8-8-8M21.8 62H11.1V27.3h10.7zm-5.5-39.2c-3.5 0-6.3-2.9-6.3-6.4s2.8-6.4 6.3-6.4 6.3 2.9 6.3 6.4-2.8 6.4-6.3 6.4M62 62H51.3V43.8c0-5-1.9-7.8-5.8-7.8S39 38.9 39 43.8V62H28.7V27.3H39V32s3.1-5.7 10.5-5.7 12.6 4.5 12.6 13.8V62Z" style="fill-rule:evenodd"/></svg> </a></li></ul><div class="site-copyright"><p>© AirTrunk 2026</p></div></div></footer></div> <script type="speculationrules">{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/airtrunk-au/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}</script> <div role="navigation" aria-label="Language Switcher" class="wpml-ls-statics-footer wpml-ls wpml-ls-legacy-list-horizontal"><ul><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal"> <a href="https://airtrunk.com/news/" hreflang="en" lang="en" class="wpml-ls-link" aria-current="page" aria-label="Switch to English" title="Switch to English"> <span class="wpml-ls-native">English</span></a></li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-zh-hans wpml-ls-item-legacy-list-horizontal"> <a href="https://airtrunk.com/zh-hans/airtrunk%e6%96%b0%e9%97%bb/" hreflang="zh-hans" lang="zh-hans" class="wpml-ls-link" aria-label="Switch to 简体中文 (Chinese)" title="Switch to 简体中文 (Chinese)"> <span class="wpml-ls-native">简体中文</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Chinese<span class="wpml-ls-bracket">)</span></span></a></li><li class="wpml-ls-slot-footer wpml-ls-item wpml-ls-item-ja wpml-ls-last-item wpml-ls-item-legacy-list-horizontal"> <a href="https://airtrunk.com/ja/airtrunk%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/" hreflang="ja" lang="ja" class="wpml-ls-link" aria-label="Switch to 日本語 (Japanese)" title="Switch to 日本語 (Japanese)"> <span class="wpml-ls-native">日本語</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Japanese<span class="wpml-ls-bracket">)</span></span></a></li></ul></div> <script id="jquery-form-validator-js" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js?ver=7.1.4"></script> <script id="airtrunk-aos-js-js" src="https://airtrunk.com/wp-content/themes/airtrunk-au/js/vendor/aos.js?ver=1765950751"></script> <script id="airtrunk-compiled-js-js-extra">var site_vars = {"templateUrl":"https://airtrunk.com/wp-content/themes/airtrunk-au"};
+//# sourceURL=airtrunk-compiled-js-js-extra</script> <script id="airtrunk-compiled-js-js" src="https://airtrunk.com/wp-content/themes/airtrunk-au/dist/js/custom.js?ver=1790129579"></script> <script id="airtrunk-insights-js-js-extra">var wp_vars = {"ajax_url":"https://airtrunk.com/wp-admin/admin-ajax.php"};
+//# sourceURL=airtrunk-insights-js-js-extra</script> <script id="airtrunk-insights-js-js" src="https://airtrunk.com/wp-content/themes/airtrunk-au/js/insights.js?ver=1765950751"></script> <script id="airtrunk-job-listings-js-js-extra">var wp_vars = {"ajax_url":"https://airtrunk.com/wp-admin/admin-ajax.php","nonce":"cfce3ee391"};
+//# sourceURL=airtrunk-job-listings-js-js-extra</script> <script id="airtrunk-job-listings-js-js" src="https://airtrunk.com/wp-content/themes/airtrunk-au/js/job-listings.js?ver=1790129579"></script> <script id="wp-dom-ready-js" src="https://airtrunk.com/wp-includes/js/dist/dom-ready.min.js?ver=3fe927cab37bf38d6a23"></script> <script id="wp-hooks-js" src="https://airtrunk.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script> <script id="wp-i18n-js" src="https://airtrunk.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script> <script id="wp-i18n-js-after">wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after</script> <script id="wp-a11y-js" src="https://airtrunk.com/wp-includes/js/dist/a11y.min.js?ver=31c6cec5a4ff7aff483d"></script> <script id="gform_gravityforms_theme_vendors-js" defer='defer' src="https://airtrunk.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=ddae8d403393f0e5eaeedeb511ce46e0"></script> <script id="gform_gravityforms_theme-js-extra">var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"d9ad3e6fbc1a0635402fd81b6d54ef21"},"ajax":{"ajaxurl":"https://airtrunk.com/wp-admin/admin-ajax.php","ajax_submission_nonce":"f7c64f6dfc","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again.","error_403":"The request was blocked (403 error) for unknown security reasons. Remove any code-like text (scripts or DB queries) and try again."}}}},"fields":{"repeater":{"strings":{"item_added":"added.","item_removed":"removed.","renumbered":"and above renumbered.","max_items":"You have reached the maximum number of repeated items.","confirm_delete":"Are you sure you want to remove {label} {number}?"}}},"hmr_dev":"","public_path":"https://airtrunk.com/wp-content/plugins/gravityforms/assets/js/dist/","config_nonce":"6f1ea04311"};
+//# sourceURL=gform_gravityforms_theme-js-extra</script> <script id="gform_gravityforms_theme-js" defer='defer' src="https://airtrunk.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=97219a00e44efe96fe680a9fde3911cf"></script> <script id="at-meta-tracking-js-before">window.atTracking = {"timeMilestones":[30,60,120],"videoMilestones":[25,50],"vimeoSdk":"https:\/\/player.vimeo.com\/api\/player.js"};
+//# sourceURL=at-meta-tracking-js-before</script> <script data-wp-strategy="defer" defer id="at-meta-tracking-js" src="https://airtrunk.com/wp-content/themes/airtrunk-au/js/custom/tracking.js?ver=1790051271"></script> <script id="wp-emoji-settings" type="application/json">{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://airtrunk.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.4"}}</script> <script type="module">/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://airtrunk.com/wp-includes/js/wp-emoji-loader.min.js</script> <style id="wpml-ls-menu-a11y-css">.wpml-ls-submenu-dismissed .wpml-ls-dismissible-submenu{display:none !important}</style> <script id="wpml-ls-menu-a11y-js">(function() {
+			'use strict';
+			var linkSelector = 'a[aria-controls^="wpml-ls-submenu-"]';
+			var dismissed = 'wpml-ls-submenu-dismissed';
+			var dismissible = 'wpml-ls-dismissible-submenu';
+
+			function isEscape(e) {
+				return e.key === 'Escape' || e.key === 'Esc' || e.keyCode === 27;
+			}
+
+			function isShown(submenu) {
+				var style = window.getComputedStyle(submenu);
+				if (style.display === 'none' || style.visibility === 'hidden' || parseFloat(style.opacity) === 0) {
+					return false;
+				}
+				var box = submenu.getBoundingClientRect();
+				return box.width >= 2 && box.height >= 2 && box.right > 0 && box.left < document.documentElement.clientWidth;
+			}
+
+			function uniqueId(base, submenu) {
+				var id = base, n = 2, element = document.getElementById(id);
+				while (element && element !== submenu) {
+					id = base + '-' + n;
+					n++;
+					element = document.getElementById(id);
+				}
+				return id;
+			}
+
+			function findSubmenu(li) {
+				for (var child = li.firstElementChild; child; child = child.nextElementSibling) {
+					if (child.tagName === 'UL') {
+						return child;
+					}
+				}
+				return li.querySelector('ul');
+			}
+
+			function setUp(li, link) {
+				var submenu = findSubmenu(li);
+				if (!submenu) {
+					link.removeAttribute('aria-expanded');
+					link.removeAttribute('aria-controls');
+					link.removeAttribute('role');
+					return;
+				}
+				if (!submenu.id) {
+					submenu.id = uniqueId(link.getAttribute('aria-controls'), submenu);
+				}
+				link.setAttribute('aria-controls', submenu.id);
+				// The style hides this list (also when it is not a direct child of the item).
+				submenu.classList.add(dismissible);
+
+				var shownAtPointerDown = null;
+				var sync = function() {
+					var expanded = isShown(submenu) ? 'true' : 'false';
+					if (link.getAttribute('aria-expanded') !== expanded) {
+						link.setAttribute('aria-expanded', expanded);
+					}
+					// A theme script may (re)name the submenu after this set-up.
+					if (submenu.id && link.getAttribute('aria-controls') !== submenu.id) {
+						link.setAttribute('aria-controls', submenu.id);
+					}
+				};
+				// One pending measure per item: in the next frame, and 350 ms after the last event.
+				var frame = 0, timer = 0;
+				var syncSoon = function() {
+					if (!frame) {
+						frame = window.requestAnimationFrame(function() {
+							frame = 0;
+							sync();
+						});
+					}
+					window.clearTimeout(timer);
+					timer = window.setTimeout(function() {
+						timer = 0;
+						sync();
+					}, 350);
+				};
+				var toggle = function(wasShown) {
+					if (wasShown) {
+						li.classList.add(dismissed);
+					} else {
+						li.classList.remove(dismissed);
+						if (document.activeElement !== link) {
+							link.focus();
+						}
+					}
+					syncSoon();
+				};
+
+				link.addEventListener('pointerdown', function() {
+					shownAtPointerDown = isShown(submenu);
+				});
+				link.addEventListener('click', function(e) {
+					var handledByTheme = e.defaultPrevented;
+					var wasShown = shownAtPointerDown === null ? isShown(submenu) : shownAtPointerDown;
+					shownAtPointerDown = null;
+					e.preventDefault();
+					if (handledByTheme) {
+						// The theme opens and closes this submenu: it decides, not an earlier dismiss.
+						li.classList.remove(dismissed);
+						syncSoon();
+						return;
+					}
+					toggle(wasShown);
+				});
+				// Another control in the item (a theme's own arrow button) shows or hides the
+				// submenu: an earlier dismiss must not keep it hidden.
+				li.addEventListener('click', function(e) {
+					if (!link.contains(e.target) && !submenu.contains(e.target)) {
+						li.classList.remove(dismissed);
+						syncSoon();
+					}
+				});
+				link.addEventListener('keydown', function(e) {
+					if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar' || e.keyCode === 13 || e.keyCode === 32) {
+						e.preventDefault();
+						toggle(isShown(submenu));
+					}
+				});
+				li.addEventListener('keydown', function(e) {
+					if (isEscape(e) && isShown(submenu)) {
+						e.preventDefault();
+						li.classList.add(dismissed);
+						link.focus();
+						syncSoon();
+					}
+				});
+				li.addEventListener('focusin', syncSoon);
+				li.addEventListener('focusout', function(e) {
+					if ((!e.relatedTarget || !li.contains(e.relatedTarget)) && !li.matches(':hover')) {
+						li.classList.remove(dismissed);
+					}
+					syncSoon();
+				});
+				li.addEventListener('mouseenter', syncSoon);
+				li.addEventListener('mouseleave', function() {
+					if (!li.contains(document.activeElement)) {
+						li.classList.remove(dismissed);
+					}
+					syncSoon();
+				});
+				submenu.addEventListener('transitionend', sync);
+				if (window.MutationObserver) {
+					new MutationObserver(syncSoon).observe(li, { attributes: true, attributeFilter: ['class', 'style', 'hidden', 'aria-expanded', 'id'], subtree: true });
+				}
+				sync();
+				syncSoon();
+			}
+
+			function init() {
+				var links = document.querySelectorAll('li.wpml-ls-menu-item ' + linkSelector);
+				for (var i = 0; i < links.length; i++) {
+					var li = links[i].closest('li.wpml-ls-menu-item');
+					if (li && !li.wpmlLsMenuA11y) {
+						li.wpmlLsMenuA11y = true;
+						setUp(li, links[i]);
+					}
+				}
+			}
+
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', init);
+			} else {
+				init();
+			}
+		})();</script> </body></html>
+<!-- Dynamic page generated in 0.719 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2026-10-31 02:30:36 -->
+
+<!-- Compression = gzip -->
+<!-- super cache -->

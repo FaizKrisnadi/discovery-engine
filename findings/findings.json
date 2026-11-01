@@ -1,0 +1,869 @@
+[
+ {
+  "finding_id": "D1-shared-financiers",
+  "question": "Which financiers have AidData-recorded loans to multiple Indonesian power plants that also appear in GEM (identity per provisional match labels)?",
+  "claim_status": "Loan records and plant records are each as stated by their secondary datasets (AidData CLG-LMIC v1.0; GEM Ownership API build 2026-10-29). The record-to-plant pairings are PROVISIONAL AI match labels, not human-verified facts, and a GEM plant record does not independently verify either the identity or the finance relationship.",
+  "results": [
+   {
+    "financier": "Export-Import Bank of China (China Eximbank)",
+    "distinct_matched_plants": 10,
+    "plants": [
+     {
+      "plant": "Banten Suralaya power station",
+      "gem_location_id": "L100000102699",
+      "gem_status": "operating",
+      "gem_start_year": "1984",
+      "records": [
+       "37864"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Bengkulu power station",
+      "gem_location_id": "L100000102707",
+      "gem_status": "operating",
+      "gem_start_year": "2019",
+      "records": [
+       "61474"
+      ],
+      "plant_owner_parents": "Power Construction Corporation of China Ltd [70.0%]; PT Intraco Penta Tbk [30.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Pacitan power station",
+      "gem_location_id": "L100000102726",
+      "gem_status": "operating",
+      "gem_start_year": "2011",
+      "records": [
+       "38610"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Paiton-3 power station",
+      "gem_location_id": "L100000102730",
+      "gem_status": "operating",
+      "gem_start_year": "2012",
+      "records": [
+       "38604"
+      ],
+      "plant_owner_parents": "RATCH Group PCL [45.5%]; PT Medco Daya Abadi Lestari [28.5%]; Nebras Energy QPSC [15.6%]; Ras Laffan Operating Company WLL [10.4%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Labuhan Angin power station",
+      "gem_location_id": "L100000102767",
+      "gem_status": "operating",
+      "gem_start_year": "2008",
+      "records": [
+       "61681",
+       "34922"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Pangkalan Susu power station",
+      "gem_location_id": "L100000102769",
+      "gem_status": "operating",
+      "gem_start_year": "2014",
+      "records": [
+       "39372"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Tanjung Kasam power station",
+      "gem_location_id": "L100000102782",
+      "gem_status": "operating",
+      "gem_start_year": "2012",
+      "records": [
+       "62206"
+      ],
+      "plant_owner_parents": "PT Petra Unggul Sejahtera [90.0%]; PT PLN (Persero) [10.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Takalar power station",
+      "gem_location_id": "L100000102792",
+      "gem_status": "operating",
+      "gem_start_year": "2017",
+      "records": [
+       "39373"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Pelabuhan Ratu power station",
+      "gem_location_id": "L100000102819",
+      "gem_status": "operating",
+      "gem_start_year": "2013",
+      "records": [
+       "38600"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Palembang Timur power station",
+      "gem_location_id": "L100000405286",
+      "gem_status": null,
+      "gem_start_year": null,
+      "records": [
+       "98549"
+      ],
+      "plant_owner_parents": null,
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     }
+    ]
+   },
+   {
+    "financier": "China Development Bank (CDB)",
+    "distinct_matched_plants": 9,
+    "plants": [
+     {
+      "plant": "Celukan Bawang power station",
+      "gem_location_id": "L100000102691",
+      "gem_status": "operating",
+      "gem_start_year": "2015",
+      "records": [
+       "49810"
+      ],
+      "plant_owner_parents": "China Huadian Corp Ltd [50.0%]; PT Singa Energy Indonesia [50.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Jawa-7 power station",
+      "gem_location_id": "L100000102703",
+      "gem_status": "operating",
+      "gem_start_year": "2019",
+      "records": [
+       "62069"
+      ],
+      "plant_owner_parents": "China Shenhua Energy Co Ltd [70.0%]; PT PLN (Persero) [30.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Adipala power station",
+      "gem_location_id": "L100000102708",
+      "gem_status": "operating",
+      "gem_start_year": "2015",
+      "records": [
+       "67236"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Cilacap Sumber power station",
+      "gem_location_id": "L100000102711",
+      "gem_status": "operating",
+      "gem_start_year": "2006",
+      "records": [
+       "61465",
+       "34748"
+      ],
+      "plant_owner_parents": "PT Sumberenergy Sakti Prima [51.0%]; PT PLN (Persero) [49.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Rembang power station",
+      "gem_location_id": "L100000102713",
+      "gem_status": "operating",
+      "gem_start_year": "2011",
+      "records": [
+       "62053"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Sumsel-5 power station",
+      "gem_location_id": "L100000102806",
+      "gem_status": "operating",
+      "gem_start_year": "2016",
+      "records": [
+       "39185"
+      ],
+      "plant_owner_parents": "China Datang Overseas Investment Co Ltd [75.0%]; PT Dian Swastatika Sentosa Tbk [25.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Kendari-3 power station",
+      "gem_location_id": "L100000102810",
+      "gem_status": "operating",
+      "gem_start_year": "2019",
+      "records": [
+       "62065"
+      ],
+      "plant_owner_parents": "China Datang Overseas Investment Co Ltd [75.0%]; PT Dian Swastatika Sentosa Tbk [25.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Indramayu power station",
+      "gem_location_id": "L100000102815",
+      "gem_status": "operating",
+      "gem_start_year": "2010",
+      "records": [
+       "100703"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Teluk Sirih power station",
+      "gem_location_id": "L100000102835",
+      "gem_status": "operating",
+      "gem_start_year": "2013",
+      "records": [
+       "62054"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     }
+    ]
+   },
+   {
+    "financier": "Bank of China (BOC)",
+    "distinct_matched_plants": 6,
+    "plants": [
+     {
+      "plant": "Banten Lontar power station",
+      "gem_location_id": "L100000102697",
+      "gem_status": "operating",
+      "gem_start_year": "2011",
+      "records": [
+       "38546",
+       "110270"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Banten Suralaya power station",
+      "gem_location_id": "L100000102699",
+      "gem_status": "operating",
+      "gem_start_year": "1984",
+      "records": [
+       "92603"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Cilacap Sumber power station",
+      "gem_location_id": "L100000102711",
+      "gem_status": "operating",
+      "gem_start_year": "2006",
+      "records": [
+       "69234",
+       "34801"
+      ],
+      "plant_owner_parents": "PT Sumberenergy Sakti Prima [51.0%]; PT PLN (Persero) [49.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Tanjung Awar-Awar power station",
+      "gem_location_id": "L100000102732",
+      "gem_status": "operating",
+      "gem_start_year": "2012",
+      "records": [
+       "38611"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Sumsel-1 power station",
+      "gem_location_id": "L100000102804",
+      "gem_status": "operating",
+      "gem_start_year": "2025",
+      "records": [
+       "69419"
+      ],
+      "plant_owner_parents": "China Shenhua Energy Co Ltd [50.0%]; PT Graha Wahyu Kencana [49.8%]; unknown [0.2%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Indramayu power station",
+      "gem_location_id": "L100000102815",
+      "gem_status": "operating",
+      "gem_start_year": "2010",
+      "records": [
+       "38606"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     }
+    ]
+   },
+   {
+    "financier": "Industrial and Commercial Bank of China (ICBC)",
+    "distinct_matched_plants": 6,
+    "plants": [
+     {
+      "plant": "Bengkulu power station",
+      "gem_location_id": "L100000102707",
+      "gem_status": "operating",
+      "gem_start_year": "2019",
+      "records": [
+       "69306"
+      ],
+      "plant_owner_parents": "Power Construction Corporation of China Ltd [70.0%]; PT Intraco Penta Tbk [30.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Adipala power station",
+      "gem_location_id": "L100000102708",
+      "gem_status": "operating",
+      "gem_start_year": "2015",
+      "records": [
+       "105327"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Sumsel-1 power station",
+      "gem_location_id": "L100000102804",
+      "gem_status": "operating",
+      "gem_start_year": "2025",
+      "records": [
+       "62064"
+      ],
+      "plant_owner_parents": "China Shenhua Energy Co Ltd [50.0%]; PT Graha Wahyu Kencana [49.8%]; unknown [0.2%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Indramayu power station",
+      "gem_location_id": "L100000102815",
+      "gem_status": "operating",
+      "gem_start_year": "2010",
+      "records": [
+       "100701"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Teluk Sirih power station",
+      "gem_location_id": "L100000102835",
+      "gem_status": "operating",
+      "gem_start_year": "2013",
+      "records": [
+       "105325"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Karpowership (Indonesia) Onur Sultan power station",
+      "gem_location_id": "L100000407148",
+      "gem_status": null,
+      "gem_start_year": null,
+      "records": [
+       "88860"
+      ],
+      "plant_owner_parents": null,
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     }
+    ]
+   },
+   {
+    "financier": "China Construction Bank Corporation (CCB)",
+    "distinct_matched_plants": 3,
+    "plants": [
+     {
+      "plant": "Sumsel-1 power station",
+      "gem_location_id": "L100000102804",
+      "gem_status": "operating",
+      "gem_start_year": "2025",
+      "records": [
+       "69418"
+      ],
+      "plant_owner_parents": "China Shenhua Energy Co Ltd [50.0%]; PT Graha Wahyu Kencana [49.8%]; unknown [0.2%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Indramayu power station",
+      "gem_location_id": "L100000102815",
+      "gem_status": "operating",
+      "gem_start_year": "2010",
+      "records": [
+       "100704"
+      ],
+      "plant_owner_parents": "PT PLN (Persero) [100.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     },
+     {
+      "plant": "Kalbar-1 power station",
+      "gem_location_id": "L100000102823",
+      "gem_status": "operating",
+      "gem_start_year": "2020",
+      "records": [
+       "67699"
+      ],
+      "plant_owner_parents": "The Trustee for Zhu Family Trust [50.0%]; PT PLN (Persero) [50.0%]",
+      "match_basis": "provisional AI match label (data/labels/match_labels.json), not human-verified"
+     }
+    ]
+   }
+  ],
+  "baseline": "Within one dataset the combined view (loan rows with plant status/ownership fields from the other dataset) does not exist; ordinary search surfaces such links case by case (see evaluation.json for what one query surfaced and did not)."
+ },
+ {
+  "finding_id": "D2-shared-sponsor-groups",
+  "question": "Which GEM-recorded parent names appear across multiple Indonesian power plants that also have separate AidData-recorded Chinese financing?",
+  "claim_status": "Name-string co-occurrence across two secondary datasets. NOT a verified corporate relationship; ownership applies to GEM's current snapshot, not to loan commitment dates. Pairings rest on provisional match labels.",
+  "results": [
+   {
+    "parent_name_as_recorded_by_gem": "China Shenhua Energy Co Ltd",
+    "matched_plants": [
+     "Jawa-7 power station",
+     "Sumsel-1 power station"
+    ],
+    "aiddata_financed": [
+     {
+      "plant": "Jawa-7 power station",
+      "records": [
+       "62069"
+      ],
+      "record_commitment_years": [
+       2016
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "62069",
+        "commitment_year": 2016,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102703 (API build 2026-10-29)] as of 2026-10-29); ownership at 2016 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     },
+     {
+      "plant": "Sumsel-1 power station",
+      "records": [
+       "62064",
+       "69418",
+       "69419"
+      ],
+      "record_commitment_years": [
+       2017,
+       2017,
+       2017
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "62064",
+        "commitment_year": 2017,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102804 (API build 2026-10-29)] as of 2026-10-29); ownership at 2017 is NOT established and is not inferred from the later snapshot"
+       },
+       {
+        "record_id": "69418",
+        "commitment_year": 2017,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102804 (API build 2026-10-29)] as of 2026-10-29); ownership at 2017 is NOT established and is not inferred from the later snapshot"
+       },
+       {
+        "record_id": "69419",
+        "commitment_year": 2017,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102804 (API build 2026-10-29)] as of 2026-10-29); ownership at 2017 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     }
+    ],
+    "temporal_caveat": "GEM parent fields describe the CURRENT state (API build 2026-10-29). Group composition at each loan's commitment year is NOT established here; temporal_support_per_loan records the classification explicitly. The only dated anchor available is the press-reported Dec-2020 Datang-DSSP acquisition (graph edge type OWNERSHIP_EVENT_REPORTED), which is portfolio-level, postdates the 2012/2015 commitments, and never upgrades the classification.",
+    "identity_caveat": "'Same sponsor group' is inferred from identical parent-name strings in GEM across plants; no corporate registry document was inspected."
+   },
+   {
+    "parent_name_as_recorded_by_gem": "China Datang Overseas Investment Co Ltd",
+    "matched_plants": [
+     "Sumsel-5 power station",
+     "Kendari-3 power station"
+    ],
+    "aiddata_financed": [
+     {
+      "plant": "Sumsel-5 power station",
+      "records": [
+       "39185"
+      ],
+      "record_commitment_years": [
+       2012
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "39185",
+        "commitment_year": 2012,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102806 (API build 2026-10-29)] as of 2026-10-29); ownership at 2012 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     },
+     {
+      "plant": "Kendari-3 power station",
+      "records": [
+       "62065"
+      ],
+      "record_commitment_years": [
+       2016
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "62065",
+        "commitment_year": 2016,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102810 (API build 2026-10-29)] as of 2026-10-29); ownership at 2016 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     }
+    ],
+    "temporal_caveat": "GEM parent fields describe the CURRENT state (API build 2026-10-29). Group composition at each loan's commitment year is NOT established here; temporal_support_per_loan records the classification explicitly. The only dated anchor available is the press-reported Dec-2020 Datang-DSSP acquisition (graph edge type OWNERSHIP_EVENT_REPORTED), which is portfolio-level, postdates the 2012/2015 commitments, and never upgrades the classification.",
+    "identity_caveat": "'Same sponsor group' is inferred from identical parent-name strings in GEM across plants; no corporate registry document was inspected."
+   },
+   {
+    "parent_name_as_recorded_by_gem": "PT Dian Swastatika Sentosa Tbk",
+    "matched_plants": [
+     "Sumsel-5 power station",
+     "Kendari-3 power station"
+    ],
+    "aiddata_financed": [
+     {
+      "plant": "Sumsel-5 power station",
+      "records": [
+       "39185"
+      ],
+      "record_commitment_years": [
+       2012
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "39185",
+        "commitment_year": 2012,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102806 (API build 2026-10-29)] as of 2026-10-29); ownership at 2012 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     },
+     {
+      "plant": "Kendari-3 power station",
+      "records": [
+       "62065"
+      ],
+      "record_commitment_years": [
+       2016
+      ],
+      "temporal_support_per_loan": [
+       {
+        "record_id": "62065",
+        "commitment_year": 2016,
+        "ownership_at_commitment": "unknown",
+        "explanation": "1 ownership assertion(s) without source-provided validity dates (GEM Ownership API snapshot [evidence_graph.json OWNER_OF edges into GEM::L100000102810 (API build 2026-10-29)] as of 2026-10-29); ownership at 2016 is NOT established and is not inferred from the later snapshot"
+       }
+      ]
+     }
+    ],
+    "temporal_caveat": "GEM parent fields describe the CURRENT state (API build 2026-10-29). Group composition at each loan's commitment year is NOT established here; temporal_support_per_loan records the classification explicitly. The only dated anchor available is the press-reported Dec-2020 Datang-DSSP acquisition (graph edge type OWNERSHIP_EVENT_REPORTED), which is portfolio-level, postdates the 2012/2015 commitments, and never upgrades the classification.",
+    "identity_caveat": "'Same sponsor group' is inferred from identical parent-name strings in GEM across plants; no corporate registry document was inspected."
+   }
+  ],
+  "baseline": "Neither dataset alone joins equity-parent names to lending records across projects; one ordinary web search surfaced the 2020 Datang-DSSP acquisition but not the per-plant loan records (see evaluation.json)."
+ },
+ {
+  "finding_id": "D3-status-discrepancies",
+  "question": "Where do AidData event statuses and GEM plant statuses conflict for the same provisionally-matched project?",
+  "claim_status": "Status fields from two secondary datasets disagree as recorded; whether they describe the same project/phase is unresolved, and AidData 'Completion' may refer to a financing agreement or phase rather than plant completion.",
+  "results": [],
+  "baseline": "Each source states its own status without flagging the conflict; a single-dataset user never sees it."
+ },
+ {
+  "finding_id": "D5-identity-conflicts",
+  "question": "Which records plausibly correspond to a GEM asset but were NOT merged because identity could not be established (incl. baseline-search conflicts)?",
+  "claim_status": "unresolved by design; no merge performed; absence from one baseline search is limited search results, not proof of non-existence",
+  "results": [
+   {
+    "record_id": 34992,
+    "note": "Parit Baru: name exact but ordinary-search baseline (2026-10-30) found NO public Eximbank buyer's credit for the GEM plant (gem.wiki/Parit_Baru_power_station: 2x50MW, revived ~2017, original units operational ~2020, expansion stalled; planned 100MW unit in GEM). AidData record (commit 2012, $132.1M, 'Completion') may refer to a different project/phase with the same name. Identity unresolved: no merge; both claims preserved.",
+    "machine_top_location_id": "L100000102827"
+   },
+   {
+    "record_id": 38601,
+    "note": "Meulaboh PP (220MW): GEM 'Nagan Raya power station' (670MW) is the same locality but capacity and naming do not align; not merged.",
+    "machine_top_location_id": "L100000102768"
+   }
+  ],
+  "baseline": "A name-search user would either merge them silently (false positive) or never notice the conflict."
+ },
+ {
+  "finding_id": "D4-commitment-to-cod-gaps",
+  "question": "How long elapses between recorded Chinese commitment and GEM plant start year for matched plants?",
+  "claim_status": "Dates as recorded by two secondary datasets; the gap is descriptive, not causal, and pairings rest on provisional match labels.",
+  "results": [
+   {
+    "record_id": "62064",
+    "plant": "Sumsel-1 power station",
+    "commitment_year": 2017,
+    "gem_start_year": 2025,
+    "gap_years": 8
+   },
+   {
+    "record_id": "69418",
+    "plant": "Sumsel-1 power station",
+    "commitment_year": 2017,
+    "gem_start_year": 2025,
+    "gap_years": 8
+   },
+   {
+    "record_id": "69419",
+    "plant": "Sumsel-1 power station",
+    "commitment_year": 2017,
+    "gem_start_year": 2025,
+    "gap_years": 8
+   },
+   {
+    "record_id": "67236",
+    "plant": "Adipala power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2015,
+    "gap_years": 6
+   },
+   {
+    "record_id": "105327",
+    "plant": "Adipala power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2015,
+    "gap_years": 6
+   },
+   {
+    "record_id": "34922",
+    "plant": "Labuhan Angin power station",
+    "commitment_year": 2003,
+    "gem_start_year": 2008,
+    "gap_years": 5
+   },
+   {
+    "record_id": "38600",
+    "plant": "Pelabuhan Ratu power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2013,
+    "gap_years": 4
+   },
+   {
+    "record_id": "38604",
+    "plant": "Paiton-3 power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2012,
+    "gap_years": 4
+   },
+   {
+    "record_id": "39185",
+    "plant": "Sumsel-5 power station",
+    "commitment_year": 2012,
+    "gem_start_year": 2016,
+    "gap_years": 4
+   },
+   {
+    "record_id": "62054",
+    "plant": "Teluk Sirih power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2013,
+    "gap_years": 4
+   },
+   {
+    "record_id": "62206",
+    "plant": "Tanjung Kasam power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2012,
+    "gap_years": 4
+   },
+   {
+    "record_id": "105325",
+    "plant": "Teluk Sirih power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2013,
+    "gap_years": 4
+   },
+   {
+    "record_id": "34801",
+    "plant": "Cilacap Sumber power station",
+    "commitment_year": 2003,
+    "gem_start_year": 2006,
+    "gap_years": 3
+   },
+   {
+    "record_id": "38611",
+    "plant": "Tanjung Awar-Awar power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2012,
+    "gap_years": 3
+   },
+   {
+    "record_id": "39373",
+    "plant": "Takalar power station",
+    "commitment_year": 2014,
+    "gem_start_year": 2017,
+    "gap_years": 3
+   },
+   {
+    "record_id": "61474",
+    "plant": "Bengkulu power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2019,
+    "gap_years": 3
+   },
+   {
+    "record_id": "62053",
+    "plant": "Rembang power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2011,
+    "gap_years": 3
+   },
+   {
+    "record_id": "62065",
+    "plant": "Kendari-3 power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2019,
+    "gap_years": 3
+   },
+   {
+    "record_id": "62069",
+    "plant": "Jawa-7 power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2019,
+    "gap_years": 3
+   },
+   {
+    "record_id": "69306",
+    "plant": "Bengkulu power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2019,
+    "gap_years": 3
+   },
+   {
+    "record_id": "38546",
+    "plant": "Banten Lontar power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2011,
+    "gap_years": 2
+   },
+   {
+    "record_id": "38606",
+    "plant": "Indramayu power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2010,
+    "gap_years": 2
+   },
+   {
+    "record_id": "38610",
+    "plant": "Pacitan power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2011,
+    "gap_years": 2
+   },
+   {
+    "record_id": "49810",
+    "plant": "Celukan Bawang power station",
+    "commitment_year": 2013,
+    "gem_start_year": 2015,
+    "gap_years": 2
+   },
+   {
+    "record_id": "67699",
+    "plant": "Kalbar-1 power station",
+    "commitment_year": 2018,
+    "gem_start_year": 2020,
+    "gap_years": 2
+   },
+   {
+    "record_id": "100701",
+    "plant": "Indramayu power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2010,
+    "gap_years": 2
+   },
+   {
+    "record_id": "100703",
+    "plant": "Indramayu power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2010,
+    "gap_years": 2
+   },
+   {
+    "record_id": "100704",
+    "plant": "Indramayu power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2010,
+    "gap_years": 2
+   },
+   {
+    "record_id": "100705",
+    "plant": "Indramayu power station",
+    "commitment_year": 2008,
+    "gem_start_year": 2010,
+    "gap_years": 2
+   },
+   {
+    "record_id": "110270",
+    "plant": "Banten Lontar power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2011,
+    "gap_years": 2
+   },
+   {
+    "record_id": "39372",
+    "plant": "Pangkalan Susu power station",
+    "commitment_year": 2014,
+    "gem_start_year": 2014,
+    "gap_years": 0
+   },
+   {
+    "record_id": "61681",
+    "plant": "Labuhan Angin power station",
+    "commitment_year": 2009,
+    "gem_start_year": 2008,
+    "gap_years": -1
+   },
+   {
+    "record_id": "34748",
+    "plant": "Cilacap Sumber power station",
+    "commitment_year": 2013,
+    "gem_start_year": 2006,
+    "gap_years": -7
+   },
+   {
+    "record_id": "61465",
+    "plant": "Cilacap Sumber power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2006,
+    "gap_years": -10
+   },
+   {
+    "record_id": "69234",
+    "plant": "Cilacap Sumber power station",
+    "commitment_year": 2016,
+    "gem_start_year": 2006,
+    "gap_years": -10
+   },
+   {
+    "record_id": "37864",
+    "plant": "Banten Suralaya power station",
+    "commitment_year": 2008,
+    "gem_start_year": 1984,
+    "gap_years": -24
+   },
+   {
+    "record_id": "92603",
+    "plant": "Banten Suralaya power station",
+    "commitment_year": 2020,
+    "gem_start_year": 1984,
+    "gap_years": -36
+   }
+  ],
+  "baseline": "AidData has implementation years for some records; GEM start_year is plant-level; the combined view is not in either source."
+ }
+]

@@ -1,0 +1,59 @@
+{
+ "dayone_prnews_index": {
+  "name": "dayone_prnews_index",
+  "url": "https://www.prnewswire.com/news/dayone/",
+  "attempted_at": "2026-10-31T11:13:39.865615+00:00",
+  "status": 404,
+  "bytes": 158410,
+  "saved_to": "data/raw/dayone_dayone_prnews_index.html"
+ },
+ "dayone_site_news": {
+  "name": "dayone_site_news",
+  "url": "https://www.dayone.com/news/",
+  "attempted_at": "2026-10-31T11:13:42.581611+00:00",
+  "status": 404,
+  "bytes": 274,
+  "saved_to": "data/raw/dayone_dayone_site_news.html"
+ },
+ "dcd_loan_article": {
+  "name": "dcd_loan_article",
+  "url": "https://www.datacenterdynamics.com/en/news/dayone-secures-412m-loan-for-batam-data-center-campus-in-indonesia",
+  "attempted_at": "2026-10-31T11:14:52.788508+00:00",
+  "status": 200,
+  "bytes": 103323,
+  "saved_to": "data/raw/dayone_dcd_loan_article.html"
+ },
+ "dayone_newsroom": {
+  "name": "dayone_newsroom",
+  "url": "https://www.dayone.com/newsroom",
+  "attempted_at": "2026-10-31T11:14:55.515567+00:00",
+  "status": 404,
+  "bytes": 277,
+  "saved_to": "data/raw/dayone_dayone_newsroom.html"
+ },
+ "dcd_ppa_article": {
+  "name": "dcd_ppa_article",
+  "url": "https://www.datacenterdynamics.com/en/news/dayone-inks-450mw-ppa-with-pln-batam-to-power-planned-data-center-in-batam-indonesia",
+  "attempted_at": "2026-10-31T11:15:55.845892+00:00",
+  "status": 200,
+  "bytes": 102417,
+  "saved_to": "data/raw/dayone_dcd_ppa_article.html"
+ },
+ "dayone_ppa_release": {
+  "name": "dayone_ppa_release",
+  "url": "https://dayonedc.com/markets/dayone-signs-indonesias-largest-511mva-450mw-ppa-to-expand-hyperscale-data-center-platform-in-batam",
+  "attempted_at": "2026-10-31T11:15:58.858161+00:00",
+  "status": 200,
+  "bytes": 73368,
+  "saved_to": "data/raw/dayone_dayone_ppa_release.html"
+ },
+ "uob_release": {
+  "name": "uob_release",
+  "url": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2025/dbs-uob-arrange-loan-for-data-centre-development-project-by-dayone.page",
+  "attempted_at": "2026-10-31T11:29:11.987810+00:00",
+  "status": 200,
+  "bytes": 95792,
+  "content_type": "text/html;charset=UTF-8",
+  "saved_to": "data/raw/dayone_uob_release.html"
+ }
+}

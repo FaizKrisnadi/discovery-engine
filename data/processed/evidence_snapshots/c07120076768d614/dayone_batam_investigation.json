@@ -1,0 +1,264 @@
+{
+ "research_question": "Who finances, operates and supplies energy to DayOne's Batam data-centre infrastructure; what is known about control or dependency; which links cannot be established?",
+ "grain_discipline": {
+  "A_ndp": "DayOne Nongsa Digital Park (NDP) campus, Batam — ~72MW IT load across three data centres; financed by the IDR 6.7 trillion (~US$412.1M) DBS/UOB loan (June 2025)",
+  "B_kabil": "DayOne Kabil Industrial Tech Park (KITP) campus, Batam — under development; PPA signed 2026-04-17 with PT PLN Batam (~511 MVA ≈ ~450 MW of grid capacity; supply in phases 2026-2027)",
+  "rule": "NDP and Kabil are two different campuses of the same operator; the DBS/UOB loan funds NDP (per source wording) and must not be attributed to Kabil; the PLN Batam PPA is grid capacity with no stated energy mix and must not be presented as renewable supply"
+ },
+ "sources": [
+  {
+   "name": "DayOne release — PPA signing (company primary statement)",
+   "url": "https://dayonedc.com/markets/dayone-signs-indonesias-largest-511mva-450mw-ppa-to-expand-hyperscale-data-center-platform-in-batam",
+   "layer": "company statements (primary)",
+   "document_date": "2026-04-17 (dateline on page)",
+   "access": {
+    "name": "dayone_ppa_release",
+    "url": "https://dayonedc.com/markets/dayone-signs-indonesias-largest-511mva-450mw-ppa-to-expand-hyperscale-data-center-platform-in-batam",
+    "attempted_at": "2026-10-31T11:15:58.858161+00:00",
+    "status": 200,
+    "bytes": 73368,
+    "saved_to": "data/raw/dayone_dayone_ppa_release.html"
+   },
+   "license": "DayOne website release; quoted for research attribution only",
+   "exact_passages": [
+    {
+     "topic": "PPA + counterparties + asset",
+     "quote": "DayOne today announced the signing of a landmark set of agreements with PT PLN Batam, marking a major expansion of its digital infrastructure platform in Indonesia. The agreements include the largest long-term power purchase agreement (PPA) in Indonesia, at approximately 511 MVA, equivalent to around 450 MW of grid capacity, as well as memoranda of understanding covering connectivity and electrical infrastructure services for DayOne Kabil Industrial Tech Park (KITP), its new data center campus located in Kabil Integrated Industrial Estate (KIIE), Batam."
+    },
+    {
+     "topic": "supply schedule",
+     "quote": "Power supply will be delivered in phases between 2026 and 2027 to support the project."
+    },
+    {
+     "topic": "second campus (grain: NDP precedes Kabil)",
+     "quote": "The development represents DayOne’s second hyperscale data center campus in Batam, following its flagship campus in Nongsa Digital Park (NDP)"
+    },
+    {
+     "topic": "AI marketing framing (not workload evidence)",
+     "quote": "The DayOne Kabil campus is being developed as a high-performance, AI-ready platform designed to support advanced computing workloads."
+    },
+    {
+     "topic": "institutional context (BP Batam)",
+     "quote": "strong government support, including the role of BP Batam in facilitating investment, streamlining regulatory processes, and infrastructure development."
+    }
+   ],
+   "supports": {
+    "kabil_ppa": "yes (2026-04-17; ~511 MVA ≈ ~450 MW of GRID capacity; PLN Batam counterparty; KITP named)",
+    "supply_schedule": "phases 2026-2027 (future commitment at signing; not operational supply)",
+    "energy_mix": "NOT STATED anywhere in the release — 'grid capacity' only; no renewable claim may be inferred",
+    "ai_workload": "NO — 'AI-ready platform' is a design/marketing framing"
+   }
+  },
+  {
+   "name": "Data Center Dynamics — $412m loan article (secondary, quoting company statements and a LinkedIn image)",
+   "url": "https://www.datacenterdynamics.com/en/news/dayone-secures-412m-loan-for-batam-data-center-campus-in-indonesia",
+   "layer": "secondary reporting",
+   "document_date": "2025-06-08 (byline 'June 08, 2025 By Dan Swinhoe')",
+   "access": {
+    "name": "dcd_loan_article",
+    "url": "https://www.datacenterdynamics.com/en/news/dayone-secures-412m-loan-for-batam-data-center-campus-in-indonesia",
+    "attempted_at": "2026-10-31T11:14:52.788508+00:00",
+    "status": 200,
+    "bytes": 103323,
+    "saved_to": "data/raw/dayone_dcd_loan_article.html"
+   },
+   "license": "Data Center Dynamics article; quoted for research attribution only (copyright DCD)",
+   "exact_passages": [
+    {
+     "topic": "NDP financing (NOT Kabil)",
+     "quote": "Singapore banks DBS and UOB this week announced they have jointly provided an IDR 6.7 trillion ($412.1m) loan facility to DayOne to finance the development of a new data center campus in Batam, Indonesia."
+    },
+    {
+     "topic": "NDP grain + schedule + capacity",
+     "quote": "Proceeds of the loan will be used to develop and operate three data centers located in the Nongsa Digital Park (NDP). The first phase is due live by the end of 2025. The campus will have a combined IT load capacity of around 72MW."
+    },
+    {
+     "topic": "land",
+     "quote": "GDS spin-out DayOne acquired land in Batam in November 2021 ."
+    },
+    {
+     "topic": "development partner (state-owned)",
+     "quote": "The project, jointly developed by DayOne and the Indonesia Investment Authority (INA), is backed by the largest rupiah-denominated financing agreement ever secured for such a development. INA is Indonesia’s sovereign wealth fund, wholly owned by the Government of Indonesia, and partnered with DayOne for the development in 2023 ."
+    },
+    {
+     "topic": "CEO statement",
+     "quote": "This landmark financing — the largest rupiah-denominated facility ever secured for a data centre development — is a strong endorsement of DayOne’s proven ability to deliver digital infrastructure at speed and scale. (Jamie Khoo, CEO of DayOne)"
+    },
+    {
+     "topic": "GDS relationship framing (as of 2025-06)",
+     "quote": "DayOne is the international unit of Chinese data center operator GDS. The company rebranded its Singapore-based international unit at the beginning of this year and has secured outside investment from the likes of SoftBank Vision Fund, Citadel CEO Kenneth Griffin, Coatue Management, and Baupost Group."
+    }
+   ],
+   "supports": {
+    "ndp_financing": "yes (IDR 6.7T / $412.1M, DBS + UOB, for the three NDP data centres)",
+    "ndp_schedule_capacity": "yes (first phase end-2025; ~72MW combined)",
+    "ina_partnership": "yes as reported (jointly developed with INA; partnered 2023)",
+    "gds_relationship": "mixed/evolving: 'GDS spin-out', 'international unit of GDS', rebranded Jan 2025, outside investors named — the exact current equity relationship is NOT established by this article",
+    "kabil_financing": "NO — the loan funds NDP; nothing in the article links it to Kabil"
+   }
+  },
+  {
+   "name": "Data Center Dynamics — PPA article (secondary)",
+   "url": "https://www.datacenterdynamics.com/en/news/dayone-inks-450mw-ppa-with-pln-batam-to-power-planned-data-center-in-batam-indonesia",
+   "layer": "secondary reporting",
+   "document_date": "~2026-04-20",
+   "access": {
+    "name": "dcd_ppa_article",
+    "url": "https://www.datacenterdynamics.com/en/news/dayone-inks-450mw-ppa-with-pln-batam-to-power-planned-data-center-in-batam-indonesia",
+    "attempted_at": "2026-10-31T11:15:55.845892+00:00",
+    "status": 200,
+    "bytes": 102417,
+    "saved_to": "data/raw/dayone_dcd_ppa_article.html"
+   },
+   "license": "Data Center Dynamics article; quoted for research attribution only (copyright DCD)",
+   "exact_passages": [
+    {
+     "topic": "PPA grain + delivery",
+     "quote": "The company signed a 450MW PPA with state-run utility PLN Batam to power its under-development data center campus in Kabil, Batam. The PPA will be delivered via the grid, with power supply delivered in phases between 2026 and 2027."
+    },
+    {
+     "topic": "capacity unstated",
+     "quote": "The data center is expected to have a similar capacity to the PPA signed, however exact details on its capacity were not shared. DCD has reached out for further information."
+    },
+    {
+     "topic": "MoU status",
+     "quote": "In addition to the PPA, the two firms inked a non-binding memorandum of understanding (MoU) covering con..."
+    }
+   ],
+   "supports": {
+    "kabil_ppa": "yes (corroborates the company release; adds 'delivered via the grid' and 'non-binding MoU')",
+    "kabil_capacity": "NOT shared (expected similar to PPA — explicitly unstated)"
+   }
+  },
+  {
+   "name": "DayOne newsroom — ACCESS FAILURE",
+   "url": "https://www.dayone.com/newsroom",
+   "layer": "company statements (not retrieved)",
+   "document_date": null,
+   "access": {
+    "name": "dayone_site_news",
+    "url": "https://www.dayone.com/news/",
+    "attempted_at": "2026-10-31T11:13:42.581611+00:00",
+    "status": 404,
+    "bytes": 274,
+    "saved_to": "data/raw/dayone_dayone_site_news.html",
+    "observation": "HTTP 404 (guessed path); no static newsroom index found"
+   },
+   "license": "n/a (not retrieved)",
+   "exact_passages": [
+    {
+     "topic": "access failure",
+     "quote": "HTTP 404"
+    }
+   ],
+   "supports": {}
+  },
+  {
+   "name": "WebSearch transcript — PLN Batam / PJBTL signing (Indonesian media)",
+   "url": "websearch:transcript-2026-10-31:pln-batam-pjbtl",
+   "layer": "secondary reporting (transcript; articles not fetched)",
+   "document_date": "2026-04-24 to 2026-04-28 (per transcript)",
+   "access": {
+    "status": "not_fetched"
+   },
+   "license": "web-search transcript; underlying articles not fetched; summary only",
+   "exact_passages": [
+    {
+     "topic": "signing entity + instrument",
+     "quote": "PLN Batam (Indonesian state utility's Batam unit) and DayOne (PT Digitalland Service One) signed the PJBTL (electricity purchase agreement) of 511 MVA — reportedly the largest power purchase for a data center in Indonesia — plus an MoU covering fiber-optic infrastructure development and related services, to support DayOne's data center development in Batam."
+    }
+   ],
+   "supports": {
+    "signing_entity": "reported: PT Digitalland Service One (DayOne) — the Indonesian contracting entity; transcript-only",
+    "instrument": "PJBTL (electricity sale-purchase agreement) + fiber MoU"
+   }
+  },
+  {
+   "name": "WebSearch transcript — DayOne/GDS rebrand, Series C, Kabil 'AI-ready'",
+   "url": "websearch:transcript-2026-10-31:dayone-gds-seriesc",
+   "layer": "secondary reporting (transcript; articles not fetched)",
+   "document_date": "transcript dated 2026-10-31",
+   "access": {
+    "status": "not_fetched"
+   },
+   "license": "web-search transcript; underlying articles not fetched; summary only",
+   "exact_passages": [
+    {
+     "topic": "rebrand + independence (as summarised)",
+     "quote": "DayOne is the rebranded international unit of GDS Holdings. GDS set up GDS International in Singapore in 2022. On January 1, 2025, GDSI was officially rebranded as DayOne, launching as an independent company (though GDS Holdings retains a stake/backing)."
+    },
+    {
+     "topic": "Series C",
+     "quote": "In January 2026, DayOne announced a US$2.0+ billion Series C raise, and it's reportedly pursuing a US listing (IPO valued around $5 billion)."
+    }
+   ],
+   "supports": {
+    "rebrand": "reported (transcript): GDSI → DayOne on 2025-01-01; 'independent company' with retained GDS stake/backing — exact equity relationship NOT established",
+    "series_c": "reported (transcript, unfetched)"
+   }
+  }
+ ],
+ "per_question": {
+  "who_finances": {
+   "ndp": "CORRECTED 2026-10-31: PRIMARY bank release (UOB, 5 Jun 2025) — IDR 6.7 trillion (SGD 530M) jointly provided by DBS and UOB; proceeds to three NDP data centres; completion by end-2025 targeted; DayOne/INA joint venture stated. DCD article is secondary corroboration.",
+   "kabil": "NOT ESTABLISHED (re-affirmed by the primary bank release: zero Kabil mentions; proceeds allocated to NDP data centres). Non-mention within one document is a bounded observation, not an explicit exclusion.",
+   "company_level": "Series C US$2.0+B reported (Jan 2026, transcript, unfetched); outside investors incl. SoftBank Vision Fund, Kenneth Griffin, Coatue, Baupost (DCD)"
+  },
+  "who_operates": {
+   "batam_campuses": "DayOne (company statements: 'its flagship campus in Nongsa Digital Park (NDP)'; KITP 'its new data center campus')",
+   "contracting_entity": "PT Digitalland Service One reported as the PPA signing entity (transcript only)",
+   "gds_relationship": "EVOLVING/CONTESTED characterisations coexist: 'GDS spin-out' (DCD), 'international unit of GDS' (DCD, Jun 2025), rebranded 2025-01-01 'independent company' with 'GDS Holdings retains a stake/backing' (transcript). The current equity/control relationship is NOT established by accessible sources."
+  },
+  "who_supplies_energy": {
+   "kabil": "PT PLN Batam under the ~511 MVA (≈450 MW) PPA — GRID capacity, supply in phases 2026-2027 (future commitment at signing). Energy mix NOT stated; no renewable claim may be inferred.",
+   "ndp": "NOT ESTABLISHED from accessible sources (supplier/PPA for NDP not found; grid supply plausible but unevidenced here)."
+  },
+  "control_or_dependency": {
+   "known": "PLN Batam (state utility unit) is the PPA counterparty for Kabil; INA (Indonesia's sovereign wealth fund) is the reported NDP co-development partner; DBS/UOB are the reported NDP lenders; BP Batam participates in investment facilitation (company statement)",
+   "not_known": "GDS Holdings' current equity stake in or control over DayOne; DayOne corporate structure between the Singapore unit and PT Digitalland Service One; any security/covenant links between lenders and operations; whether the Kabil PPA is exclusive or portfolio-wide"
+  }
+ },
+ "falsification_attempts": [
+  {
+   "hypothesis": "The PLN Batam PPA is a renewable-energy supply agreement.",
+   "attempts": "Searched the company release and the DCD article for any energy-mix or renewable wording.",
+   "result": "FAILED TO CONFIRM: both sources describe only 'grid capacity' delivered in phases; neither states an energy mix. No renewable claim may be inferred.",
+   "verdict": "NOT ESTABLISHED — the PPA is grid capacity; energy mix unknown."
+  },
+  {
+   "hypothesis": "The DBS/UOB $412M loan finances the Kabil campus.",
+   "attempts": "Checked the loan article's proceeds wording.",
+   "result": "FALSIFIED for the specific attribution claim: proceeds fund 'three data centers located in the Nongsa Digital Park (NDP)'. Kabil is a different campus. DISTINCTION: this does not exclude other Kabil financing — Kabil financing remains NOT ESTABLISHED (absence was a bounded-search finding).",
+   "verdict": "NOT SUPPORTED (corrected 2026-10-31: was overstated as FALSIFIED): the primary bank release allocates proceeds to three NDP data centres and does not mention Kabil; no source allocates loan proceeds to Kabil. This is non-establishment, not affirmative exclusion — Kabil financing status remains NOT ESTABLISHED."
+  },
+  {
+   "hypothesis": "DayOne is fully independent of GDS Holdings (no current links).",
+   "attempts": "Compared characterizations: 'GDS spin-out'/'international unit of GDS' (DCD, Jun 2025) vs 'independent company' with 'GDS retains a stake/backing' (transcript, 2026).",
+   "result": "CONTESTED/EVOLVING: the rebrand (2025-01-01) and outside investors are reported, but no accessible source states the current GDS equity stake. Both characterizations are kept as dated claims from different sources.",
+   "verdict": "NOT ESTABLISHED — the current GDS–DayOne equity/control relationship is unknown."
+  },
+  {
+   "hypothesis": "The Kabil PPA signing means power is already being delivered.",
+   "attempts": "Checked supply-schedule wording in both sources.",
+   "result": "FALSIFIED for the present-supply reading: 'Power supply will be delivered in phases between 2026 and 2027' — a future commitment at signing.",
+   "verdict": "DOWNGRADED (corrected 2026-10-31): 'planned at announcement' is the supported statement; whether a 2026-27 phase has begun delivering by the current date (2026-10-31) is UNVERIFIED — a phased plan does not falsify present delivery, which is simply not sourced."
+  }
+ ],
+ "unknowns": [
+  "Kabil campus financing (if any separate from company-level funding).",
+  "NDP's electricity supplier and any PPA/contract for the NDP campus.",
+  "Energy mix of the 511 MVA PPA (no renewable or fossil claim stated).",
+  "Exact KITP IT-load capacity (DCD: 'not shared').",
+  "GDS Holdings' current equity stake in, and governance rights over, DayOne.",
+  "The corporate relationship between DayOne (Singapore) and PT Digitalland Service One (the reported Indonesian PPA signatory).",
+  "Operational status of NDP's first phase (due end-2025 per DCD; no operational confirmation retrieved).",
+  "Any AI workload at either campus ('AI-ready platform' is a design/marketing framing)."
+ ],
+ "human_review_required": [
+  "Retrieve and read the Indonesian-language PLN Batam statements and the PJBTL document (or excerpts) to confirm instrument, counterparty entity and capacity.",
+  "Locate DayOne's own newsroom release for the PPA signing beyond the dayonedc.com markets page (newsroom 404).",
+  "Confirm the GDS Holdings–DayOne equity relationship from filings (GDS annual report / DayOne disclosures) before any control statement.",
+  "Verify NDP first-phase operational status from a dated source.",
+  "Adjudicate the scoped DayOne/GDS entity pairings in the engine."
+ ]
+}

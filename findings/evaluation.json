@@ -1,0 +1,122 @@
+{
+ "generated_at": "2026-10-31T12:19:47.057530+00:00",
+ "matching_metrics": {
+  "status": "PROVISIONAL DEVELOPMENT NUMBERS. Labels are AI-generated (same model family as the matcher's author) and the matcher's normalization was tuned while inspecting these records; leakage and label error make the direction and magnitude of any bias unknown. These are NOT unbiased estimates and NOT human-verified results.",
+  "threshold_top1": 0.55,
+  "denominators": {
+   "total_labeled_records": 70,
+   "label_distribution": {
+    "AMBIGUOUS": 2,
+    "MATCH": 39,
+    "NOT_APPLICABLE": 7,
+    "NOT_FOUND": 7,
+    "NOT_IN_GEM": 11,
+    "NOT_MATCH": 4
+   },
+   "retrospective_sample_excluded_not_a_clean_heldout": [
+    34992,
+    38610,
+    49810,
+    61474,
+    62065,
+    67236,
+    70718,
+    96237,
+    102646,
+    108277
+   ],
+   "retrospective_sample_note": "This 10-record sample was drawn AFTER the full candidate table had been inspected during development (see data/labels/heldout_sample.json). It is excluded from the metrics below only because its labels were written with knowledge of matcher output; it provides NO independent validation and never can, even with future adjudication.",
+   "excluded_from_pr_ambiguous_unadjudicated": [
+    34992,
+    38601
+   ],
+   "excluded_from_pr_not_applicable_or_not_in_gem_or_not_found": [
+    38861,
+    39375,
+    61050,
+    61152,
+    61153,
+    61154,
+    61533,
+    61675,
+    62262,
+    67053,
+    67055,
+    70718,
+    73327,
+    92462,
+    95717,
+    96237,
+    98823,
+    102646,
+    102653,
+    105193,
+    105328,
+    108276,
+    108277,
+    108809,
+    109257
+   ],
+   "evaluable_for_pr": 38,
+   "matched_records_in_pr_denominator": 34
+  },
+  "top1_proposed": 20,
+  "top1_agreeing_with_labels": 20,
+  "top1_disagreeing_with_labels": 0,
+  "top1_agreement_with_provisional_labels": 1.0,
+  "label_top3_coverage_of_matched": "29/34",
+  "label_top3_coverage_rate_provisional": 0.853,
+  "false_agreement_examples": [],
+  "machine_missed_or_human_added_records": [
+   34748,
+   34801,
+   38604,
+   61465,
+   69234,
+   92603
+  ],
+  "required_next_step": "Draw a genuinely fresh sample from unexposed records via a different process/agent and have it independently human-adjudicated before any quality claim is repeated."
+ },
+ "baseline_searches": [
+  {
+   "finding": "D2-shared-sponsor-groups (China Datang / DSSP Sumsel-5 + Kendari-3)",
+   "query": "China Datang \"DSSP Power\" Sumsel Kendari Indonesia power plant loans",
+   "conducted": "2026-10-30, web-search tool available to the agent; one query, not a controlled or exhaustive search",
+   "references_retrieved": [
+    "https://www.businesstimes.com.sg (China Datang $394M majority stake in DSS thermal plants, Dec 2020)",
+    "https://www.caixinglobal.com (same acquisition coverage)",
+    "https://www.datang-dsspower.co.id (PT Datang DSSP Power Indonesia corporate site)"
+   ],
+   "found": "Publicly reported 2020 acquisition of a majority stake in Dian Swastatika Sentosa thermal plants by China Datang (~$394M).",
+   "not_surfaced": "Per-plant loan records (AidData: CDB for Sumsel-5, 2012; CDB for Kendari-3, 2015) and the explicit two-plants-one-name-group structure were not surfaced by this query.",
+   "verdict": "PARTIAL OVERLAP ONLY. The acquisition is public knowledge; that specific prior loan records tie CDB to two plants now under one parent group was not surfaced here. This is limited evidence from one search, not proof of novelty. TEMPORAL CAVEAT: the 2020 acquisition postdates both loan commitments; the sponsor relationship at commitment time (2012, 2015) is NOT established by any source consulted."
+  },
+  {
+   "finding": "D5-identity-conflicts (Parit Baru)",
+   "query": "\"Parit Baru\" power plant Kalimantan Eximbank buyer's credit status",
+   "conducted": "2026-10-30, web-search tool; one query",
+   "references_retrieved": [
+    "https://www.gem.wiki/Parit_Baru_power_station (2x50MW Bengkayang plant; revived ~2017; original units operational ~2020; expansion stalled 2021)",
+    "https://www.liputan6.com/bisnis/read/2892663/pln-lanjutkan-pembangunan-3-pltu-di-kalbar-yang-mangkrak (PLN reviving stalled Kalbar plants)",
+    "https://www.suarakalbar.co.id/2021/07/pln-selesaikan-lakukan-first-year-inspection-pada-unit-2-pltu-parit-baru-site-bengkayang (Unit 2 inspection 2021)"
+   ],
+   "found": "A 2x50MW Parit Baru plant in Bengkayang, revived ~2017 and operational ~2020; GEM API shows planned 100MW + cancelled 100MW units with construction start 2033.",
+   "not_surfaced": "No source connecting this plant to the AidData record's $132.1M Eximbank credit.",
+   "verdict": "CONFLICT with the provisional merge: identity between the AidData 'Parit Baru' record and the GEM plant is NOT established. Label downgraded MATCH->AMBIGUOUS. One search's failure to find a credit record is limited search results, not proof that none exists."
+  },
+  {
+   "finding": "Banten Suralaya unit-grain resolution (Java 9 & 10 = GEM Units 09-10)",
+   "query": "\"Java 9\" \"Java 10\" Banten Suralaya coal plant units financing",
+   "conducted": "2026-10-30, web-search tool; one query",
+   "references_retrieved": [
+    "https://www.thejakartapost.com/business/2023/09/14/green-groups-slam-world-bank-for-backing-indonesian-coal-plants (Java 9-10 ownership context)",
+    "https://www.thejakartapost.com/business/2023/10/31/indonesia-to-omit-private-coal-power-plants-from-its-jetp-investment-plan (JETP exclusion, Oct 2023)",
+    "https://www.linkedin.com/posts/trend_asia_from-banten-and-jakarta-to-all-over-indonesia-activity-7246811056327516161-ddz- (Trend Asia: IRT = Barito Pacific x PLN Indonesia Power JV)"
+   ],
+   "found": "Java 9-10 CFPP at Suralaya owned by PT Indo Raya Tenaga (Barito Pacific x PLN Indonesia Power JV); 2023 JETP/World Bank coverage.",
+   "not_surfaced": "The GEM unit-level mapping (Units 09-10 = 2x1000MW consistent with the announced 2GW) and AidData record 92603 (Bank of China participation in the $2.6B syndicate to PT Indo Raya Tenaga).",
+   "verdict": "PARTIAL OVERLAP ONLY; limited evidence from one search, not proof of novelty. OWNERSHIP CAVEAT: GEM's plant-level owner (PT Indonesia Power Suralaya 100%) reflects the multi-decade site; unit-level ownership of Units 09-10 was not resolved here and is NOT asserted."
+  }
+ ],
+ "baseline_limitations": "Searches were run by the agent with a web-search tool on 2026-10-30 (one query each). They establish what one ordinary search surfaces for these specific phrasings on that date; they do not bound what a persistent human investigator, a different engine, or Indonesian-language queries would find. 'Not surfaced' is not 'does not exist', and partial overlap is not a novelty proof."
+}

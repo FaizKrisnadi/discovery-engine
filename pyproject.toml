@@ -1,0 +1,6 @@
+[project]
+name = "discovery-engine-m1"
+version = "0.1.0"
+description = "Evidence-linked discovery prototype: AidData CLG-LMIC x GEM Ownership API x GLEIF, Indonesian power plants"
+requires-python = ">=3.12"
+dependencies = ["pandas", "openpyxl", "requests", "rapidfuzz", "pytest"]

@@ -1,0 +1,199 @@
+{
+ "retrieved_at_utc": "2026-10-31T11:25:47.306198+00:00",
+ "api": "https://api.gleif.org/api/v1",
+ "license": "GLEIF data under CC BY 4.0 (gleif.org); relationship data = accounting consolidation, not beneficial ownership",
+ "queries": {
+  "Export-Import Bank of China (China Eximbank)": {
+   "query": "Export-Import Bank of China",
+   "candidates": [
+    {
+     "lei": "894500OD68E00KVCKZ39",
+     "legal_name": "PARIS BRANCH, THE EXPORT IMPORT BANK OF CHINA",
+     "country": "FR",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    }
+   ]
+  },
+  "China Development Bank (CDB)": {
+   "query": "China Development Bank",
+   "candidates": [
+    {
+     "lei": "54930078I0785ADTLB30",
+     "legal_name": "CHINA DEVELOPMENT INDUSTRIAL BANK",
+     "country": "TW",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    }
+   ]
+  },
+  "Industrial and Commercial Bank of China (ICBC)": {
+   "query": "Industrial and Commercial Bank of China",
+   "candidates": [
+    {
+     "lei": "2549005QXSCD8MSHQU78",
+     "legal_name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA LIMITED",
+     "country": "AU",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    },
+    {
+     "lei": "5493001CN6FN6RIWPB75",
+     "legal_name": "Industrial and Commercial Bank of China (Canada)",
+     "country": "CA",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "72450010JCLKN75E3B83",
+     "legal_name": "Industrial and Commercial Bank of China (Europe) S.A.",
+     "country": "NL",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "558600JXHMU834ADGL59",
+     "legal_name": "Industrial and Commercial Bank of China Limited branch",
+     "country": "SA",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "254900ZKHJDL54RYBS45",
+     "legal_name": "Industrial and Commercial Bank of China (EUROPE) S.A.",
+     "country": "BE",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    }
+   ]
+  },
+  "Bank of China (BOC)": {
+   "query": "Bank of China Limited",
+   "candidates": [
+    {
+     "lei": "25490064D4J0UOZ7XS89",
+     "legal_name": "Bank of China Limited",
+     "country": "AU",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    },
+    {
+     "lei": "254900DOHD6ZQSF7GZ43",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "country": "FR",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "984500BDB0DE6F1AF647",
+     "legal_name": "BANK OF CHINA LIMITED",
+     "country": "PA",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "213800CY7UK7DYGWPL83",
+     "legal_name": "BANK OF CHINA (MAURITIUS) LIMITED",
+     "country": "MU",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "213800DIEMENQXV8TT12",
+     "legal_name": "BANK OF CHINA (ZAMBIA) LIMITED",
+     "country": "ZM",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    }
+   ]
+  },
+  "China Construction Bank Corporation (CCB)": {
+   "query": "China Construction Bank Corporation",
+   "candidates": [
+    {
+     "lei": "2549006EHFY98CQJZN84",
+     "legal_name": "China Construction Bank Corporation",
+     "country": "NZ",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "378900DD80F66453EC67",
+     "legal_name": "China Construction Bank Corporation (Incorporated in China)",
+     "country": "ZA",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "549300783I27FCDFB052",
+     "legal_name": "CHINA CONSTRUCTION BANK CORPORATION SINGAPORE BRANCH",
+     "country": "SG",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "549300MPFMWO1KUUZ497",
+     "legal_name": "China Construction Bank (Asia) Corporation Limited",
+     "country": "HK",
+     "status": "ACTIVE",
+     "registration_status": "ISSUED"
+    },
+    {
+     "lei": "549300MPA2Q2UR7L0F82",
+     "legal_name": "LUXEMBOURG BRANCH(ES) OF CHINA CONSTRUCTION BANK CORPORATION",
+     "country": "LU",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    }
+   ]
+  },
+  "China Shenhua Energy Co Ltd": {
+   "query": "China Shenhua Energy Company Limited",
+   "candidates": []
+  },
+  "China Datang Overseas Investment Co Ltd": {
+   "query": "China Datang Overseas Investment",
+   "candidates": []
+  },
+  "Power Construction Corporation of China Ltd": {
+   "query": "Power Construction Corporation of China",
+   "candidates": []
+  },
+  "China Energy Engineering Corp Ltd": {
+   "query": "China Energy Engineering Group",
+   "candidates": []
+  },
+  "Golden Concord Holdings Ltd": {
+   "query": "Golden Concord Holdings",
+   "candidates": []
+  },
+  "PT Perusahaan Listrik Negara (Persero) (PLN)": {
+   "query": "PT Perusahaan Listrik Negara",
+   "candidates": []
+  },
+  "PT Sumber Segara Primadaya": {
+   "query": "PT Sumber Segara Primadaya",
+   "candidates": []
+  },
+  "PT DSSP Power Sumsel": {
+   "query": "PT DSSP Power Sumsel",
+   "candidates": []
+  },
+  "PT Lion Power Energy": {
+   "query": "PT Lion Power Energy",
+   "candidates": []
+  },
+  "PT Indo Raya Tenaga": {
+   "query": "PT Indo Raya Tenaga",
+   "candidates": [
+    {
+     "lei": "254900RD2GUA5GA21R07",
+     "legal_name": "PT Indo Raya Tenaga",
+     "country": "ID",
+     "status": "ACTIVE",
+     "registration_status": "LAPSED"
+    }
+   ]
+  }
+ }
+}

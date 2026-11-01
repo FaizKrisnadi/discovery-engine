@@ -1,0 +1,278 @@
+{
+ "generated_at": "2026-10-30T18:23:34.104931+00:00",
+ "subject": {
+  "aiddata_record_id": 106768,
+  "aiddata_title": "Bank of China (Malaysia) contributes to $272.12 million syndicated green loan for Phase 1 of GDS Nusajaya Tech Park Data Center Project",
+  "aiddata_status": "Completion",
+  "commitment_year": 2023,
+  "aiddata_amount_usd": 68030000.0,
+  "license": "Open Data Commons Attribution License (ODC-By 1.0), stated in the 'License' sheet of AidDatas_CLG_LMIC_Dataset_v1.0.xlsx (verified 2026-10-30)",
+  "note": "AidData row amount = BoC's tranche (68.03M); total facility USD 272.12M is in the title/narrative. Original_Agreement_URL is empty in AidData: the facility agreement itself is NOT among the accessible sources."
+ },
+ "sources": [
+  {
+   "name": "IJGlobal transaction sheet (reprinted PDF via AidData's public Dropbox link)",
+   "url": "https://www.ijglobal.com/data/Transaction/69665/gds-nusajaya-tech-park-data-centre-phase-1-699mw-green-loan-2023",
+   "accessed_via": "https://www.dropbox.com/scl/fi/e7gq5tb3o9f1h47mbi6a8/GDS-Nusajaya-Tech-Park-Data-Centre-Phase-1-69.9MW-Green-Loan-2023.pdf?rlkey=73etjwsb1uitecy6fmqm50ii1&dl=1",
+   "access": {
+    "status": 200,
+    "bytes": 236014,
+    "saved_to": "data/raw/gds_nusajaya_ijglobal.pdf"
+   },
+   "publisher": "IJGlobal (media report; AidData All_Source_Types: 'Media Report')",
+   "document_date": "Last Updated 10 Dec 2023; printed 12/13/23",
+   "license_note": "IJGlobal page reprint; quotation here for research attribution only; the underlying deal sheet is IJGlobal's copyrighted product",
+   "exact_passages": [
+    {
+     "topic": "identity/amount",
+     "quote": "GDS Nusajaya Tech Park Data Centre Phase 1 (69.9MW) Green Loan 2023 | Last Updated 10 Dec 2023  Deal No: 69665"
+    },
+    {
+     "topic": "amount/instrument",
+     "quote": "Type: Debt | Amount: MYR 1,270.00m (USD 272.12m) | 08 Dec 2023 — also labelled 'Green Bond (MYR 1,270.00m (USD 272.12m))08 Dec 2023'"
+    },
+    {
+     "topic": "tranches",
+     "quote": "Bond Arranger Bank of China MYR 317.50m (USD 68.03m); Bond Arranger OCBC Bank MYR 317.50m (USD 68.03m); Bond Arranger Standard Chartered Bank MYR 317.50m (USD 68.03m); Bond Arranger United Overseas Bank MYR 317.50m (USD 68.03m)"
+    },
+    {
+     "topic": "status",
+     "quote": "Current Stage: Pre-construction ... Stage: Financial close | Financial Close: 8th December 2023 | Latest Event: Financial Close Transaction"
+    },
+    {
+     "topic": "capacity",
+     "quote": "Capacity: 54.00 MW ... The 54MW data centre is located in Johor, Malaysia"
+    },
+    {
+     "topic": "classification",
+     "quote": "Asset Type: Greenfield | Asset Sub-Type: New | Sectors: Telecoms Data Centres | Regions: Asia Pacific Malaysia | Sponsor GDS Holdings 100"
+    }
+   ],
+   "supports": {
+    "facility_identity": "yes (name, Johor location, sponsor GDS Holdings, Deal No 69665)",
+    "phase": "yes, as a label ('Phase 1' in the transaction name)",
+    "loan_amount": "yes (total MYR 1,270.00m / USD 272.12m; BoC tranche MYR 317.50m / USD 68.03m)",
+    "green_use_of_proceeds": "label only ('Green Loan'/'Green Bond' title and type fields; the sheet contains no use-of-proceeds breakdown)",
+    "project_status": "deal-stage ('Financial close', 8 Dec 2023) AND construction-stage ('Pre-construction') — both quoted; sheet last updated 10 Dec 2023 (stale)",
+    "renewable_procurement": "no evidence (no energy-procurement field appears in the sheet)"
+   }
+  },
+  {
+   "name": "PR Newswire company/banks' announcement (provided by GDS)",
+   "url": "https://www.prnewswire.com/apac/news-releases/gds-secures-myr1-27-billion-syndicated-green-financing-to-complete-the-next-phase-of-nusajaya-tech-park-data-center-campus-development-302009836.html",
+   "access": {
+    "status": 200,
+    "bytes": 161210,
+    "saved_to": "data/raw/gds106768_prnewswire.html"
+   },
+   "publisher": "PR Newswire (release distributed for GDS; AidData type: 'Media Report')",
+   "document_date": "08 Dec, 2023, 14:55 CST (dateline on page)",
+   "license_note": "press-release text is copyrighted; quotation here for research attribution only",
+   "exact_passages": [
+    {
+     "topic": "use of proceeds",
+     "quote": "Proceeds from the loan will be used to complete the development of Nusajaya Tech Park (NTP) Data Center Campus Plot 1 in Johor, Malaysia."
+    },
+    {
+     "topic": "capacity",
+     "quote": "The Phase 1 of the GDS NTP campus covers a total net floor area of 30,312 square meters and boasts an IT power capacity of 69.9 MW."
+    },
+    {
+     "topic": "green roles",
+     "quote": "UOB Malaysia serves as the Sole Coordinator and jointly acts as Green Loan Coordinator with Standard Chartered Bank (Singapore) Limited for this transaction."
+    },
+    {
+     "topic": "marketing claim",
+     "quote": "with their support, these green loans will fuel our business with green energy (William Huang, Chairman and CEO of GDS — promotional language, not a procurement fact)"
+    },
+    {
+     "topic": "renewable target",
+     "quote": "its aspiration of becoming the first data center operator to achieve carbon neutrality in this region, with 100% use of renewable energy by 2030 (Tan Ai Chin, MD, OCBC Bank (Malaysia) Berhad — a stated ASPIRATION/target, not current procurement)"
+    },
+    {
+     "topic": "efficiency measures",
+     "quote": "notably the utilization of prefabricated infrastructure and liquid-cooling solutions (efficiency measures; not renewable-energy procurement)"
+    }
+   ],
+   "supports": {
+    "facility_identity": "yes (NTP Data Center Campus Plot 1 (NTP1), Johor)",
+    "phase": "yes ('Phase 1', NTP1, 14-month delivery timeframe stated as future)",
+    "loan_amount": "yes (MYR 1.27 billion headline; consistent with IJGlobal)",
+    "green_use_of_proceeds": "proceeds purpose stated (complete development of Plot 1); 'green' designation asserted by participants; NO Green Loan Framework or second-party opinion among the sources",
+    "project_status": "announcement-stage as of 8 Dec 2023 (delivery framed as future)",
+    "renewable_procurement": "NO actual procurement evidenced; only a 2030 aspiration quoted by a bank executive and marketing language by GDS's CEO"
+   }
+  },
+  {
+   "name": "GDS Holdings official news page (AidData 'Donor/Recipient Official Source')",
+   "url": "https://www.gds-services.com/en/newsshow_82.html",
+   "access": {
+    "status": 200,
+    "bytes": 29381,
+    "observation": "page returned is a site notice/template page (提示信息), not the article: the announcement is no longer served at this URL"
+   },
+   "publisher": "GDS Holdings Ltd.",
+   "document_date": null,
+   "license_note": "company website content; not archived here beyond the fetched HTML",
+   "exact_passages": [
+    {
+     "topic": "access failure",
+     "quote": "page content is a navigation/notice template; no article text about the loan is present"
+    }
+   ],
+   "supports": {
+    "facility_identity": "no (page no longer carries the article)",
+    "phase": "no",
+    "loan_amount": "no",
+    "green_use_of_proceeds": "no",
+    "project_status": "no",
+    "renewable_procurement": "no"
+   }
+  },
+  {
+   "name": "Google Maps place link (AidData 'Other')",
+   "url": "https://www.google.com/maps/place/GDS+International+Nusajaya+Data+Center/@1.4337777,103.5973506,18z/",
+   "access": {
+    "status": "NOT FETCHED",
+    "observation": "JavaScript application; not machine-fetchable without browser automation. Coordinates embedded in the AidData URL: 1.4337777, 103.5973506 — recorded as stated, not verified."
+   },
+   "publisher": "Google Maps",
+   "document_date": null,
+   "license_note": "Google Maps content under Google ToS; only the URL/coordinates are recorded",
+   "exact_passages": [
+    {
+     "topic": "location",
+     "quote": "URL-embedded coordinates 1.4337777,103.5973506 labelled 'GDS International Nusajaya Data Center'"
+    }
+   ],
+   "supports": {
+    "facility_identity": "weak (place-name in URL, not verified)",
+    "phase": "no",
+    "loan_amount": "no",
+    "green_use_of_proceeds": "no",
+    "project_status": "no",
+    "renewable_procurement": "no"
+   }
+  }
+ ],
+ "per_dimension_assessment": {
+  "facility_identity": "SUPPORTED by IJGlobal + PR Newswire: GDS Nusajaya Tech Park (NTP) Data Center Campus Plot 1 (NTP1), Johor, Malaysia; sponsor GDS Holdings",
+  "phase": "SUPPORTED as a label ('Phase 1'/NTP1); what Phase 1 includes physically (which buildings/units) is not specified in any inspected source beyond net floor area 30,312 m2 (PRN)",
+  "loan_amount": "SUPPORTED and cross-consistent: total MYR 1,270.00m (USD 272.12m); BoC tranche MYR 317.50m (USD 68.03m) matches the AidData row amount",
+  "green_use_of_proceeds": "PARTIAL: 'green' designation asserted by deal participants; stated proceeds purpose = completing Plot 1 development; NO Green Loan Framework, second-party opinion or UoP breakdown among accessible sources — the green credential itself is unverified",
+  "project_status": "DISAGREEMENT kept visible: IJGlobal 'Current Stage: Pre-construction' + 'Financial close (8 Dec 2023)' (deal stage) vs AidData 'Completion' (ambiguous: financing completion) vs PRN future-framed delivery; NO inspected source states construction completion; IJGlobal data is dated 10 Dec 2023 (stale at 2026 retrieval)",
+  "renewable_procurement": "UNKNOWN / NOT EVIDENCED: only an aspiration quoted by a bank executive ('100% use of renewable energy by 2030') and GDS marketing language; no REC, PPA, on-site generation or supply data in any accessible source",
+  "ai_workloads": "NOT INFERABLE: the sources describe a data-centre campus; no tenant, workload or AI-specific information is present — none is inferred"
+ },
+ "disagreements": [
+  {
+   "dimension": "capacity",
+   "claims": [
+    {
+     "source": "IJGlobal title",
+     "value": "69.9MW"
+    },
+    {
+     "source": "IJGlobal data fields",
+     "value": "Capacity: 54.00 MW"
+    },
+    {
+     "source": "PR Newswire (GDS)",
+     "value": "IT power capacity of 69.9 MW"
+    }
+   ],
+   "note": "69.9 (IT power, per the company) vs 54.00 (IJGlobal 'Capacity' field) — the sources do not explain the difference (possible IT vs utility/design rating); both recorded, no winner chosen"
+  },
+  {
+   "dimension": "instrument type",
+   "claims": [
+    {
+     "source": "IJGlobal",
+     "value": "Type: Debt — also labelled 'Green Bond'"
+    },
+    {
+     "source": "PR Newswire",
+     "value": "secured green term loan facility"
+    }
+   ],
+   "note": "bond vs term-loan characterisation differs across sources; both quoted"
+  },
+  {
+   "dimension": "status",
+   "claims": [
+    {
+     "source": "IJGlobal",
+     "value": "Pre-construction (construction stage) / Financial close (deal stage)"
+    },
+    {
+     "source": "AidData",
+     "value": "Completion (status category, definition ambiguous)"
+    }
+   ],
+   "note": "no inspected source states construction completion; AidData 'Completion' cannot be read as plant/facility completion"
+  }
+ ],
+ "unknowns": [
+  "Whether a Green Loan Framework / second-party opinion exists for this facility (not among accessible sources).",
+  "Any actual renewable-energy procurement by the facility (REC, PPA, on-site solar): no evidence either way.",
+  "Construction progress after Dec 2023 (no source inspected is newer than 13 Dec 2023).",
+  "The actual electricity supply arrangement for the facility (grid connection, tariff, any supply contract).",
+  "Tenants and workloads (incl. any AI workloads): not present in sources; not inferred.",
+  "The facility agreement document itself (AidData Original_Agreement_URL is empty)."
+ ],
+ "scan_audit": {
+  "defined_search_universe": {
+   "dataset": "AidData China's Loans and Grants to Low- and Middle-Income Countries, v1.0 (2025-11-18)",
+   "geography": "11 Southeast Asian countries by Country_of_Activity",
+   "fields_searched": [
+    "Title",
+    "Narrative_Description"
+   ],
+   "fields_NOT_searched": [
+    "Staff_Comments",
+    "Loan_Event_Description",
+    "Location_Narrative",
+    "Original_Agreement_Title"
+   ],
+   "keyword_regex": "data cent(er|re)|datacent|artificial intelligence|\\bAI\\b (case-SENSITIVE after fix)|machine learning|cloud comput|supercomput|digital econom|5G|hyperscal|semiconductor",
+   "languages": "English only"
+  },
+  "keyword_match_counts": {
+   "5g": 30,
+   "ai": 2,
+   "data center": 3,
+   "semiconductor": 1
+  },
+  "false_positives_found_and_fixed": [
+   {
+    "record_id": 34762,
+    "cause": [
+     "\\bAI\\b with re.I matched the person name 'Yan Ting'ai' (Chinese Ambassador, 2004)"
+    ],
+    "fix": "AI token made case-sensitive via (?-i:...) — record excluded from hits"
+   },
+   {
+    "record_id": 100460,
+    "cause": [
+     "'Myanmar Agricultural and Rural Statistics Project Data Center' matches 'data cent' but its subject is a statistics project, not commercial digital/AI infrastructure"
+    ],
+    "fix": "kept in hits (keyword-level true positive) and documented as out-of-scope subject; not silently dropped"
+   }
+  ],
+  "known_false_negative_risks": [
+   "Non-English titles/narratives (dataset is English-only; nothing to scan).",
+   "Variants not in the regex: 'AI factory', 'intelligent computing', 'colocation', 'server farm', 'digital infrastructure', 'IDC', 'compute'.",
+   "Facilities described only in Staff_Comments or agreement titles (not scanned).",
+   "Projects whose data-center relevance appears only in unlinked source documents."
+  ],
+  "definitional_choices": [
+   "5G/4G telecom rollouts are INCLUDED as digital-infrastructure adjacency (policy choice; inflates 'AI infra' counts if read narrowly).",
+   "Google Maps/other 'Other'-type sources are not scanned."
+  ],
+  "hit_count": {
+   "before_ai_case_fix": 37,
+   "after": 36
+  },
+  "limits": "The scan identifies financing/announcement records, not facilities; absence of hits is absence within this defined universe only — it does not establish the absence of data-centre or procurement registries anywhere."
+ }
+}

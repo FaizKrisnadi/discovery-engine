@@ -1,0 +1,34 @@
+{
+ "ijglobal_dropbox_pdf": {
+  "name": "ijglobal_dropbox_pdf",
+  "url": "https://www.dropbox.com/scl/fi/e7gq5tb3o9f1h47mbi6a8/GDS-Nusajaya-Tech-Park-Data-Centre-Phase-1-69.9MW-Green-Loan-2023.pdf?rlkey=73etjwsb1uitecy6fmqm50ii1&dl=1",
+  "attempted_at": "2026-10-30T00:10:28.856168+00:00",
+  "status": 200,
+  "final_url": "https://ucbc6a681e594456c0f712c42aef.dl.dropboxusercontent.com/cd/0/get/DK91FM3S5rT6xnmbw3myK7xryl8pTRKSIKOKkRe_CsRf2mO3cEdCgb-Z5eualEZ3YDOSGEZY2KH2CPkLxqwaTFbnrMM_tvlM9gEhR_PHBBgaOnY4X6tQo_CrROwcqOaaUbgeTeWCG5siTqPWxwK497d_/file?dl=1",
+  "content_type": "application/binary",
+  "bytes": 236014,
+  "saved_to": "data/raw/gds_nusajaya_ijglobal.pdf"
+ },
+ "prnewswire": {
+  "name": "prnewswire",
+  "url": "https://www.prnewswire.com/apac/news-releases/gds-secures-myr1-27-billion-syndicated-green-financing-to-complete-the-next-phase-of-nusajaya-tech-park-data-center-campus-development-302009836.html",
+  "attempted_at": "2026-10-30T00:10:32.231139+00:00",
+  "status": 200,
+  "final_url": "https://www.prnewswire.com/apac/news-releases/gds-secures-myr1-27-billion-syndicated-green-financing-to-complete-the-next-phase-of-nusajaya-tech-park-data-center-campus-development-302009836.html",
+  "content_type": "text/html",
+  "bytes": 161210,
+  "body_head": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    \n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    \n    \n        <meta name=\"adobeLaunchScript\" content=\"//assets.adobedtm.com/launch",
+  "saved_to": "data/raw/gds106768_prnewswire.html"
+ },
+ "gds_official": {
+  "name": "gds_official",
+  "url": "https://www.gds-services.com/en/newsshow_82.html",
+  "attempted_at": "2026-10-30T00:10:34.067127+00:00",
+  "status": 200,
+  "final_url": "https://www.gds-services.com/en/newsshow_82.html",
+  "content_type": "text/html; charset=utf-8",
+  "bytes": 29381,
+  "body_head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta http-equiv=\"Expires\" content=\"0\">\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta charset=\"utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta name=\"apple-mobile-web-app-",
+  "saved_to": "data/raw/gds106768_gds_official.html"
+ }
+}

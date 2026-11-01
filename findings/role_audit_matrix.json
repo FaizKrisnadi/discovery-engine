@@ -1,0 +1,54 @@
+{
+ "purpose": "role-matrix source-to-screen audit for three cases",
+ "cases": [
+  "dayone-ndp-batam",
+  "dayone-kabil-batam",
+  "airtrunk-jhb1"
+ ],
+ "sources": [
+  {
+   "name": "ina_2025_ar_en",
+   "url": "https://www.ina.go.id/sites/default/files/2026-05/Annual%20Report%20INA%202025%20-%20ENGLISH.pdf",
+   "access": {
+    "status": 200,
+    "bytes": 19794490,
+    "saved_to": "data/raw/role_audit_ina_2025_ar_en.pdf"
+   },
+   "license": "INA annual report / portfolio page; quoted for research attribution only (copyright Indonesia Investment Authority)",
+   "document_date": "FY2025 (published ~2026)"
+  },
+  {
+   "name": "ina_2024_ar_ind",
+   "url": "https://www.ina.go.id/sites/default/files/2025-07/AR%20INA%202024-IND.pdf",
+   "access": {
+    "status": 200,
+    "bytes": 9135762,
+    "saved_to": "data/raw/role_audit_ina_2024_ar_ind.pdf"
+   },
+   "license": "INA annual report / portfolio page; quoted for research attribution only (copyright Indonesia Investment Authority)",
+   "document_date": "FY2024 (published ~2025-07)"
+  },
+  {
+   "name": "ina_portfolio",
+   "url": "https://www.ina.go.id/portfolio/",
+   "access": {
+    "status": 200,
+    "bytes": 111816,
+    "saved_to": "data/raw/role_audit_ina_portfolio.html"
+   },
+   "license": "INA annual report / portfolio page; quoted for research attribution only (copyright Indonesia Investment Authority)",
+   "document_date": "undated portfolio page"
+  },
+  {
+   "name": "airtrunk_2023",
+   "url": "https://airtrunk.com/airtrunk-enters-malaysia-with-new-150mw-hyperscale-data-centre-in-johor-bahru/",
+   "access": {
+    "status": 200,
+    "bytes": 98643,
+    "saved_to": "data/raw/role_audit_airtrunk_2023.html"
+   },
+   "license": "AirTrunk website release; quoted for research attribution only",
+   "document_date": "2023-01-19 (dateline)"
+  }
+ ]
+}

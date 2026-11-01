@@ -1,0 +1,291 @@
+{
+ "generated_at": "2026-10-30T18:39:18.533000+00:00",
+ "research_question": "Who finances, operates and supplies energy to AirTrunk JHB1; what is known about control or dependency; which links cannot be established?",
+ "grain_discipline": {
+  "A_jhb1": "AirTrunk JHB1 data centre, 150 MW (company-stated), Johor — case subject",
+  "B_solar_farm": "29.99 MW solar farm developed by ib vogt under Malaysia's CGPP — VPPA asset",
+  "C_jhb2": "AirTrunk JHB2 hyperscale facility — financed by the Jul 2026 green loan",
+  "rule": "campus/company financing, a VPPA and a data-centre building are distinct; no claim transfers across them without direct evidence"
+ },
+ "sources": [
+  {
+   "name": "ib vogt press release (co-announcement with AirTrunk)",
+   "url": "https://www.ibvogt.com/airtrunk-and-ib-vogt-sign-malaysias-first-renewable-virtual-ppa-for-a-data-center",
+   "layer": "company statements (both parties)",
+   "document_date": "2024-03-05 (dateline 'March 05th, 2024')",
+   "access": {
+    "name": "ibvogt_release",
+    "url": "https://www.ibvogt.com/airtrunk-and-ib-vogt-sign-malaysias-first-renewable-virtual-ppa-for-a-data-center",
+    "attempted_at": "2026-10-30T15:47:41.383230+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 153396,
+    "saved_to": "data/raw/airtrunk_ibvogt_release.html"
+   },
+   "license": "ib vogt website press release; quoted for research attribution only",
+   "exact_passages": [
+    {
+     "topic": "VPPA/offtaker/asset",
+     "quote": "AirTrunk, as the offtaker, will procure renewable energy from the 29.99MW solar farm that ib vogt is currently developing under the CGPP."
+    },
+    {
+     "topic": "programme",
+     "quote": "A quota of 800 megawatts (MW) of solar energy generation capacity is allocated to the programme and developers can apply for a maximum capacity of 30MW with a secured offtaker."
+    },
+    {
+     "topic": "JHB1 (operator + capacity, separate sentence from the VPPA)",
+     "quote": "As we continue to drive digitalisation in Malaysia through the development of our 150MW AirTrunk JHB1 data centre, this initiative marks yet another important step in our roadmap to achieve Net Zero and decarbonise APJ’s electricity grid."
+    },
+    {
+     "topic": "schedule",
+     "quote": "Construction is scheduled to begin in mid-2024."
+    }
+   ],
+   "supports": {
+    "vppa_exists": "yes (announced 2024-03-05; offtaker AirTrunk; 29.99MW solar farm, CGPP)",
+    "jhb1_operator": "yes ('our 150MW AirTrunk JHB1 data centre' — AirTrunk CTO)",
+    "jhb1_energy_supply": "NO — the VPPA paragraph never names JHB1; the JHB1 mention is a separate development statement",
+    "physical_supply": "NO — a VPPA is a financial contract; no supply linkage is stated"
+   }
+  },
+  {
+   "name": "ICD Nova article (secondary reporting quoting a company statement)",
+   "url": "https://www.idcnova.com/news/AirTrunk-Secures-US2.3-Billion-Green-Loan-for-Hyperscale-Data-Centre-in-Johor",
+   "layer": "secondary reporting",
+   "document_date": "2026-07-30",
+   "access": {
+    "name": "icdnova_green_financing",
+    "url": "https://www.idcnova.com/news/AirTrunk-Secures-US2.3-Billion-Green-Loan-for-Hyperscale-Data-Centre-in-Johor",
+    "attempted_at": "2026-10-30T18:29:57.858098+00:00",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 58694,
+    "saved_to": "data/raw/jhb1_icdnova_green_financing.html"
+   },
+   "license": "ICD Nova article; quoted for research attribution only (secondary reporting quoting a company statement)",
+   "exact_passages": [
+    {
+     "topic": "JHB2 financing (NOT JHB1)",
+     "quote": "AirTrunk, the Blackstone-owned data centre operator, has obtained a US$2.3 billion green loan from a syndicate of 30 lenders to fund its JHB2 hyperscale facility in Johor, Malaysia. This marks the company’s largest single-asset financing to date"
+    },
+    {
+     "topic": "coordinators",
+     "quote": "The loan was coordinated by 10 global banks including Credit Agricole, DBS, HSBC, Sumitomo Mitsui Banking, and UOB, according to a statement released by the company on Wednesday."
+    },
+    {
+     "topic": "basis of the green label",
+     "quote": "The financing is designated as green due to the facility’s energy and water efficiency performance, with a targeted power usage effectiveness (PUE) ratio of 1.37 — below the global average of roughly 1.5 to 1.6."
+    },
+    {
+     "topic": "primary document exists but not linked",
+     "quote": "according to a statement released by the company on Wednesday"
+    }
+   ],
+   "supports": {
+    "jhb2_financing": "yes (US$2.3B, 30 lenders, 10 coordinators named, JHB2 named as the funded facility)",
+    "green_label_basis": "energy/water EFFICIENCY (PUE target) — explicitly not a renewable-supply statement",
+    "control": "secondary characterization 'Blackstone-owned' — consistent with, but not a primary record of, the acquisition",
+    "jhb1_financing": "NO — the article does not mention JHB1 financing"
+   }
+  },
+  {
+   "name": "AirTrunk JHB1 web page",
+   "url": "https://www.airtrunk.com/jhb1/",
+   "layer": "company statements",
+   "document_date": null,
+   "access": {
+    "name": "airtrunk_jhb1_page",
+    "url": "https://www.airtrunk.com/jhb1/",
+    "attempted_at": "2026-10-30T18:29:59.560829+00:00",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 885416,
+    "saved_to": "data/raw/jhb1_airtrunk_jhb1_page.html",
+    "observation": "HTTP 200, ~885KB, but the page is JavaScript-rendered / image-dominated: no JHB1 text extractable without browser automation. Access limit recorded honestly."
+   },
+   "license": "company website; quoted for research attribution only",
+   "exact_passages": [
+    {
+     "topic": "access limit",
+     "quote": "(no extractable text — JS-rendered page)"
+    }
+   ],
+   "supports": {
+    "jhb1_operator": "no (no extractable content)",
+    "jhb1_energy_supply": "no (no extractable content)",
+    "jhb1_status": "no (no extractable content)"
+   }
+  },
+  {
+   "name": "AirTrunk newsroom announcement (VPPA) — ACCESS FAILURE",
+   "url": "https://www.airtrunk.com/news/airtrunk-signs-malaysias-first-data-centre-renewable-vppa/",
+   "layer": "company statements (not retrieved)",
+   "document_date": null,
+   "access": {
+    "name": "airtrunk_news",
+    "url": "https://www.airtrunk.com/news/airtrunk-signs-malaysias-first-data-centre-renewable-vppa/",
+    "attempted_at": "2026-10-30T15:47:47.153496+00:00",
+    "status": 404,
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 85332,
+    "saved_to": "data/raw/airtrunk_airtrunk_news.html",
+    "observation": "HTTP 404 on guessed slug; JS-paginated news index lists no static article URLs"
+   },
+   "license": "company website; quoted for research attribution only",
+   "exact_passages": [
+    {
+     "topic": "access failure",
+     "quote": "HTTP 404 (not found)"
+    }
+   ],
+   "supports": {}
+  },
+  {
+   "name": "The Asset ESG article — ACCESS FAILURE",
+   "url": "https://www.ads.theasset.com/article-esg/56872/",
+   "layer": "secondary reporting (not retrieved)",
+   "document_date": null,
+   "access": {
+    "name": "theasset_green_financing",
+    "url": "https://www.ads.theasset.com/article-esg/56872/",
+    "attempted_at": "2026-10-30T18:29:56.516429+00:00",
+    "error": "SSLError(MaxRetryError('HTTPSConnectionPool(host=\\'www.ads.theasset.com\\', port=443): Max retries exceeded with url: /ar",
+    "observation": "SSL/connection failure (MaxRetryError); not retrieved"
+   },
+   "license": "n/a (not retrieved)",
+   "exact_passages": [
+    {
+     "topic": "access failure",
+     "quote": "SSLError: max retries exceeded"
+    }
+   ],
+   "supports": {}
+  },
+  {
+   "name": "Blackstone press release — ACCESS FAILURE (reconstructed URL)",
+   "url": "https://www.blackstone.com/press-releases/article/blackstone-to-acquire-airtrunk-in-a24-billion-transaction-us161-billion/",
+   "layer": "company statement (not retrieved)",
+   "document_date": "2024-09-04 (per search transcript)",
+   "access": {
+    "name": "blackstone_release",
+    "url": "https://www.blackstone.com/news/press/blackstone-announces-agreement-to-acquire-airtrunk-in-the-largest-ever-data-center-deal-globally/",
+    "attempted_at": "2026-10-30T18:31:57.927798+00:00",
+    "status": 404,
+    "bytes": 295791,
+    "saved_to": "data/raw/jhb1_blackstone_release.html",
+    "observation": "HTTP 404 'Page not found' on the reconstructed slug; per search rules, URL variants were not iterated. Acquisition facts rest on secondary reporting + search transcript."
+   },
+   "license": "n/a (not retrieved)",
+   "exact_passages": [
+    {
+     "topic": "access failure",
+     "quote": "Page not found - Blackstone"
+    }
+   ],
+   "supports": {}
+  },
+  {
+   "name": "WebSearch transcript — AirTrunk acquisition (facts as summarised)",
+   "url": "websearch:transcript-2026-10-30:blackstone-acquisition",
+   "layer": "secondary reporting (transcript; no primary fetched)",
+   "document_date": "transcript dated 2026-10-30",
+   "access": {
+    "status": "not_fetched"
+   },
+   "license": "web-search transcript; article not fetched; summary only",
+   "exact_passages": [
+    {
+     "topic": "acquisition",
+     "quote": "Blackstone and CPP Investments announced 4 Sep 2024 the acquisition of AirTrunk at an implied enterprise value of ~A$24 billion (US$16.1 billion) from Macquarie Asset Management and PSP Investments; CPP Investments to hold a 12% stake; transaction reported closed in late 2024 (deal tracker: status closed). Blackstone described it as its largest-ever APAC investment."
+    }
+   ],
+   "supports": {
+    "control": "ownership-level fact (reported): Blackstone-led consortium incl. CPP Investments (~12%) acquired AirTrunk; closed late 2024. Supports 'Blackstone-owned' characterizations; does NOT establish governance control of JHB1/VPPA decisions"
+   }
+  },
+  {
+   "name": "WebSearch transcript — Asian Power Jul 2026 (solar farm 'started')",
+   "url": "websearch:transcript-2026-10-30:airtrunk-ibvogt-started",
+   "layer": "secondary reporting (transcript; article not fetched)",
+   "document_date": "2026-07 (per transcript)",
+   "access": {
+    "status": "not_fetched"
+   },
+   "license": "web-search transcript; article not fetched; summary only",
+   "exact_passages": [
+    {
+     "topic": "solar farm status",
+     "quote": "Asian Power (Jul 2026) headline in search results: 'AirTrunk, ib vogt start 30-MW solar project to power Malaysia data centre' — marks Malaysia's first VPPA."
+    }
+   ],
+   "supports": {
+    "solar_status": "reported started (weak: headline summary, unfetched, no URL)"
+   }
+  }
+ ],
+ "per_question": {
+  "who_finances": {
+   "jhb1": "NOT ESTABLISHED for JHB1 as an asset. Accessible sources record no JHB1-specific financing. The Jul 2026 US$2.3B green loan is explicitly for JHB2 (ICD Nova). Company-level debt exists (per ICD Nova context) but no JHB1 link.",
+   "jhb2": "US$2.3B green loan, 30-lender syndicate, coordinated by 10 banks incl. Crédit Agricole, DBS, HSBC, SMBC, UOB (ICD Nova quoting a company statement; the statement itself was not retrieved)",
+   "vppa_solar_farm": "no third-party financing recorded in accessible sources (ib vogt-developed; unknown)"
+  },
+  "who_operates": {
+   "jhb1": "AirTrunk (company statement: 'our 150MW AirTrunk JHB1 data centre', CTO quote, 2024-03-05)",
+   "solar_farm": "developed by ib vogt; operator of the generating asset not stated",
+   "ownership_of_operator": "Blackstone-led consortium incl. CPP Investments (~12%) acquired AirTrunk (announced 2024-09-04; closed late 2024 per secondary reporting + deal tracker) — ownership of the COMPANY, reported"
+  },
+  "who_supplies_energy": {
+   "physical": "NOT ESTABLISHED for JHB1. No accessible source names JHB1's electricity supplier (no TNB/utility contract or supply record found in the bounded search). Grid connection is plausible but unevidenced here.",
+   "procurement": "AirTrunk announced a VPPA with ib vogt (29.99MW solar, CGPP) — a FINANCIAL procurement instrument; the asset it hedges is not named as JHB1 in any accessible passage",
+   "gem_coverage": "GEM's API contains no solar/wind assets, so the 29.99MW farm cannot be independently located there (coverage gap, not absence)"
+  },
+  "control_or_dependency": {
+   "known": "AirTrunk (the operator of JHB1 and offtaker of the VPPA) has been owned by a Blackstone-led consortium incl. CPP Investments since late 2024 (reported)",
+   "not_known": "governance/control arrangements over JHB1 or the VPPA post-acquisition; any lender security or covenants linking financiers to operations; dependency of JHB1 on the VPPA or on any specific generator",
+   "counterparty_concentration": "the same corporate group (AirTrunk) sits on both sides of the JHB1 (facility) and VPPA (offtake) relationships — group-internal linkage, not evidence of third-party dependency"
+  }
+ },
+ "falsification_attempts": [
+  {
+   "hypothesis": "The ib vogt VPPA supplies JHB1 with electricity.",
+   "attempts": "Searched both accessible sources (ib vogt release; ICD Nova) for any passage naming JHB1 in connection with the VPPA or the solar farm's output.",
+   "result": "FAILED TO CONFIRM: no accessible passage connects the solar farm to JHB1's supply; the sole juxtaposition is the CTO's separate development statement. Media phrasing elsewhere ('to power Malaysia data centre') is an outlet summary, not a supply record.",
+   "verdict": "NOT ESTABLISHED — retained as an explicit unknown; the strong claim is rejected as unproven."
+  },
+  {
+   "hypothesis": "The US$2.3B green loan finances JHB1.",
+   "attempts": "Checked the financing article's funded-asset naming.",
+   "result": "FALSIFIED by the source's own wording: the loan funds 'its JHB2 hyperscale facility' — a different building at the same campus company. JHB1 attribution would contradict the cited passage.",
+   "verdict": "FALSIFIED (as stated); campus-grain financing must not be attributed to JHB1."
+  },
+  {
+   "hypothesis": "Blackstone ownership gives Blackstone control over JHB1's energy arrangements.",
+   "attempts": "Looked for governance/management documentation post-acquisition among accessible sources; none found (Blackstone release 404; no filings retrieved).",
+   "result": "No evidence either way; ownership of the company is reported, internal decision rights are not.",
+   "verdict": "NOT ESTABLISHED — unknown; ownership and control are distinct and only the former is (reportedly) documented."
+  },
+  {
+   "hypothesis": "The 30-lender syndicate holds influence over the VPPA or JHB1 operations.",
+   "attempts": "Looked for security packages, covenants or lender roles beyond arrangement (ICD Nova names coordinators for JHB2 only).",
+   "result": "Nothing accessible links lenders to operational or energy decisions.",
+   "verdict": "NOT ESTABLISHED — financing does not imply control; recorded as unknown."
+  }
+ ],
+ "unknowns": [
+  "JHB1's electricity supplier / utility arrangement (no accessible record).",
+  "Whether the ib vogt VPPA covers JHB1, JHB2, the wider campus, or a portfolio.",
+  "JHB1-specific financing (if any) and its lenders.",
+  "Green Financing Framework / second-party opinions for any AirTrunk Malaysia financing.",
+  "Solar farm's operational status from a fetched primary source (only an unfetched headline reports 'started').",
+  "Governance/control arrangements post-acquisition.",
+  "JHB1's construction/commissioning status from a dated primary source (company page is JS-rendered).",
+  "Any AI workload at JHB1 (no evidence; not inferable from a data-centre announcement)."
+ ],
+ "human_review_required": [
+  "Adjudicate the two scoped 'bank-of-china-malaysia'-style entity pairs and the AirTrunk/JHB1 claim scopes (AI provisional; not human-verified).",
+  "Confirm the Blackstone/CPP acquisition from a primary document (company release or filing) before any control statement is treated as more than reported.",
+  "Fetch and read the Asian Power Jul 2026 article before repeating the solar-farm 'started' claim.",
+  "Locate AirTrunk's Green Financing Framework and the JHB2 facility statement (primary) to check use-of-proceeds wording.",
+  "Independently confirm JHB1's operational status from a dated primary source."
+ ]
+}
