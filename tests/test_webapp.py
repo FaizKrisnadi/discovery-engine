@@ -6,6 +6,8 @@ import sqlite3
 import sys
 from pathlib import Path
 
+import pytest
+
 from discovery import webapp
 from discovery.engine import Engine, file_sha256
 
@@ -139,6 +141,12 @@ def test_internal_link_crawl_finds_no_broken_paths():
     """Exhaustive internal crawl from / (bounded): every internal href must
     resolve without server error. This substitutes for manual browsing where
     browser automation is unavailable, and catches broken paths exhaustively."""
+    if not (ROOT / "data" / "http_cache").exists():
+        pytest.skip(
+            "data/http_cache/ not built on this checkout — /raw/<sha> snapshot "
+            "routes 403 without it. Run the fetch steps "
+            "(scripts/download_aiddata.sh, scripts/fetch_gem.py) or run_all.sh first."
+        )
     seen, queue, errors = set(), ["/"], []
     checked = 0
     while queue and checked < 60:
