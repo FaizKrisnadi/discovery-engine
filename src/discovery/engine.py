@@ -611,7 +611,25 @@ class Engine:
             snap.parent.mkdir(parents=True, exist_ok=True)
             if not snap.exists():
                 snap.write_bytes(Path(raw_path).read_bytes())
-        return str(snap), "snapshot_retained"
+        return self._repo_rel(snap), "snapshot_retained"
+
+    def _repo_rel(self, p) -> str | None:
+        """Store paths relative to the repo root (db_path's grandparent) so the
+        committed database resolves on any machine, not just the checkout that
+        produced it. Only applies when the DB actually lives inside a repo
+        (marked by .git/pyproject.toml); throwaway DBs elsewhere keep absolute
+        paths, so CWD-relative reads keep working unchanged. Paths outside the
+        root are stored as given."""
+        if p is None:
+            return None
+        q = Path(p).resolve()
+        root = self.db_path.resolve().parents[2]
+        if (root / ".git").exists() or (root / "pyproject.toml").exists():
+            try:
+                return str(q.relative_to(root))
+            except ValueError:
+                pass
+        return str(q)
 
     def record_source(self, src: SourceIn, run_id: str) -> tuple[str, str]:
         if src.raw_path is not None and Path(src.raw_path).exists():
@@ -653,7 +671,7 @@ class Engine:
             "retrieval_attempts_json, fetched_at_utc, snapshot_path, raw_retention, "
             "checksum_basis, details_json) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (pk, src.source_ref, idx, checksum, raw_bytes,
-             str(src.raw_path) if src.raw_path else None,
+             self._repo_rel(src.raw_path),
              src.publisher, src.license, src.source_type, src.document_date,
              src.access_status, canonical(src.retrieval_attempts),
              src.fetched_at_utc or now_iso(), snap_path, retention, basis,
