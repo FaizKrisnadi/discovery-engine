@@ -1,16 +1,35 @@
-# Discovery Engine — milestone 1
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner.svg" alt="Discovery Engine — case file DE-001. Evidence chain from loan record to graph edge, stamped PROVISIONAL." width="100%">
+  </picture>
 
-Evidence-linked discovery prototype over public datasets: AidData CLG-LMIC v1.0 × GEM Ownership Tracing API × GLEIF, focused on **Chinese-financed Indonesian power plants**.
+  <p><sub><b>Every edge cites its evidence.</b> AidData CLG-LMIC v1.0 × GEM Ownership Tracing API × GLEIF, pointed at Chinese-financed Indonesian power plants.</sub></p>
+
+  <p>
+    <img alt="tests — 152 passing" src="https://img.shields.io/badge/tests-152%20passing-8a6410?style=flat-square&labelColor=1c1811">
+    <img alt="graph — 2,258 edges cited" src="https://img.shields.io/badge/graph-2%2C258%20edges%20cited-1c1811?style=flat-square&labelColor=f2ecdf">
+    <img alt="python 3.12" src="https://img.shields.io/badge/python-3.12-6b6152?style=flat-square&labelColor=1c1811">
+    <img alt="status — provisional, test-enforced" src="https://img.shields.io/badge/status-provisional%20·%20test%2Denforced-c23b22?style=flat-square&labelColor=1c1811">
+  </p>
+</div>
+
+## The claim on the box
 
 Reversibility, precisely stated: every graph edge is required by tests to cite at least one evidence id that resolves to a record quoting its exact source value (structural property, test-enforced over all edges), and the inspector renders those chains. The docs' prose claims cite these artifacts but have not themselves been exhaustively audited; treat narrative statements as secondary to the JSON artifacts.
 
-## Reproduce (from raw data to findings)
+## Case flow — raw data to findings
 
-```bash
-.venv/bin/python -m src.discovery.normalize          # or: PYTHONPATH=src .venv/bin/python -m discovery.normalize
+```mermaid
+flowchart LR
+  A["1 · raw data<br/>checksummed zip · 1,516 GEM assets"] --> B["2 · normalize<br/>72 records · 1,009 plants"]
+  B --> C["3 · match<br/>top-3 scored candidates"] --> D["4 · labels<br/>provisional AI labels"]
+  D --> E["5 · GLEIF<br/>entity enrichment"] --> F["6 · graph<br/>2,258 edges · 2,190 records"]
+  F --> G["7 · discover<br/>findings D1–D5"] --> H["8 · evaluate<br/>metrics + baseline transcripts"]
+  H --> I["9 · test<br/>152 integrity checks"]
 ```
 
-Full chain (raw → processed → findings → tests):
+**Run the whole chain** (raw → processed → findings → tests):
 
 ```bash
 bash scripts/run_all.sh
@@ -24,8 +43,11 @@ Tests alone, from a clean project root (no PYTHONPATH needed — `tests/conftest
 uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
 .venv/bin/python -m pytest tests -q
+```
 
-Steps (all idempotent; network calls cached in `data/http_cache/`, every request logged in `data/processed/api_request_log.jsonl`):
+### Exhibit A — the nine stations
+
+All steps idempotent; network calls cached in `data/http_cache/`, every request logged in `data/processed/api_request_log.jsonl`.
 
 | step | command | output |
 |---|---|---|
@@ -41,7 +63,21 @@ Steps (all idempotent; network calls cached in `data/http_cache/`, every request
 
 (`PYTHONPATH=src` with module invocation, or `python -m src.discovery.X` — both work.)
 
-## Inspecting a finding
+## Finding register
+
+Five findings in `findings/findings.json` — questions the engine can currently answer, each with its claim status recorded:
+
+| id | question it answers |
+|---|---|
+| **D1** · shared financiers | Which financiers have AidData-recorded loans to multiple Indonesian power plants that also appear in GEM (identity per provisional match labels)? |
+| **D2** · shared sponsor groups | Which GEM-recorded parent names appear across multiple Indonesian power plants that also have separate AidData-recorded Chinese financing? |
+| **D3** · status discrepancies | Where do AidData event statuses and GEM plant statuses conflict for the same provisionally-matched project? |
+| **D4** · commitment → COD gaps | How long elapses between recorded Chinese commitment and GEM plant start year for matched plants? |
+| **D5** · identity conflicts | Which records plausibly correspond to a GEM asset but were **not** merged because identity could not be established (incl. baseline-search conflicts)? |
+
+D5 is unresolved by design — an unresolved identity is a result, not a failure.
+
+## Working the file
 
 ```bash
 PYTHONPATH=src .venv/bin/python -m discovery.investigate gds-nusajaya-ntp1   # evidence-engine project walkthrough
@@ -52,7 +88,19 @@ PYTHONPATH=src .venv/bin/python -m discovery.inspect plant L100000102699  # Bant
 PYTHONPATH=src .venv/bin/python -m discovery.inspect edge EG01234
 ```
 
-## Status language (enforced by tests)
+## Reading room — local investigation interface (read-only)
+
+```bash
+.venv/bin/python scripts/serve_investigation.py 8765
+# open http://127.0.0.1:8765/  (localhost only, GET only, SQLite mode=ro)
+```
+
+Browse cases and organizations, follow finance → energy → status over time, open any claim for its exact quote, source version, snapshot retention and review status, search the ingested universe, and see unresolved identity candidates, unproven contradictions and explicit unknowns. Empty states are explicit ("this is an unknown, not an absence of facts"); the banner states all content is AI-generated and unreviewed. The database is opened read-only — the interface cannot write.
+
+## The small print (enforced by tests)
+
+<details>
+<summary>Status language — what every number here is and is not</summary>
 
 - Labels are **AI-generated provisional labels** — not human-verified, not ground truth.
 - Metrics are development numbers with known leakage; direction/magnitude of bias unknown.
@@ -61,29 +109,25 @@ PYTHONPATH=src .venv/bin/python -m discovery.inspect edge EG01234
 - One baseline search ≠ novelty proof; transcripts with URLs in `findings/evaluation.json`.
 - Ownership validity (`src/discovery/temporal.py`, `tests/test_temporal.py`): `observed_at` ≠ `valid_from`; `date_basis="none"` makes any supplied dates non-evidence; open intervals (positive AND negative) stop at their attestation horizon; absence of evidence before a start / after an end is UNKNOWN — `contradicted` only for explicit negative evidence with an explicit holder; co-ownership is not conflict without explicit exclusivity; reported events are point facts, never intervals; ISO/type-invalid inputs and invalid query years fail closed; year-only boundary years are UNKNOWN.
 
-## Local investigation interface (read-only)
+</details>
 
-```bash
-.venv/bin/python scripts/serve_investigation.py 8765
-# open http://127.0.0.1:8765/  (localhost only, GET only, SQLite mode=ro)
-```
+## Appendix — case papers
 
-Browse cases and organizations, follow finance → energy → status over time, open any
-claim for its exact quote, source version, snapshot retention and review status, search
-the ingested universe, and see unresolved identity candidates, unproven contradictions
-and explicit unknowns. Empty states are explicit ("this is an unknown, not an absence of
-facts"); the banner states all content is AI-generated and unreviewed. The database is
-opened read-only — the interface cannot write.
+| paper | contents |
+|---|---|
+| [docs/opportunity_assessment.md](docs/opportunity_assessment.md) | the case for building this |
+| [docs/source_registry.md](docs/source_registry.md) | every source, registered |
+| [docs/evidence_schema.md](docs/evidence_schema.md) | evidence record schema |
+| [docs/evaluation.md](docs/evaluation.md) | metrics + baseline transcripts |
+| [docs/jhb1_research_checkpoint.md](docs/jhb1_research_checkpoint.md) | AirTrunk JHB1 investigation: who finances/operates/supplies energy, control, unknowns |
+| [docs/dayone_research_checkpoint.md](docs/dayone_research_checkpoint.md) | DayOne Batam investigation (Indonesia): PPA, NDP financing, GDS relationship, unknowns |
+| [docs/architecture.md](docs/architecture.md) | platform architecture, tool comparison, next milestones |
+| [docs/ai_infra_re_assessment.md](docs/ai_infra_re_assessment.md) | AI infrastructure × renewable energy: source paths, gap, next steps |
+| [docs/next_stage_decision.md](docs/next_stage_decision.md) | what to do next, and why |
+| [PROGRESS.md](PROGRESS.md) | decision log |
 
-## Docs
+---
 
-- [docs/opportunity_assessment.md](docs/opportunity_assessment.md)
-- [docs/source_registry.md](docs/source_registry.md)
-- [docs/evidence_schema.md](docs/evidence_schema.md)
-- [docs/evaluation.md](docs/evaluation.md)
-- [docs/jhb1_research_checkpoint.md](docs/jhb1_research_checkpoint.md) — AirTrunk JHB1 investigation: who finances/operates/supplies energy, control, unknowns
-- [docs/dayone_research_checkpoint.md](docs/dayone_research_checkpoint.md) — DayOne Batam investigation (Indonesia): PPA, NDP financing, GDS relationship, unknowns
-- [docs/architecture.md](docs/architecture.md) — platform architecture, tool comparison, next milestones
-- [docs/ai_infra_re_assessment.md](docs/ai_infra_re_assessment.md) — AI infrastructure × renewable energy: source paths, gap, next steps
-- [docs/next_stage_decision.md](docs/next_stage_decision.md)
-- [PROGRESS.md](PROGRESS.md) — decision log
+<div align="center">
+  <sub>discovery-engine · milestone 1 · <b>the paper trail is the product</b></sub>
+</div>

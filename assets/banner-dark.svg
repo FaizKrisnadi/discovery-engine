@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 430" width="1500" height="430" role="img" aria-label="Discovery Engine case file banner (dark)">
+  <defs>
+    <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ebe2ca"/>
+    </marker>
+  </defs>
+
+  <!-- ledger paper, night shift -->
+  <rect width="1500" height="430" fill="#14110a"/>
+  <g stroke="#262015" stroke-width="1">
+    <line x1="0" y1="96"  x2="1500" y2="96"/>
+    <line x1="0" y1="138" x2="1500" y2="138"/>
+    <line x1="0" y1="180" x2="1500" y2="180"/>
+    <line x1="0" y1="222" x2="1500" y2="222"/>
+    <line x1="0" y1="264" x2="1500" y2="264"/>
+    <line x1="0" y1="306" x2="1500" y2="306"/>
+    <line x1="0" y1="348" x2="1500" y2="348"/>
+    <line x1="0" y1="390" x2="1500" y2="390"/>
+  </g>
+  <line x1="64" y1="24" x2="64" y2="406" stroke="#e0573b" stroke-width="1.4" opacity="0.55"/>
+
+  <!-- crop marks -->
+  <g stroke="#4d4530" stroke-width="1.2">
+    <line x1="26" y1="46" x2="26" y2="26"/><line x1="26" y1="26" x2="46" y2="26"/>
+    <line x1="1454" y1="26" x2="1474" y2="26"/><line x1="1474" y1="26" x2="1474" y2="46"/>
+    <line x1="26" y1="384" x2="26" y2="404"/><line x1="26" y1="404" x2="46" y2="404"/>
+    <line x1="1454" y1="404" x2="1474" y2="404"/><line x1="1474" y1="384" x2="1474" y2="404"/>
+  </g>
+
+  <!-- file tab -->
+  <rect x="64" y="26" width="240" height="34" fill="#ebe2ca"/>
+  <text x="80" y="49" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="2.5" fill="#14110a">CASE FILE · DE-001</text>
+
+  <!-- milestone tag -->
+  <rect x="1284" y="30" width="152" height="30" fill="none" stroke="#ebe2ca" stroke-width="1.2"/>
+  <text x="1360" y="50" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="3" fill="#ebe2ca">MILESTONE 1</text>
+
+  <!-- title -->
+  <text x="64" y="152" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="66" font-weight="700" letter-spacing="4" fill="#ebe2ca">DISCOVERY ENGINE</text>
+  <text x="66" y="192" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16.5" fill="#93876d">Evidence-linked discovery over public datasets — Chinese-financed Indonesian power plants.</text>
+
+  <!-- evidence chain -->
+  <g>
+    <rect x="64" y="232" width="316" height="92" fill="#1b1710" stroke="#ebe2ca" stroke-width="1.3"/>
+    <text x="78" y="254" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#d9a441">AIDDATA · LOAN RECORD</text>
+    <text x="78" y="282" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="21" font-weight="700" fill="#ebe2ca">REC 62064</text>
+    <text x="78" y="304" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#93876d">Sumsel-1 · commitment event</text>
+
+    <rect x="574" y="232" width="316" height="92" fill="#1b1710" stroke="#ebe2ca" stroke-width="1.3"/>
+    <text x="588" y="254" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#d9a441">GEM · PLANT RECORD</text>
+    <text x="588" y="282" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="21" font-weight="700" fill="#ebe2ca">L100000102699</text>
+    <text x="588" y="304" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#93876d">Banten Suralaya · status trail</text>
+
+    <rect x="1084" y="232" width="316" height="92" fill="#1b1710" stroke="#ebe2ca" stroke-width="1.3"/>
+    <text x="1098" y="254" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="2" fill="#d9a441">EVIDENCE GRAPH · EDGE</text>
+    <text x="1098" y="282" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="21" font-weight="700" fill="#ebe2ca">EDGE EG01234</text>
+    <text x="1098" y="304" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" fill="#93876d">resolves to quoted source value</text>
+  </g>
+
+  <!-- connectors + evidence tags -->
+  <g>
+    <line x1="380" y1="278" x2="568" y2="278" stroke="#ebe2ca" stroke-width="1.4" marker-end="url(#arrD)"/>
+    <rect x="384" y="244" width="186" height="24" fill="none" stroke="#d9a441" stroke-width="1"/>
+    <text x="477" y="260" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1" fill="#d9a441">evidence · quotes value</text>
+
+    <line x1="890" y1="278" x2="1078" y2="278" stroke="#ebe2ca" stroke-width="1.4" marker-end="url(#arrD)"/>
+    <rect x="894" y="244" width="186" height="24" fill="none" stroke="#d9a441" stroke-width="1"/>
+    <text x="987" y="260" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1" fill="#d9a441">version + snapshot kept</text>
+  </g>
+
+  <!-- pulse -->
+  <circle r="4.5" fill="#e8604a">
+    <animateMotion path="M 380 278 L 574 278" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.5" fill="#e8604a">
+    <animateMotion path="M 890 278 L 1084 278" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- stamp -->
+  <g transform="translate(1094 340) rotate(-6)" opacity="0">
+    <rect x="-8" y="-22" width="306" height="60" fill="none" stroke="#e8604a" stroke-width="2.6" rx="4"/>
+    <rect x="0" y="-15" width="290" height="46" fill="none" stroke="#e8604a" stroke-width="1" rx="2"/>
+    <text x="145" y="7" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="24" font-weight="700" letter-spacing="6" fill="#e8604a">PROVISIONAL</text>
+    <text x="145" y="27" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10" letter-spacing="1.5" fill="#e8604a">AI-GENERATED · NOT GROUND TRUTH</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="0.35s" fill="freeze"/>
+  </g>
+
+  <!-- bottom strip -->
+  <text x="64" y="404" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#ebe2ca">AIDDATA CLG-LMIC v1.0 × GEM OWNERSHIP TRACING API × GLEIF</text>
+  <text x="1436" y="404" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#93876d">152 TESTS · 2,258 EDGES · 2,190 EVIDENCE RECORDS · FINDINGS D1–D5</text>
+</svg>
