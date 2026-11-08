@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Full suite. On a clean checkout the webapp link-crawl skips itself
+      # (it needs data/http_cache/, built by the fetch steps); every other
+      # check runs against the committed artifacts.
+      - run: python -m pytest tests -q
