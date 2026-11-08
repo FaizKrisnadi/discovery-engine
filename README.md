@@ -7,7 +7,7 @@
   <p><sub><b>Every edge cites its evidence.</b> AidData CLG-LMIC v1.0 × GEM Ownership Tracing API × GLEIF, pointed at Chinese-financed Indonesian power plants.</sub></p>
 
   <p>
-    <img alt="tests — 152 passing" src="assets/badges/tests.svg">
+    <img alt="tests — 164 passing" src="assets/badges/tests.svg">
     <img alt="graph — 2,258 edges cited" src="assets/badges/graph.svg">
     <img alt="python 3.12" src="assets/badges/python.svg">
     <img alt="status — provisional, test-enforced" src="assets/badges/status.svg">
@@ -26,7 +26,7 @@ flowchart LR
   B --> C["3 · match<br/>top-3 scored candidates"] --> D["4 · labels<br/>provisional AI labels"]
   D --> E["5 · GLEIF<br/>entity enrichment"] --> F["6 · graph<br/>2,258 edges · 2,190 records"]
   F --> G["7 · discover<br/>findings D1–D5"] --> H["8 · evaluate<br/>metrics + baseline transcripts"]
-  H --> I["9 · test<br/>152 integrity checks"]
+  H --> I["9 · test<br/>164 checks"]
 ```
 
 **Run the whole chain** (raw → processed → findings → tests):
@@ -38,7 +38,7 @@ bash scripts/run_all.sh
 Tests alone, from a clean project root (no PYTHONPATH needed — `tests/conftest.py` puts `src/` on the path):
 
 ```bash
-.venv/bin/python -m pytest tests -q          # 152 tests
+.venv/bin/python -m pytest tests -q          # 164 pass · 1 skips without data/http_cache
 # or, from a fresh checkout:
 uv venv --python 3.12 .venv
 uv pip install --python .venv/bin/python -r requirements.txt
@@ -59,7 +59,7 @@ All steps idempotent; network calls cached in `data/http_cache/`, every request 
 | 6. graph | `python -m discovery.graph` | `data/processed/evidence_graph.json` (2,258 edges / 2,190 evidence records) |
 | 7. discover | `python -m discovery.discover` | `findings/findings.json` (D1–D5) |
 | 8. evaluate | `python -m discovery.evaluate` | `findings/evaluation.json` (metrics + baseline transcripts) |
-| 9. test | `.venv/bin/python -m pytest tests -q` | 152 integrity, temporal, scan, dossier, engine, interface and investigation tests (v0.7) |
+| 9. test | `.venv/bin/python -m pytest tests -q` | 165 checks — 164 pass clean; the webapp link-crawl skips without `data/http_cache/` (v0.7) |
 
 (`PYTHONPATH=src` with module invocation, or `python -m src.discovery.X` — both work.)
 

@@ -87,5 +87,5 @@
 
   <!-- bottom strip -->
   <text x="64" y="404" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#ebe2ca">AIDDATA CLG-LMIC v1.0 × GEM OWNERSHIP TRACING API × GLEIF</text>
-  <text x="1436" y="404" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#93876d">152 TESTS · 2,258 EDGES · 2,190 EVIDENCE RECORDS · FINDINGS D1–D5</text>
+  <text x="1436" y="404" text-anchor="end" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" letter-spacing="2" fill="#93876d">164 TESTS · 2,258 EDGES · 2,190 EVIDENCE RECORDS · FINDINGS D1–D5</text>
 </svg>
