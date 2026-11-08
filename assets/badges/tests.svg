@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="20" role="img" aria-label="tests: 152 passing">
+  <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="11">
+    <rect width="150" height="20" fill="#1c1811"/>
+    <rect x="54" width="96" height="20" fill="#8a6410"/>
+    <text x="10" y="14" fill="#f2ecdf">tests</text>
+    <text x="64" y="14" fill="#f8f3e7">152 passing</text>
+  </g>
+</svg>

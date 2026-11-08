@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="20" role="img" aria-label="python: 3.12">
+  <g font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="11">
+    <rect width="109" height="20" fill="#1c1811"/>
+    <rect x="61" width="48" height="20" fill="#33290f"/>
+    <text x="10" y="14" fill="#f2ecdf">python</text>
+    <text x="71" y="14" fill="#d9a441">3.12</text>
+  </g>
+</svg>

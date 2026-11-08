@@ -7,10 +7,10 @@
   <p><sub><b>Every edge cites its evidence.</b> AidData CLG-LMIC v1.0 × GEM Ownership Tracing API × GLEIF, pointed at Chinese-financed Indonesian power plants.</sub></p>
 
   <p>
-    <img alt="tests — 152 passing" src="https://img.shields.io/badge/tests-152%20passing-8a6410?style=flat-square&labelColor=1c1811">
-    <img alt="graph — 2,258 edges cited" src="https://img.shields.io/badge/graph-2%2C258%20edges%20cited-1c1811?style=flat-square&labelColor=f2ecdf">
-    <img alt="python 3.12" src="https://img.shields.io/badge/python-3.12-6b6152?style=flat-square&labelColor=1c1811">
-    <img alt="status — provisional, test-enforced" src="https://img.shields.io/badge/status-provisional%20%C2%B7%20test%2Denforced-c23b22?style=flat-square&labelColor=1c1811">
+    <img alt="tests — 152 passing" src="assets/badges/tests.svg">
+    <img alt="graph — 2,258 edges cited" src="assets/badges/graph.svg">
+    <img alt="python 3.12" src="assets/badges/python.svg">
+    <img alt="status — provisional, test-enforced" src="assets/badges/status.svg">
   </p>
 </div>
 
